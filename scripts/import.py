@@ -16,6 +16,10 @@ def is_punc(text):
     code = ord(text[0])
     return code < 0x3400 or 0xFF00 <= code <= 0xFFEF
 
+def is_cjk_comp(text):
+    code = ord(text[0])
+    return 0xF900 <= code <= 0xFAD9 or 0x2F800 <= code <= 0x2FA1D
+
 def import_cjsys():
     """匯入倉頡平台（馬來西亞·倉頡之友）
     """
@@ -45,6 +49,9 @@ def import_cjsys():
             if not line.strip(): continue
 
             line = re.split(r' +', line)
+
+            # 移除相容區字元
+            if is_cjk_comp(line[1]): continue
 
             if line[0].startswith('x') and is_punc(line[1]):
                 dest = 'symbols-x'
@@ -230,6 +237,9 @@ encoder:
             if not line.strip(): continue
 
             line = re.split(r' +', line)
+
+            # 移除相容區字元
+            if is_cjk_comp(line[1]): continue
 
             if line[0].startswith('x') and is_punc(line[1]):
                 dest = 'symbols-x'
