@@ -6,7 +6,7 @@
 #
 
 ---
-name: "cangjie.5-kr"
+name: "cangjie.3-kr"
 version: "0.10"
 sort: original
 use_preset_vocabulary: false
@@ -194,11 +194,11 @@ columns:
 ⾬	mlby
 ⾭	qmb
 ⾭	qmblm
-⾮	lmsy
-⾯	mwsl
+⾮	lmyyy
+⾯	mwyl
 ⾰	tlj
 ⾱	dmrq
-⾲	lsmm
+⾲	lmmm
 ⾳	yta
 ⾴	mbuc
 ⾵	hnhli
@@ -213,7 +213,7 @@ columns:
 ⾾	ln
 ⾿	uip
 ⿀	mrbj
-⿁	hui
+⿁	hi
 ⿂	nwf
 ⿃	hayf
 ⿄	ywii

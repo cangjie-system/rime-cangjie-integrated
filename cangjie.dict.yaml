@@ -13,6 +13,9 @@ use_preset_vocabulary: false
 import_tables:
 # - cangjie.3-base
 # - cangjie.3-base-dups
+# - cangjie.3-kr
+# - cangjie.3-cjkrs
+# - cangjie.3-cjkcomp
 # - cangjie.3-symbols-x
 - cangjie.3-symbols-zx
 - cangjie.5-base

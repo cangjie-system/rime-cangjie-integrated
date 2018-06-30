@@ -6,7 +6,7 @@
 #
 
 ---
-name: "cangjie.5-cjkrs"
+name: "cangjie.3-cjkrs"
 version: "0.10"
 sort: original
 use_preset_vocabulary: false
@@ -119,14 +119,14 @@ columns:
 ⻡	vvmbu
 ⻢	nvsm
 ⻣	bbb
-⻤	hui
+⻤	hi
 ⻥	nwm
 ⻦	pysm
 ⻧	ywk
 ⻨	qme
 ⻩	tlwc
 ⻪	rlwu
-⻫	yksl
+⻫	ykyl
 ⻬	ykll
 ⻭	ymufd
 ⻮	ymuo

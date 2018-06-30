@@ -6,7 +6,7 @@
 #
 
 ---
-name: "cangjie.5-cjkcomp"
+name: "cangjie.3-cjkcomp"
 version: "0.10"
 sort: original
 use_preset_vocabulary: false
@@ -155,8 +155,8 @@ columns:
 麗	mmbbp
 黎	hhoe
 力	ks
-曆	mhda
-歷	mhdm
+曆	mda
+歷	mdylm
 轢	jjvid
 年	oq
 憐	pfdq
@@ -452,7 +452,7 @@ columns:
 變	yvfw
 贈	bccwa
 輸	jjomn
-遲	yseq
+遲	ysyq
 醙	mwhxe
 鉶	cmjn
 陼	nljka
@@ -771,7 +771,7 @@ columns:
 爵	bwli
 牐	llhjl
 𤘈	mhhx
-犀	sehq
+犀	syyq
 犕	hqthb
 𤜵	khmjj
 𤠔	khibc
