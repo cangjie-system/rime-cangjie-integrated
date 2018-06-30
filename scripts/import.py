@@ -38,6 +38,10 @@ def import_cjsys():
     def sort_key_func(line):
         return line[0]
 
+	# 五代新增字表
+    # 五代編碼表有而三代編碼表沒有的字
+    map_cj5_extra_chars = {}
+
     # 結尾非「難」字表
     # 用於確認三代結尾為「難」的字不是重複字
     map_non_x = {}
@@ -93,6 +97,9 @@ def import_cjsys():
                 dest = 'symbols-z'
             else:
                 dest = 'base'
+
+                # 加入五代新增字表
+                map_cj5_extra_chars[line[1]] = line
 
                 # 將結尾非「難」的字加入列表
                 # 因三代有些重複字沒有標準取碼（結尾不為「難」的碼）
@@ -294,9 +301,16 @@ encoder:
             else:
                 dest = 'base'
 
+                # 從五代新增字表移除
+                map_cj5_extra_chars.pop(line[1], None)
+
             data.setdefault(dest, []).append(line)
 
         f.close()
+
+	# 將五代新增字表的字加入三代
+    for _, x in map_cj5_extra_chars.items():
+        data['base'].append(x)
 
     data['base'].sort(key=sort_key_func)
     file = os.path.join(root, 'cangjie.3-base.dict.yaml')
