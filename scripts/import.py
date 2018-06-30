@@ -446,6 +446,108 @@ columns:
         f.write(text)
         f.close()
 
+    # 五代轉三代
+    map_conv = {
+        ('曆', 'mhda'): 'mda',
+        ('歷', 'mhdm'): 'mdylm',
+        ('遲', 'yseq'): 'ysyq',
+
+        ('⾮', 'lmsy'): 'lmyyy',
+        ('⾯', 'mwsl'): 'mwyl',
+        ('⾲', 'lsmm'): 'lmmm',
+        ('⿁', 'hui'): 'hi',
+
+        ('⻤', 'hui'): 'hi',
+        ('⻫', 'yksl'): 'yklml',
+        }
+    
+    data['3-cjkcomp'] = list(data['5-cjkcomp'])
+    for i, x in enumerate(data['3-cjkcomp']):
+        if (x[0], x[1]) in map_conv:
+            x = x[0], map_conv[x[0], x[1]]
+        data['3-cjkcomp'][i] = '\t'.join(x)
+    file = os.path.join(root, 'cangjie.3-cjkcomp.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# Unicode 中日韓兼容表意文字（補充） (CJK Compatibility Ideographs (Supplement))
+#
+# - 按 Unicode 排序
+#
+
+---
+name: "cangjie.3-cjkcomp"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+...
+
+{}
+""".format('\n'.join(data['3-cjkcomp']))
+        f.write(text)
+        f.close()
+    
+    data['3-rad-kanxi'] = list(data['5-rad-kanxi'])
+    for i, x in enumerate(data['3-rad-kanxi']):
+        if (x[0], x[1]) in map_conv:
+            x = x[0], map_conv[x[0], x[1]]
+        data['3-rad-kanxi'][i] = '\t'.join(x)
+    file = os.path.join(root, 'cangjie.3-rad-kanxi.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# Unicode 康熙部首 (Kangxi Radicals)
+#
+# - 按康熙部首順序（亦即 Unicode 順序）排序
+#
+
+---
+name: "cangjie.3-rad-kanxi"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+...
+
+{}
+""".format('\n'.join(data['3-rad-kanxi']))
+        f.write(text)
+        f.close()
+    
+    data['3-rad-sup'] = list(data['5-rad-sup'])
+    for i, x in enumerate(data['3-rad-sup']):
+        if (x[0], x[1]) in map_conv:
+            x = x[0], map_conv[x[0], x[1]]
+        data['3-rad-sup'][i] = '\t'.join(x)
+    file = os.path.join(root, 'cangjie.3-rad-sup.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# Unicode 中日韓部首補充 (CJK Radicals Supplement)
+#
+# - 按 Unicode 排序
+#
+
+---
+name: "cangjie.3-rad-sup"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+...
+
+{}
+""".format('\n'.join(data['3-rad-sup']))
+        f.write(text)
+        f.close()
+
 def import_resources():
     """匯入資料檔
     """
