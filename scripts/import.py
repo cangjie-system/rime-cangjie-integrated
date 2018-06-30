@@ -16,6 +16,14 @@ def is_punc(text):
     code = ord(text[0])
     return code < 0x3400 or 0xFF00 <= code <= 0xFFEF
 
+def is_rad_kanxi(text):
+    code = ord(text[0])
+    return 0x2F00 <= code <= 0x2FDF
+
+def is_rad_sup(text):
+    code = ord(text[0])
+    return 0x2E80 <= code <= 0x2EFF
+
 def is_cjk_comp(text):
     code = ord(text[0])
     return 0xF900 <= code <= 0xFAD9 or 0x2F800 <= code <= 0x2FA1D
@@ -336,10 +344,113 @@ columns:
         f.write(text)
         f.close()
 
+def import_cangjie5_plus():
+    """匯入五代倉頡補完計畫
+    """
+    data = {}
+    file = os.path.join(root, 'resources', 'cangjie5-plus', 'Cangjie5_supplement.txt')
+    with open(file, 'r', encoding='UTF-8') as f:
+        text = f.read()
+
+        for line in text.splitlines():
+            if not line.strip(): continue
+
+            line = line.split('\t')
+
+            if is_cjk_comp(line[0]):
+                dest = '5-cjkcomp'
+            elif is_rad_kanxi(line[0]):
+                dest = '5-rad-kanxi'
+            elif is_rad_sup(line[0]):
+                dest = '5-rad-sup'
+            else:
+                continue
+
+            line = line[0:2]
+            data.setdefault(dest, []).append(line)
+
+        f.close()
+
+    data['5-cjkcomp'].sort()
+    file = os.path.join(root, 'cangjie.5-cjkcomp.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# Unicode 中日韓兼容表意文字（補充） (CJK Compatibility Ideographs (Supplement))
+#
+# - 按 Unicode 排序
+#
+
+---
+name: "cangjie.5-cjkcomp"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+...
+
+{}
+""".format('\n'.join(['\t'.join(x) for x in data['5-cjkcomp']]))
+        f.write(text)
+        f.close()
+
+    data['5-rad-kanxi'].sort()
+    file = os.path.join(root, 'cangjie.5-rad-kanxi.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# Unicode 康熙部首 (Kangxi Radicals)
+#
+# - 按康熙部首順序（亦即 Unicode 順序）排序
+#
+
+---
+name: "cangjie.5-rad-kanxi"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+...
+
+{}
+""".format('\n'.join(['\t'.join(x) for x in data['5-rad-kanxi']]))
+        f.write(text)
+        f.close()
+
+    data['5-rad-sup'].sort()
+    file = os.path.join(root, 'cangjie.5-rad-sup.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# Unicode 中日韓部首補充 (CJK Radicals Supplement)
+#
+# - 按 Unicode 排序
+#
+
+---
+name: "cangjie.5-rad-sup"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+...
+
+{}
+""".format('\n'.join(['\t'.join(x) for x in data['5-rad-sup']]))
+        f.write(text)
+        f.close()
+
 def import_resources():
     """匯入資料檔
     """
     import_cjsys()
+    import_cangjie5_plus()
 
 def main():
     parser = argparse.ArgumentParser(

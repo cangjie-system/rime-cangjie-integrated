@@ -1,0 +1,137 @@
+# encoding: utf-8
+#
+# Unicode 中日韓部首補充 (CJK Radicals Supplement)
+#
+# - 按 Unicode 排序
+#
+
+---
+name: "cangjie.5-rad-sup"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+...
+
+⺀	ii
+⺁	hh
+⺂	mh
+⺃	vl
+⺄	nv
+⺅	hl
+⺆	hs
+⺆	ls
+⺇	hn
+⺈	hn
+⺉	ln
+⺊	lm
+⺋	su
+⺌	lc
+⺍	iih
+⺎	mu
+⺏	chu
+⺐	ku
+⺑	chn
+⺒	ru
+⺓	vi
+⺔	vnm
+⺕	sm
+⺖	hy
+⺗	fi
+⺘	dm
+⺙	ok
+⺛	mvku
+⺜	bmm
+⺝	b
+⺞	yni
+⺟	wyi
+⺠	rvp
+⺡	iim
+⺡	ym
+⺢	ff
+⺣	hf
+⺤	hf
+⺥	hf
+⺦	lim
+⺧	hg
+⺨	kh
+⺩	mg
+⺪	nylm
+⺫	wll
+⺬	mmf
+⺭	inf
+⺮	oioi
+⺯	vif
+⺰	vvm
+⺱	bk
+⺲	wll
+⺳	bc
+⺴	bhu
+⺵	bll
+⺶	tq
+⺷	tg
+⺸	tmj
+⺹	jk
+⺺	js
+⺻	lm
+⺼	b
+⺼	bim
+⺽	hx
+⺾	jj
+⺿	jj
+⻀	lmy
+⻁	yphn
+⻂	inlo
+⻂	inol
+⻃	mllw
+⻄	mcw
+⻅	bhu
+⻆	nbq
+⻇	nboo
+⻈	inv
+⻉	bo
+⻊	rylm
+⻋	kq
+⻌	ino
+⻍	iino
+⻍	yno
+⻎	inno
+⻏	nl
+⻐	omp
+⻑	smv
+⻒	smi
+⻓	po
+⻔	lis
+⻕	hrlr
+⻖	nl
+⻗	mlby
+⻘	qmb
+⻙	qs
+⻚	mbo
+⻛	hnk
+⻜	no
+⻝	oiav
+⻞	oias
+⻟	oiai
+⻠	nv
+⻡	vvmbu
+⻢	nvsm
+⻣	bbb
+⻤	hui
+⻥	nwm
+⻦	pysm
+⻧	ywk
+⻨	qme
+⻩	tlwc
+⻪	rlwu
+⻫	yksl
+⻬	ykll
+⻭	ymufd
+⻮	ymuo
+⻯	ytwu
+⻰	ikp
+⻱	hxu
+⻲	nwlu
+⻳	nwu
