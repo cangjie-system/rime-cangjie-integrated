@@ -1,0 +1,5 @@
+.gitattributes text
+LICENSE text
+*.md text
+*.yaml text
+*.txt text
