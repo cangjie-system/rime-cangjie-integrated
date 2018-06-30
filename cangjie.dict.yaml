@@ -17,6 +17,9 @@ import_tables:
 - cangjie.3-symbols-zx
 - cangjie.5-base
 - cangjie.5-base-dups
+# - cangjie.5-kr
+# - cangjie.5-cjkrs
+# - cangjie.5-cjkcomp
 - cangjie.5-symbols-x
 - cangjie.5-symbols-yyy
 - cangjie.symbols-z
