@@ -42,6 +42,11 @@ def import_cjsys():
     # 五代編碼表有而三代編碼表沒有的字
     map_cj5_extra_chars = {}
 
+    # 五代新增字修正表
+    map_cj5_extra_chars_fix = {
+        ('tjd', '蘖'): 'thjd',
+        }
+
     # 結尾非「難」字表
     # 用於確認三代結尾為「難」的字不是重複字
     map_non_x = {}
@@ -310,6 +315,10 @@ encoder:
 
 	# 將五代新增字表的字加入三代
     for _, x in map_cj5_extra_chars.items():
+        # 修正五代新增字
+        if (x[0], x[1]) in map_cj5_extra_chars_fix:
+            x[0] = map_cj5_extra_chars_fix[x[0], x[1]]
+
         data['base'].append(x)
 
     data['base'].sort(key=sort_key_func)
