@@ -12,9 +12,27 @@ log = logging.getLogger()
 
 root = os.path.normpath(os.path.join(__file__, '..', '..'))
 
+def is_punc(text):
+    code = ord(text[0])
+    return code < 0x3400 or 0xFF00 <= code <= 0xFFEF
+
 def import_cjsys():
     """匯入倉頡平台（馬來西亞·倉頡之友）
     """
+    # 結尾非「難」字表
+    # 用於確認三代結尾為「難」的字不是重複字
+    map_non_x = {}
+
+    # 結尾非「難」字排除表
+    # 這些字應視為倉頡碼以「難」結尾，
+    # 但它們在五代編碼結尾不是「難」，
+    # 故設此例外表排除
+    map_non_x_excludes = [
+        '𦥑',
+        '揷',
+        '𠦶',
+        '𦁴',
+        ]
 
     # 五代
     data = {}
@@ -27,10 +45,34 @@ def import_cjsys():
             if not line.strip(): continue
 
             line = re.split(r' +', line)
+
+            if line[0].startswith('x') and is_punc(line[1]):
+                dest = 'symbols-x'
+            elif line[0].startswith('x'):
+                dest = 'base-dups'
+            elif line[0].startswith('yyy') and is_punc(line[1]):
+                dest = 'symbols-yyy'
+            elif line[0].startswith('zx'):
+                dest = 'symbols-zx'
+            elif line[0].startswith('z'):
+                dest = 'symbols-z'
+            else:
+                dest = 'base'
+
+                # 將結尾非「難」的字加入列表
+                # 因三代有些重複字沒有標準取碼（結尾不為「難」的碼）
+                # 故從五代取得
+                if not line[0].endswith('x'):
+                    map_non_x.setdefault(line[1], []).append(line[0])
+
             line = '\t'.join(line)
-            data.setdefault('base', []).append(line)
+            data.setdefault(dest, []).append(line)
 
         f.close()
+
+    # 例外處理修正結尾非「難」字表
+    for x in map_non_x_excludes:
+        map_non_x.pop(x, None)
 
     file = os.path.join(root, 'cangjie.5-base.dict.yaml')
     with open(file, 'w', encoding='UTF-8') as f:
@@ -47,13 +89,133 @@ use_preset_vocabulary: false
 columns:
   - code
   - text
+...
+
+{}
+""".format('\n'.join(data['base']))
+        f.write(text)
+        f.close()
+
+    file = os.path.join(root, 'cangjie.5-base-dups.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# 官方五代倉頡編碼表的重碼字表
+#
+
+---
+name: "cangjie.5-base-dups"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+...
+
+{}
+""".format('\n'.join(data['base-dups']))
+        f.write(text)
+        f.close()
+
+    # 三代的 zxaf 字元錯誤，故使用五代的
+    file = os.path.join(root, 'cangjie.3-symbols-zx.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# 官方三代倉頡編碼表的符號表（ZXAA~ZXCY 區段）
+#
+
+---
+name: "cangjie.3-symbols-zx"
+version: "1.00"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+encoder:
+  exclude_patterns:
+    - '^zx.*$'
+...
+
+{}
+""".format('\n'.join(data['symbols-zx']))
+        f.write(text)
+        f.close()
+
+    file = os.path.join(root, 'cangjie.5-symbols-yyy.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# 官方五代倉頡編碼表的符號表（YYYAA~YYYYO 區段）
+#
+
+---
+name: "cangjie.5-symbols-yyy"
+version: "1.00"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+encoder:
+  exclude_patterns:
+    - '^yyy.*$'
+...
+
+{}
+""".format('\n'.join(data['symbols-yyy']))
+        f.write(text)
+        f.close()
+
+    file = os.path.join(root, 'cangjie.symbols-x.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# 官方三代、五代倉頡編碼表的符號表（X* 區段）
+#
+
+---
+name: "cangjie.symbols-x"
+version: "1.00"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+encoder:
+  exclude_patterns:
+    - '^x.*$'
+...
+
+{}
+""".format('\n'.join(data['symbols-x']))
+        f.write(text)
+        f.close()
+
+    file = os.path.join(root, 'cangjie.symbols-z.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# 《倉頡平台2012》的擴充符號表（ZA*~ZG* 區段）
+#
+
+---
+name: "cangjie.symbols-z"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
 encoder:
   exclude_patterns:
     - '^z.*$'
 ...
 
 {}
-""".format('\n'.join(data['base']))
+""".format('\n'.join(data['symbols-z']))
         f.write(text)
         f.close()
 
@@ -68,8 +230,22 @@ encoder:
             if not line.strip(): continue
 
             line = re.split(r' +', line)
+
+            if line[0].startswith('x') and is_punc(line[1]):
+                dest = 'symbols-x'
+            elif line[0].endswith('x') and line[1] in map_non_x:
+                dest = 'base-dups'
+            elif line[0].startswith('yyy') and is_punc(line[1]):
+                dest = 'symbols-yyy'
+            elif line[0].startswith('zx'):
+                dest = 'symbols-zx'
+            elif line[0].startswith('z'):
+                dest = 'symbols-z'
+            else:
+                dest = 'base'
+
             line = '\t'.join(line)
-            data.setdefault('base', []).append(line)
+            data.setdefault(dest, []).append(line)
 
         f.close()
 
@@ -88,13 +264,32 @@ use_preset_vocabulary: false
 columns:
   - code
   - text
-encoder:
-  exclude_patterns:
-    - '^z.*$'
 ...
 
 {}
 """.format('\n'.join(data['base']))
+        f.write(text)
+        f.close()
+
+    file = os.path.join(root, 'cangjie.3-base-dups.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# 官方三代倉頡編碼表的重碼字表
+#
+
+---
+name: "cangjie.3-base-dups"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+...
+
+{}
+""".format('\n'.join(data['base-dups']))
         f.write(text)
         f.close()
 

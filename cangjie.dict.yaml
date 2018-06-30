@@ -12,5 +12,11 @@ sort: original
 use_preset_vocabulary: false
 import_tables:
 # - cangjie.3-base
+# - cangjie.3-base-dups
+- cangjie.3-symbols-zx
 - cangjie.5-base
+- cangjie.5-base-dups
+- cangjie.5-symbols-yyy
+- cangjie.symbols-x
+- cangjie.symbols-z
 ...
