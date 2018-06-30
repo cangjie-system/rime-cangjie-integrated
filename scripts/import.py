@@ -27,6 +27,9 @@ def is_pua(text):
 def import_cjsys():
     """匯入倉頡平台（馬來西亞·倉頡之友）
     """
+    def sort_key_func(line):
+        return line[0]
+
     # 結尾非「難」字表
     # 用於確認三代結尾為「難」的字不是重複字
     map_non_x = {}
@@ -89,7 +92,6 @@ def import_cjsys():
                 if not line[0].endswith('x'):
                     map_non_x.setdefault(line[1], []).append(line[0])
 
-            line = '\t'.join(line)
             data.setdefault(dest, []).append(line)
 
         f.close()
@@ -98,6 +100,7 @@ def import_cjsys():
     for x in map_non_x_excludes:
         map_non_x.pop(x, None)
 
+    data['base'].sort(key=sort_key_func)
     file = os.path.join(root, 'cangjie.5-base.dict.yaml')
     with open(file, 'w', encoding='UTF-8') as f:
         text = """# encoding: utf-8
@@ -116,10 +119,11 @@ columns:
 ...
 
 {}
-""".format('\n'.join(data['base']))
+""".format('\n'.join(['\t'.join(x) for x in data['base']]))
         f.write(text)
         f.close()
 
+    data['base-dups'].sort(key=sort_key_func)
     file = os.path.join(root, 'cangjie.5-base-dups.dict.yaml')
     with open(file, 'w', encoding='UTF-8') as f:
         text = """# encoding: utf-8
@@ -138,11 +142,12 @@ columns:
 ...
 
 {}
-""".format('\n'.join(data['base-dups']))
+""".format('\n'.join(['\t'.join(x) for x in data['base-dups']]))
         f.write(text)
         f.close()
 
     # 三代的 zxaf 字元錯誤，故使用五代的
+    data['symbols-zx'].sort(key=sort_key_func)
     file = os.path.join(root, 'cangjie.3-symbols-zx.dict.yaml')
     with open(file, 'w', encoding='UTF-8') as f:
         text = """# encoding: utf-8
@@ -164,10 +169,11 @@ encoder:
 ...
 
 {}
-""".format('\n'.join(data['symbols-zx']))
+""".format('\n'.join(['\t'.join(x) for x in data['symbols-zx']]))
         f.write(text)
         f.close()
 
+    data['symbols-yyy'].sort(key=sort_key_func)
     file = os.path.join(root, 'cangjie.5-symbols-yyy.dict.yaml')
     with open(file, 'w', encoding='UTF-8') as f:
         text = """# encoding: utf-8
@@ -189,10 +195,11 @@ encoder:
 ...
 
 {}
-""".format('\n'.join(data['symbols-yyy']))
+""".format('\n'.join(['\t'.join(x) for x in data['symbols-yyy']]))
         f.write(text)
         f.close()
 
+    data['symbols-x'].sort(key=sort_key_func)
     file = os.path.join(root, 'cangjie.symbols-x.dict.yaml')
     with open(file, 'w', encoding='UTF-8') as f:
         text = """# encoding: utf-8
@@ -214,10 +221,11 @@ encoder:
 ...
 
 {}
-""".format('\n'.join(data['symbols-x']))
+""".format('\n'.join(['\t'.join(x) for x in data['symbols-x']]))
         f.write(text)
         f.close()
 
+    data['symbols-z'].sort(key=sort_key_func)
     file = os.path.join(root, 'cangjie.symbols-z.dict.yaml')
     with open(file, 'w', encoding='UTF-8') as f:
         text = """# encoding: utf-8
@@ -239,7 +247,7 @@ encoder:
 ...
 
 {}
-""".format('\n'.join(data['symbols-z']))
+""".format('\n'.join(['\t'.join(x) for x in data['symbols-z']]))
         f.write(text)
         f.close()
 
@@ -278,11 +286,11 @@ encoder:
             else:
                 dest = 'base'
 
-            line = '\t'.join(line)
             data.setdefault(dest, []).append(line)
 
         f.close()
 
+    data['base'].sort(key=sort_key_func)
     file = os.path.join(root, 'cangjie.3-base.dict.yaml')
     with open(file, 'w', encoding='UTF-8') as f:
         text = """# encoding: utf-8
@@ -301,10 +309,11 @@ columns:
 ...
 
 {}
-""".format('\n'.join(data['base']))
+""".format('\n'.join(['\t'.join(x) for x in data['base']]))
         f.write(text)
         f.close()
 
+    data['base-dups'].sort(key=sort_key_func)
     file = os.path.join(root, 'cangjie.3-base-dups.dict.yaml')
     with open(file, 'w', encoding='UTF-8') as f:
         text = """# encoding: utf-8
@@ -323,7 +332,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(data['base-dups']))
+""".format('\n'.join(['\t'.join(x) for x in data['base-dups']]))
         f.write(text)
         f.close()
 
