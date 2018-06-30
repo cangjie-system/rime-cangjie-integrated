@@ -1,0 +1,107 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: cangjie
+  name: 傳統倉頡
+  version: "0.10"
+  author:
+    - 朱邦復
+  description: |
+    倉頡輸入法修訂版
+    原生、乾淨、模組化、遵循一致規則
+
+    - 選字順序固定不變，不自動記錄及建立詞庫
+    - 超過五碼時自動上字
+    - 取消整句輸出
+  dependencies:
+    - luna_quanpin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 英數 ]
+  - name: full_shape
+    states: [ 半形, 全形 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: extended_charset
+    states: [ 常用, 擴充 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
+  filters:
+    - simplifier
+    - uniquifier
+    - single_char_filter
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " ;"
+  max_code_length: 5  # 五碼頂字上屏
+
+translator:
+  dictionary: cangjie
+  enable_charset_filter: true
+  enable_completion: true
+  enable_sentence: false
+  enable_encoder: false
+  encode_commit_history: false
+  enable_user_dict: false
+  preedit_format:
+    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
+
+abc_segmentor:
+  extra_tags:
+    # - reverse_lookup  # 與拼音（反查碼）混打
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prism: luna_quanpin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+
+simplifier:
+  tips: all  # 簡化字模式下提示對應的傳統漢字
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: '^/([0-9]0?|[A-Za-z]+)$'
+    reverse_lookup: "`[a-z]*'?$|[a-z]+'$"
