@@ -20,6 +20,10 @@ def is_cjk_comp(text):
     code = ord(text[0])
     return 0xF900 <= code <= 0xFAD9 or 0x2F800 <= code <= 0x2FA1D
 
+def is_pua(text):
+    code = ord(text[0])
+    return 0xE000 <= code <= 0xF8FF or 0xF0000 <= code <= 0x10FFFF
+
 def import_cjsys():
     """匯入倉頡平台（馬來西亞·倉頡之友）
     """
@@ -38,6 +42,12 @@ def import_cjsys():
         '𦁴',
         ]
 
+    # 造字修正表
+    # 將造字字元修正為適當的 Unicode 字元
+    map_pua_fix = {
+        '': '︙',
+        }
+
     # 五代
     data = {}
     file = os.path.join(root, 'resources', 'cjsys', 'cj5-70000.txt')
@@ -52,6 +62,13 @@ def import_cjsys():
 
             # 移除相容區字元
             if is_cjk_comp(line[1]): continue
+
+            # 修正或移除造字區字元
+            if is_pua(line[1]):
+                if line[1] in map_pua_fix:
+                    line[1] = map_pua_fix[line[1]]
+                else:
+                    continue
 
             if line[0].startswith('x') and is_punc(line[1]):
                 dest = 'symbols-x'
@@ -240,6 +257,13 @@ encoder:
 
             # 移除相容區字元
             if is_cjk_comp(line[1]): continue
+
+            # 修正或移除造字區字元
+            if is_pua(line[1]):
+                if line[1] in map_pua_fix:
+                    line[1] = map_pua_fix[line[1]]
+                else:
+                    continue
 
             if line[0].startswith('x') and is_punc(line[1]):
                 dest = 'symbols-x'
