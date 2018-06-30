@@ -1,0 +1,93 @@
+# encoding: utf-8
+#
+# 官方三代倉頡編碼表的符號表（ZXAA~ZXCY 區段）
+#
+
+---
+name: "cangjie.3-symbols-zx"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+encoder:
+  exclude_patterns:
+    - '^zx.*$'
+...
+
+zxaa	　
+zxab	，
+zxac	、
+zxad	。
+zxae	．
+zxaf	·
+zxag	；
+zxah	：
+zxai	？
+zxaj	！
+zxak	︰
+zxal	…
+zxam	‥
+zxan	﹐
+zxao	﹑
+zxap	﹒
+zxaq	·
+zxar	﹔
+zxas	﹕
+zxat	﹖
+zxau	﹗
+zxav	｜
+zxaw	–
+zxax	︱
+zxay	—
+zxba	︳
+zxbb	﹏
+zxbc	︴
+zxbd	﹏
+zxbe	（
+zxbf	）
+zxbg	︵
+zxbh	︶
+zxbi	｛
+zxbj	｝
+zxbk	︷
+zxbl	︸
+zxbm	〔
+zxbn	〕
+zxbo	︹
+zxbp	︺
+zxbq	【
+zxbr	】
+zxbs	︻
+zxbt	︼
+zxbu	《
+zxbv	》
+zxbw	︽
+zxbx	︾
+zxby	〈
+zxca	〉
+zxcb	︿
+zxcc	﹀
+zxcd	「
+zxce	」
+zxcf	﹁
+zxcg	﹂
+zxch	『
+zxci	』
+zxcj	﹃
+zxck	﹄
+zxcl	﹙
+zxcm	﹚
+zxcn	﹛
+zxco	﹜
+zxcp	﹝
+zxcq	﹞
+zxcr	‘
+zxcs	’
+zxct	“
+zxcu	”
+zxcv	〝
+zxcw	〞
+zxcx	‵
+zxcy	′

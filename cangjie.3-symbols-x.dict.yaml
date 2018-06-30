@@ -1,0 +1,22 @@
+# encoding: utf-8
+#
+# 官方三代倉頡編碼表的符號表（X* 區段）
+#
+
+---
+name: "cangjie.3-symbols-x"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+encoder:
+  exclude_patterns:
+    - '^x.*$'
+...
+
+xi	、
+xr	。
+xxr	○
+xxxxx	○
