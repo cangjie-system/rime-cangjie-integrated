@@ -11,18 +11,18 @@ version: "0.10"
 sort: original
 use_preset_vocabulary: false
 import_tables:
-# - cangjie.3-base
-# - cangjie.3-base-dups
+- cangjie.3-base
+- cangjie.3-base-dups
 # - cangjie.3-rad-kanxi
 # - cangjie.3-rad-sup
 # - cangjie.3-cjkcomp
 - cangjie.3-symbols-zx
-- cangjie.5-base
-- cangjie.5-base-dups
+# - cangjie.5-base
+# - cangjie.5-base-dups
 # - cangjie.5-rad-kanxi
 # - cangjie.5-rad-sup
 # - cangjie.5-cjkcomp
-- cangjie.5-symbols-yyy
-- cangjie.symbols-x
-- cangjie.symbols-z
+# - cangjie.5-symbols-yyy
+# - cangjie.symbols-x
+# - cangjie.symbols-z
 ...
