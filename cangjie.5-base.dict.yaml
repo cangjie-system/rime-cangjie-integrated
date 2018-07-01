@@ -17,6 +17,7 @@ use_preset_vocabulary: false
 columns:
   - code
   - text
+  - notes
 ...
 
 a	日
