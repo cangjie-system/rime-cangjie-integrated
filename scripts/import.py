@@ -383,6 +383,103 @@ columns:
         f.write(text)
         f.close()
 
+def import_cangjie3_plus():
+    """匯入三代倉頡補完計畫
+    """
+    def sort_key_func(line):
+        return line[0]
+
+    data = {}
+    file = os.path.join(root, 'resources', 'cangjie3-plus', 'cj3-70000~02.txt')
+    with open(file, 'r', encoding='UTF-8') as f:
+        text = f.read()
+        text = re.search(r'^\[DATA\]\s*(.*)$', text, flags=re.S + re.M)[1]
+
+        for line in text.splitlines():
+            if not line.strip(): continue
+
+            line = re.split(r' +', line)
+
+            # 移除相容區字元
+            if is_cjk_comp(line[1]): continue
+
+            # 移除造字區字元
+            if is_pua(line[1]): continue
+
+            if line[0].startswith('x') and is_punc(line[1]):
+                dest = '3-symbols-x'
+            elif line[0].startswith('x'):
+                dest = '3-base-dups'
+            elif line[0].startswith('yyy') and is_punc(line[1]):
+                dest = '3-symbols-yyy'
+            elif line[0].startswith('zx'):
+                dest = '3-symbols-zx'
+            elif line[0].startswith('z'):
+                dest = '3-symbols-z'
+            elif is_punc(line[1]):
+                dest = '3-symbols'
+            else:
+                dest = '3-base'
+
+            line = line[0:2]
+            data.setdefault(dest, []).append(line)
+
+        f.close()
+
+    data['3-base'].sort(key=sort_key_func)
+    file = os.path.join(root, 'cangjie.3-base.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# 官方三代倉頡編碼表
+#
+# 原始編碼表來自馬來西亞·倉頡之友《倉頡平台2012》內附的編碼表，
+# 本專案轉換為 RIME 格式，並參考可取得的官方資訊修訂。
+#
+# - 符號表 (zx*, yyy*, za*~zg*, etc.) 由此表移除，移至其他編碼表。
+# - 倉頡系統有收而 Unicode 未收的字形，加入容錯編碼處理。
+#
+
+---
+name: "cangjie.3-base"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+  - notes
+...
+
+{}
+""".format('\n'.join(['\t'.join(x) for x in data['3-base']]))
+        f.write(text)
+        f.close()
+
+    data['3-base-dups'].sort(key=sort_key_func)
+    file = os.path.join(root, 'cangjie.3-base-dups.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# 官方三代倉頡編碼表的重碼字表
+#
+
+---
+name: "cangjie.3-base-dups"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+  - notes
+...
+
+{}
+""".format('\n'.join(['\t'.join(x) for x in data['3-base-dups']]))
+        f.write(text)
+        f.close()
+
 def import_cangjie5_plus():
     """匯入五代倉頡補完計畫
     """
@@ -591,6 +688,7 @@ def import_resources():
     """匯入資料檔
     """
     import_cjsys()
+    import_cangjie3_plus()
     import_cangjie5_plus()
 
 def main():
