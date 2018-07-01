@@ -483,7 +483,99 @@ columns:
 def import_cangjie5_plus():
     """匯入五代倉頡補完計畫
     """
+    def sort_key_func(line):
+        return line[0]
+
     data = {}
+
+    file = os.path.join(root, 'resources', 'cangjie5-plus', 'Cangjie5.txt')
+    with open(file, 'r', encoding='UTF-8') as f:
+        text = f.read()
+        text = re.search(r'^------------------------------\n(.*)$', text, flags=re.S + re.M)[1]
+
+        for line in text.splitlines():
+            if not line.strip(): continue
+
+            line = line.split('\t')
+
+            # 移除相容區字元
+            if is_cjk_comp(line[0]): continue
+
+            # 移除造字區字元
+            if is_pua(line[0]): continue
+
+            if line[1].startswith('x') and is_punc(line[0]):
+                dest = '5-symbols-x'
+            elif line[1].startswith('x'):
+                dest = '5-base-dups'
+            elif line[1].startswith('yyy') and is_punc(line[0]):
+                dest = '5-symbols-yyy'
+            elif line[1].startswith('zx'):
+                dest = '5-symbols-zx'
+            elif line[1].startswith('z'):
+                dest = '5-symbols-z'
+            elif is_punc(line[0]):
+                dest = '5-symbols'
+            else:
+                dest = '5-base'
+
+            line = [line[1], line[0]]
+            data.setdefault(dest, []).append(line)
+
+    data['5-base'].sort(key=sort_key_func)
+    file = os.path.join(root, 'cangjie.5-base.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# 官方五代倉頡編碼表
+#
+# 原始編碼表來自馬來西亞·倉頡之友《倉頡平台2012》內附的編碼表，
+# 本專案轉換為 RIME 格式，並參考可取得的官方資訊修訂。
+#
+# - 符號表 (zx*, yyy*, za*~zg*, etc.) 由此表移除，移至其他編碼表。
+# - 倉頡系統有收而 Unicode 未收的字形，加入容錯編碼處理。
+#
+
+---
+name: "cangjie.5-base"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+  - notes
+...
+
+{}
+""".format('\n'.join(['\t'.join(x) for x in data['5-base']]))
+        f.write(text)
+        f.close()
+
+    data['5-base-dups'].sort(key=sort_key_func)
+    file = os.path.join(root, 'cangjie.5-base-dups.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# 官方五代倉頡編碼表的重碼字表
+#
+
+---
+name: "cangjie.5-base-dups"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+  - notes
+...
+
+{}
+""".format('\n'.join(['\t'.join(x) for x in data['5-base-dups']]))
+        f.write(text)
+        f.close()
+
     file = os.path.join(root, 'resources', 'cangjie5-plus', 'Cangjie5_supplement.txt')
     with open(file, 'r', encoding='UTF-8') as f:
         text = f.read()
