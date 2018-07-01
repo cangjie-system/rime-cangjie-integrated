@@ -142,6 +142,7 @@ use_preset_vocabulary: false
 columns:
   - code
   - text
+  - notes
 ...
 
 {}
@@ -165,6 +166,7 @@ use_preset_vocabulary: false
 columns:
   - code
   - text
+  - notes
 ...
 
 {}
@@ -349,6 +351,7 @@ use_preset_vocabulary: false
 columns:
   - code
   - text
+  - notes
 ...
 
 {}
@@ -372,6 +375,7 @@ use_preset_vocabulary: false
 columns:
   - code
   - text
+  - notes
 ...
 
 {}

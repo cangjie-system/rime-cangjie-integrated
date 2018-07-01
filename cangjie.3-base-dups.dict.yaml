@@ -11,6 +11,7 @@ use_preset_vocabulary: false
 columns:
   - code
   - text
+  - notes
 ...
 
 abkqx	晖
