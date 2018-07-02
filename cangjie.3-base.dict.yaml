@@ -8531,6 +8531,7 @@ cuwmv	𡰂
 cuyaj	𫵑
 cuye	𭣭
 cuye	𭣳
+cuyrk	𡰟
 cuyrn	𡰟
 cuytg	𡰕
 cuytr	𡯷
@@ -8743,8 +8744,6 @@ cymw	𨭫
 cymy	鉲
 cynb	𨫤
 cynj	𨪬
-cynq	𨰠
-cynt	𨰊
 cyoj	錊
 cyok	䤳
 cypb	𬬚
@@ -8790,10 +8789,15 @@ cyrf	𨱉
 cyrj	𨪟
 cyrj	𨫚
 cyrj	𨯢
+cyrk	𨯤
+cyrk	𨰊
+cyrk	𨰠
 cyrm	𨰸
 cyrn	𨧤
 cyrn	𨪃
 cyrn	𨯤
+cyrn	𨰊
+cyrn	𨰠
 cyro	𨮙
 cyrq	𫓜
 cyru	𨦸
@@ -12187,7 +12191,6 @@ dymy	桛
 dymy	𭩦
 dynb	樋
 dynv	橠
-dynv	𣟅
 dyo	𣏡
 dyog	𣛎
 dyoj	椊
@@ -12229,10 +12232,13 @@ dyrd	𣝩
 dyrf	椋
 dyrg	𭬳
 dyrj	𣖟
+dyrk	𣟅
+dyrk	𣠾
 dyrl	𣘙
 dyrl	𣠐
 dyrn	楟
 dyrn	梈
+dyrn	𣟅
 dyrn	𣠾
 dyrn	𪳄
 dyro	檺
@@ -15804,7 +15810,6 @@ eynb	𣻢
 eynd	𣽘
 eynh	滮
 eyni	𣾹
-eynk	𬉩
 eyno	𣵕
 eyo	𣲓
 eyoj	淬
@@ -15851,6 +15856,9 @@ eyrj	𣹾
 eyrj	𤂸
 eyrk	瀛
 eyrk	灜
+eyrk	𤅀
+eyrk	𤅗
+eyrk	𬉩
 eyrm	𤀏
 eyrm	𤄲
 eyrn	瀛
@@ -15860,6 +15868,7 @@ eyrn	涥
 eyrn	湸
 eyrn	𤅀
 eyrn	𤅗
+eyrn	𬉩
 eyro	濠
 eyro	𣿤
 eyru	湸
@@ -30161,7 +30170,6 @@ hyngg	𦩙
 hynhe	䑥
 hynhs	𦨋
 hyni	𥳿
-hyni	𫂯
 hyniu	𦨨
 hynkg	艇
 hynkg	𦨿
@@ -30274,6 +30282,7 @@ hyrji	艥
 hyrk	籯
 hyrk	籝
 hyrk	𥷺
+hyrk	𫂯
 hyrl	篰
 hyrmg	𮎏
 hyrmk	𦨳
@@ -30283,6 +30292,7 @@ hyrn	𥭔
 hyrn	𥯢
 hyrn	𥰵
 hyrn	𥸏
+hyrn	𫂯
 hyro	籇
 hyrp	𭈃
 hyrr	𥴜
@@ -39839,6 +39849,7 @@ kuye	㪑
 kuyj	㪺
 kuyj	𡯏
 kuyrf	𠒨
+kuyrk	𡰠
 kuyrn	𡰠
 kuytg	𡰒
 kuytr	𡯳
@@ -40008,6 +40019,7 @@ kyrb	㾸
 kyrb	𤹽
 kyrf	𤷦
 kyrj	㾵
+kyrk	𤼘
 kyrl	𫯵
 kyrn	𤸥
 kyrn	𤼘
@@ -42085,7 +42097,6 @@ liymr	䛓
 liymu	𪘅
 liymw	𮕂
 liynb	𧐺
-liynq	𧕳
 liyo	𧉆
 liyog	䗯
 liyoj	蜶
@@ -42110,8 +42121,10 @@ liyrd	蜳
 liyre	𧐛
 liyrf	𧌬
 liyrj	𧔫
+liyrk	𧕳
 liyrl	𧐾
 liyrn	蝏
+liyrn	𧕳
 liyro	蠔
 liyru	𧐢
 liyrv	蠰
@@ -62306,6 +62319,7 @@ qbwi	㩱
 qby	𫼘
 qbyr	㨱
 qbyr	𢵾
+qbyrk	𩇤
 qbyrn	𩇤
 qbytu	𫕼
 qc	扒
@@ -65164,6 +65178,8 @@ qyrj	𭢒
 qyrk	攍
 qyrk	𢮸
 qyrk	𢺀
+qyrk	𢺆
+qyrk	𢺑
 qyrk	𭢖
 qyrn	揨
 qyrn	攍
@@ -70603,7 +70619,6 @@ sfymp	𩢭
 sfymu	𪚀
 sfymv	𩧝
 sfynd	𩦆
-sfynj	𩧣
 sfyod	𩥽
 sfyog	𩥤
 sfyoj	𩤏
@@ -70618,6 +70633,7 @@ sfyrf	𬳮
 sfyrk	䯁
 sfyrn	䯁
 sfyrn	𩤙
+sfyrn	𩧣
 sfyrv	驤
 sfys	𩢬
 sfysv	𩥆
@@ -78872,7 +78888,6 @@ tyn	𦬈
 tynb	蓪
 tync	𦽙
 tynf	䕖
-tynj	𧆃
 tyoc	𧅙
 tyoc	𧆈
 tyod	𦷞
@@ -78934,6 +78949,10 @@ tyrj	𦵗
 tyrj	𬞖
 tyrk	䕦
 tyrk	𧄲
+tyrk	𧄿
+tyrk	𧅋
+tyrk	𧆃
+tyrk	𧆍
 tyrl	蔀
 tyrm	𧆂
 tyrn	葶
@@ -78941,6 +78960,8 @@ tyrn	䕦
 tyrn	𦵿
 tyrn	𧄿
 tyrn	𧅋
+tyrn	𧆃
+tyrn	𧆍
 tyro	䕛
 tyro	𮒑
 tyrp	薧
@@ -79016,7 +79037,6 @@ tyvi	𦬾
 tyvi	𦳶
 tyvn	𦻯
 tyvn	𧆅
-tyvn	𧆍
 tyvo	荄
 tyvp	莣
 tyvr	𦯾
@@ -88028,7 +88048,6 @@ ykmr	𠷗
 ykmr	𨓾
 ykmr	𨔙
 ykmrj	𪯞
-ykmrw	𫢄
 ykmvn	𭺡
 ykmw	𨕏
 ykmwf	𣁡
@@ -88037,7 +88056,6 @@ ykmym	𣦤
 ykmym	𭤗
 ykn	㐎
 ykn	𨑍
-yknbg	𬢙
 yknbk	㪱
 yknd	斈
 yknd	𡥮
@@ -88085,9 +88103,7 @@ ykqmf	𪯛
 ykr	吝
 ykr	𨒐
 ykrdv	𧜯
-ykrhg	𫢃
 ykrhr	𫡽
-ykrmg	𫢃
 yks	边
 yksc	𫑊
 ykse	𭭧
@@ -88615,9 +88631,7 @@ ynbo	𨖣
 ynbq	邂
 ynbu	𬩐
 ynbuc	贙
-ynbuc	𦢼
 ynbuu	覤
-ync	𨭞
 yncor	𮓧
 yncr	𨗧
 ynd	䢊
@@ -88638,7 +88652,6 @@ ynfd	𫡮
 ynfdq	𮓯
 ynfhf	𮓮
 ynfr	𬩬
-yng	𡑤
 ynga	𣋿
 yngg	𨔚
 yngg	𨕿
@@ -88665,7 +88678,6 @@ ynhq	𮓤
 ynhrf	䖚
 ynhs	辸
 ynhv	袤
-ynhxe	𦣉
 yni	歺
 yni	𨑚
 yni	𫻺
@@ -88709,7 +88721,6 @@ ynmbc	𩑨
 ynmbo	颃
 ynme	逯
 ynmo	𨔡
-ynmrw	𫢄
 ynmv	𬡇
 ynmvi	𠅹
 ynmvn	㼚
@@ -88718,8 +88729,6 @@ ynn	辽
 ynn	𨑎
 ynn	𨑐
 ynn	𪟽
-ynnbg	𬢙
-ynnbq	𬢙
 ynnc	𨕖
 ynnif	𠧽
 ynnl	邟
@@ -88758,8 +88767,6 @@ ynqd	椉
 ynqj	𨌤
 ynqj	𫊠
 ynqn	𠅞
-ynrhg	𫢃
-ynrmg	𫢃
 ynrmu	𮓨
 ynrrj	𡅄
 ynru	𢀸
@@ -88771,14 +88778,12 @@ ynss	𪩧
 yntc	𨓟
 yntm	甝
 yntq	𦍲
-yntq	𦏞
 yntq	𮊯
 ynu	𣦷
 ynui	逸
 ynui	𫐶
 ynus	𠅦
 ynv	𡛝
-ynv	𡣍
 ynw	𬟭
 ynwgn	𮡢
 ynwl	䖖
@@ -88786,7 +88791,6 @@ ynwve	𣨏
 ynyc	𠧝
 ynye	𢾊
 ynyhl	𬽞
-ynyhv	𧝹
 ynylm	𣥓
 ynyok	𠆙
 ynypn	虤
@@ -89256,6 +89260,7 @@ yrawe	謾
 yraws	𧬒
 yrb	䚴
 yrba	𠆒
+yrbak	𦣖
 yrban	𦣖
 yrbb	膏
 yrbb	䯧
@@ -89272,14 +89277,18 @@ yrbbk	贏
 yrbbm	𧨏
 yrbbn	贏
 yrbbn	赢
+yrbbn	𦢼
 yrbbr	諣
 yrbcd	𧨾
+yrbck	𨭞
+yrbcn	𨭞
 yrbcr	𧨝
 yrbcv	𧮆
 yrbd	槀
 yrbd	稾
 yrbd	稁
 yrbd	𠅝
+yrbdk	𣜄
 yrbdn	𣜄
 yrbe	𧦘
 yrbf	𤌾
@@ -89289,12 +89298,17 @@ yrbfn	䊨
 yrbg	㙜
 yrbg	𡎲
 yrbg	𩫊
+yrbgk	𡑤
+yrbgn	𡑤
 yrbgr	調
 yrbhf	譌
 yrbhk	鸁
+yrbhk	𥢵
+yrbhk	𦣉
 yrbhn	鸁
 yrbhn	𣎆
 yrbhn	𥢵
+yrbhn	𦣉
 yrbhu	觇
 yrbhx	謟
 yrbi	𧓂
@@ -89319,18 +89333,23 @@ yrbm	詛
 yrbm	𠱗
 yrbm	𩫍
 yrbme	諼
+yrbmk	𫢄
 yrbmm	䛁
 yrbmm	𠆊
 yrbmm	𧧛
 yrbmm	𧨋
 yrbmm	𮘙
+yrbmn	𫢄
 yrbmr	詷
 yrbms	𮘑
 yrbn	亮
 yrbn	亭
 yrbn	亴
 yrbnk	𦝠
+yrbnk	𩼊
+yrbnk	𬢙
 yrbnn	𩼊
+yrbnn	𬢙
 yrbo	豪
 yrbo	𩙷
 yrbo	𩫕
@@ -89350,6 +89369,8 @@ yrbr	高
 yrbr	詗
 yrbr	𥗧
 yrbr	𨓺
+yrbrk	𫢃
+yrbrn	𫢃
 yrbs	𬴗	[u]
 yrbsb	𧭕
 yrbsd	諍
@@ -89358,8 +89379,11 @@ yrbsn	驘
 yrbt	𪉶
 yrbtj	𧧚
 yrbtk	羸
+yrbtk	𡳴
+yrbtk	𦣄
 yrbtn	羸
 yrbtn	𡳴
+yrbtn	𦏞
 yrbtn	𦣄
 yrbtv	誷
 yrbu	亮
@@ -89383,11 +89407,15 @@ yrbv	𮪸
 yrbvk	嬴
 yrbvk	謑
 yrbvn	嬴
+yrbvn	𡣍
 yrbvn	𦆁
 yrbwk	臝
 yrbwn	臝
 yrbyk	䇔
+yrbyk	𧝹
+yrbyk	𨏩
 yrbyn	䇔
+yrbyn	𧝹
 yrbyn	𨏩
 yrc	𨒅
 yrc	𫍀
