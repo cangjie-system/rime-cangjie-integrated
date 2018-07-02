@@ -4504,6 +4504,7 @@ bomr	𭨸
 bomr	𭨻
 bomrt	豋
 boms	𬚵
+bomt	𦝡
 bomv	腧
 bomwg	𬥿
 bomwj	𫎫
@@ -4540,7 +4541,6 @@ boqmb	䞍
 borb	𦋀
 borhu	贶
 bormg	𧹓
-bort	𦝡
 borxu	𪓙
 bosav	𬥺
 bose	𭁾
@@ -7874,6 +7874,7 @@ coma	𨭗
 comb	鑰
 comb	錀
 comb	𨯡
+comb	𫓂
 combs	𨯎
 comc	鋲
 comd	𫒟
@@ -7921,7 +7922,6 @@ coq	𢵡
 coq	𨦧
 cor	谷
 cor	𭊖
-corb	𫓂
 cord	𨩚
 core	𨫙
 core	𭆮
@@ -11061,6 +11061,7 @@ domq	𣗯
 domr	㭘
 domr	𣒍
 domr	𬃉
+domt	𭫃
 domu	𬃆
 domv	楡
 domwf	𪒁
@@ -11099,7 +11100,6 @@ doq	𣑻
 dora	𪳲
 dord	椺
 dorhe	𬆵
-dort	𭫃
 doshu	𧡽
 dosip	𢠗
 dosu	枪
@@ -14585,6 +14585,7 @@ eomg	㳝
 eomi	浍
 eomi	𣸊
 eomi	𣸮
+eomi	𭱔
 eomk	潋
 eomk	𣸇
 eoml	泠
@@ -14601,6 +14602,7 @@ eomr	洽
 eomr	涻
 eomr	𣵣
 eomt	渰
+eomt	𭲃
 eomu	㴈
 eomv	渝
 eomw	𭲥
@@ -14634,11 +14636,9 @@ eoqq	𣻈
 eor	𪡌
 eora	潪
 eord	湺
-eori	𭱔
 eoro	𣹱
 eorr	𣻙
 eorr	𣼞
-eort	𭲃
 eorv	𣵿
 eorv	𣶜
 eose	𣷽
@@ -20553,6 +20553,7 @@ gomr	垥
 gomr	䞠
 gomrt	𧻿
 gomso	𧼙
+gomt	𪤒
 gomtj	𮚺
 gomto	𧽸
 gomtu	𧼞
@@ -20693,7 +20694,6 @@ gorr	𡐈
 gorrd	趮
 gorrg	𧼻
 gort	塩
-gort	𪤒
 goru	起
 gorup	𧻎
 gorup	𧽈
@@ -27056,12 +27056,14 @@ homrw	𭛷
 homso	𢓻
 homt	𢓄
 homt	𥲥
+homt	𮅫
 homtn	㣜
 homtn	𢕁
 homtn	𧗦
 homtq	𢮣
 homu	𥳸
 homu	𮅛
+homu	𮅵
 homun	衏
 homun	𧗨
 homun	𧗭
@@ -27234,8 +27236,6 @@ horp	𭈃
 horrk	𫹪
 horrn	𬡁
 horsj	㣬
-hort	𮅫
-horu	𮅵
 horv	𨑔
 horvj	𢕃
 horye	徦
@@ -29177,6 +29177,7 @@ huomr	𣯙
 huomv	毺
 huomv	𩞚
 huomv	𬲂
+huomy	𣯾
 huond	𣯘
 huonr	𪕛
 huoo	𣬱
@@ -29184,7 +29185,6 @@ huoo	𦤈
 huooo	臮
 huooo	𮍙
 huord	𣯂
-huory	𣯾
 huoyr	𠒷
 hup	息
 hup	憩
@@ -31313,12 +31313,12 @@ ifomn	䄖
 ifomn	𥘞
 ifomo	𥜋
 ifomr	祫
+ifomt	𥚫
 ifomv	䄖
 ifomw	𥜫
 ifong	𥙰
 ifooa	𥛾
 ifopd	𥙁
-ifort	𥚫
 iforw	𮂊
 ifotc	𥛏
 ifotf	𫞶
@@ -32669,6 +32669,7 @@ iomp	𢈸
 iomr	𢈁
 iomr	𢈈
 iomr	𢉃
+iomr	𢊴
 iomv	㢏
 iomvn	瓷
 ion	乲
@@ -32699,7 +32700,6 @@ ioqu	𢈄
 ior	咨
 iord	楶
 iord	𢉣
-iorr	𢊴
 iotd	𢋰
 iotf	廡
 ioto	𫸆
@@ -35567,6 +35567,7 @@ jjomm	𦒋
 jjomm	𦓍
 jjomm	𨍚
 jjomm	𨎰
+jjomm	𮋖
 jjomn	輸
 jjomn	𪟺
 jjomr	𮍿
@@ -35583,7 +35584,6 @@ jjoog	雗
 jjooo	𨌰
 jjop	𮝑
 jjoph	𨌕
-jjorm	𮋖
 jjosf	䮧
 jjosm	翰
 jjosm	𨌺
@@ -41649,6 +41649,7 @@ liomi	𫊹
 liomk	𧍲
 lioml	蛉
 lioml	𫋄
+liomm	𫋞
 liomn	蝓
 liomn	𫊨
 liomr	蛤
@@ -41666,7 +41667,6 @@ liopc	蟘
 liopd	𧉮
 liopo	𫋌
 liora	𧒊
-liorm	𫋞
 liosk	蛜
 liotf	蟱
 liotq	𬠴
@@ -42758,9 +42758,9 @@ lnolw	𭷌
 lnoml	𭷊
 lnomn	牏
 lnomv	牏
+lnomy	𩰙
 lnon	𩰌
 lnoo	䙍
-lnory	𩰙
 lnot	䙞
 lnowy	𤗆
 lnp	𢘍
@@ -42870,6 +42870,7 @@ lomo	襝
 lomp	𧛋
 lomr	袷
 lomv	褕
+lomy	𧝅
 lond	𧜃
 lonk	䙈
 lonl	䣒
@@ -42881,7 +42882,6 @@ lopd	袘
 lopd	𮕴
 lopj	𮕽
 lord	褓
-lory	𧝅
 losi	𧛛
 lotje	𮧤
 loto	襥
@@ -46031,6 +46031,7 @@ mgomi	𤧂
 mgoml	玲
 mgoml	𬍦
 mgoml	𬍱
+mgomm	𪼜
 mgomm	𭸹
 mgomn	瑜
 mgomp	𤦬
@@ -46056,7 +46057,6 @@ mgopd	𤤩
 mgoph	𤨝
 mgopp	𤧰
 mgord	𤦸
-mgorm	𪼜
 mgosu	玱
 mgotf	璑
 mgoto	𤪟
@@ -48097,6 +48097,7 @@ momhf	豲
 momhh	𨅪
 momjj	豣
 momkj	豣
+momm	𠪈
 mommn	𠃻
 mommr	𬤿
 momn	𧰩
@@ -48107,6 +48108,7 @@ momr	𥔩
 momr	𥕳
 momso	豩
 momt	豜
+momu	𠪦
 momv	𠩸
 momvb	𧱽
 momvn	瓷
@@ -48161,8 +48163,6 @@ mor	𠳄
 morau	𨛛
 mord	楶
 morhu	𠩣
-morm	𠪈
-moru	𠪦
 moru	𢁁
 morye	豭
 moryo	蹷
@@ -49066,6 +49066,7 @@ mromi	𠾥
 mromi	𬒊
 mroml	砱
 mromm	硷
+mromm	𮁈
 mromn	䃋
 mromn	𥐬
 mromn	𦧈
@@ -49081,7 +49082,6 @@ mrop	𥒨
 mropd	砤
 mropd	𦧓
 mrord	𮀮
-mrorm	𮁈
 mrotf	𥕻
 mrotq	𪢦
 mrovi	𥒛
@@ -56052,6 +56052,7 @@ ohj	仟
 ohjd	侏
 ohje	𪝒
 ohjg	偅
+ohjg	𡌫
 ohjm	倕
 ohjn	𬽰
 ohjp	𠌤
@@ -57618,6 +57619,7 @@ omj	𫢉
 omjb	𬽮
 omjd	𥣠
 omje	𠈯
+omjg	𡌫
 omjk	㒈
 omjn	𬽰
 omjr	舍
@@ -57755,17 +57757,25 @@ omrd	𠋸
 omrd	𠏸
 omrd	𣑠
 omre	㿯
+omrf	𮪁
+omrg	𡋛
 omrg	𤥓
+omrg	𪼉
 omrh	𨈿
+omrh	𭃟
 omri	𡄬
+omri	𧊧
 omri	𧕙
 omri	𫣣
 omrj	𪝬
+omrj	𫣘
 omrl	命
 omrl	𠎏
 omrm	翕
 omrm	鿖
+omrn	𡢣
 omro	僉
+omro	𠈏
 omro	𧿍
 omrp	龕
 omrp	龛
@@ -57794,6 +57804,7 @@ omrw	偪
 omrw	畣
 omrw	𨠭
 omrx	𠍗
+omry	𫕽
 omrys	𥐃
 omsc	𮙿
 omse	𫢿
@@ -58916,7 +58927,6 @@ orbr	𠕧
 orbsd	𠎈
 orbt	𬐚
 orbuc	䝷
-orbvn	𡢣
 orc	伿
 orci	𭉽
 orcr	𧧹
@@ -58926,8 +58936,6 @@ ordf	䳰
 ore	𬽹
 orfdt	𠑜
 orfq	𠵵
-org	𡋛
-org	𡌫
 orhaf	鴿
 orhaf	鶬
 orhaf	鵨
@@ -58955,8 +58963,6 @@ orjrr	舘
 orks	𪜯
 orli	𧌲
 orlk	𮍸
-orlmi	𧊧
-orlmy	𫕽
 orln	創
 orln	㓣
 orln	㓧
@@ -58969,7 +58975,6 @@ ormbo	颌
 ormcw	䣽
 ormg	侱
 ormg	𭹖
-ormgg	𪼉
 ormi	𠍰
 ormk	俣
 ormlm	𠼞
@@ -58992,7 +58997,6 @@ ornl	𬪊
 orno	欱
 orno	𣢺
 ornwf	𩸔
-oro	𠈏
 orog	䧻
 orog	䧾
 orog	𩀞
@@ -59011,7 +59015,6 @@ orpa	𠊽
 orpru	𠌑
 orpym	鸽
 orq	㧱
-orqjj	𫣘
 orr	侣
 orr	𠰞
 orrau	𮟺
@@ -59031,7 +59034,6 @@ orrsn	𪿍
 orru	𠋨
 orrvc	𦧸
 orrxu	鼅
-orsh	𭃟
 orshc	𠟐
 orshi	𠞴
 orsj	偮
@@ -59042,7 +59044,6 @@ orsme	𫤆
 orsmm	翖
 orsmm	䎏
 orsn	𬾋
-orsqf	𮪁
 ortgt	𫇙
 ortm	𭉀
 oru	㐶
@@ -61332,6 +61333,7 @@ pomn	忾
 pomo	憸
 pomr	恰
 pomr	匌
+pomt	𢜰
 pomt	𢠏
 pomv	愉
 pomvn	㽈
@@ -61354,7 +61356,6 @@ popd	𢘬
 popj	𫺆
 porn	𭞶
 porr	𢠑
-port	𢜰
 poryo	𧿗
 posk	𢙬
 posmb	𢑼
@@ -64216,6 +64217,7 @@ qomd	捈
 qomg	拴
 qomg	拰
 qomi	𪭯
+qomj	𪮷
 qomj	𭠛
 qoml	掵
 qoml	拎
@@ -64282,7 +64284,6 @@ qoqo	㚘
 qoqoc	𮚡
 qora	𫽰
 qord	㨐
-qorj	𪮷
 qorq	搿
 qorr	𢰈
 qort	𪮝
@@ -67842,6 +67843,7 @@ romr	哈
 romr	啥
 romr	哬
 romt	啽
+romt	𠹞
 romv	喩
 romv	𠹸
 romwo	𪢋
@@ -67884,7 +67886,6 @@ rore	𠽙
 rork	𭍍
 roroo	𨆬
 rorq	𭌸
-rort	𠹞
 rose	𠸬
 rosk	咿
 rosmm	䟳
@@ -70405,6 +70406,7 @@ sfomo	験
 sfomo	𩥾
 sfomr	騇
 sfoms	𩦰
+sfomt	𮪓
 sfomv	騟
 sfon	𩡹
 sfond	𩥀
@@ -70413,7 +70415,6 @@ sfooo	𩥗
 sfoos	𩥨
 sfopd	駞
 sforr	𮪗
-sfort	𮪓
 sfose	𩤨
 sfoye	𩣓
 sfp	𢚪
@@ -75656,6 +75657,7 @@ tjolk	𩌖
 tjoll	𩉡
 tjolo	𩋍
 tjoma	𩌞
+tjomb	𩌒
 tjomb	𮒇
 tjomd	䩣
 tjome	𩌻
@@ -75675,7 +75677,6 @@ tjonq	𮧨
 tjop	靴
 tjopd	𩉻
 tjopj	𫖇
-tjorb	𩌒
 tjotb	𮧫
 tjoto	𩍩
 tjow	𮒙
@@ -77070,6 +77071,7 @@ tomav	養
 tomb	菕
 tomb	蘥
 tomb	𦿈
+tomb	𮐯
 tomb	𮒯
 tombc	𩔀
 tombc	𩕱
@@ -77090,12 +77092,14 @@ tomn	萮
 tomn	芞
 tomn	𮎡
 tomo	薟
+tomp	𣩾
 tomp	𦷋
 tomp	𦾤
 tomr	荷
 tomr	荅
 tomr	𦰒
 tomr	𦲧
+tomr	𧄮
 toms	𦻏
 toms	𦾓
 tomt	葊
@@ -77154,15 +77158,12 @@ topym	鹲
 toq	𦮴
 toqb	蒨
 toqc	𮑫
-torb	𮐯
 torc	𧂃
 tord	葆
 tord	𧁫
 tore	𦹜
 torn	𦺗
 torn	𦼃
-torp	𣩾
-torr	𧄮
 tose	葠
 tose	𦺭
 tosi	𬝑
@@ -80248,6 +80249,7 @@ uomo	𡸴
 uomo	𡽗
 uomr	峇
 uomr	峆
+uomt	𡹮
 uomu	𭗙
 uomv	崳
 uomv	嵛
@@ -80277,7 +80279,6 @@ uopd	𡶊
 uopj	㟆
 uopo	嵚
 uorr	𡻵
-uort	𡹮
 uoru	𢀺
 uotj	𡴖
 uotj	𡴟
@@ -84038,6 +84039,9 @@ voln	𠟣
 vom	㚱
 voma	嬒
 vomb	婨
+vomb	𡡽
+vomb	𭒚
+vomb	𭒬
 vombc	𩔂
 vomc	娦
 vomcw	𨣻
@@ -84052,6 +84056,7 @@ vomm	嬆
 vomm	𫰰
 vomn	媮
 vomo	嬐
+vomq	𫱗
 vomr	姶
 vomr	𡞆
 vomt	媕
@@ -84077,13 +84082,9 @@ vopj	𫰡
 voq	姩
 voqc	𡢻
 vora	𡡧
-vorb	𡡽
-vorb	𭒚
-vorb	𭒬
 vorbq	𮌩
 vord	媬
 voro	𡟐
-vorq	𫱗
 vorvp	𭯰
 vosk	𡜬
 vosmm	𦑙
@@ -90137,6 +90138,7 @@ yromp	𫍆
 yromp	𮙄
 yromr	詥
 yromr	𧨂
+yromt	𧩸
 yromv	諭
 yron	訖
 yron	𧥷
@@ -90154,7 +90156,6 @@ yroom	𧭯
 yrop	訛
 yropd	𧦧
 yropd	𧦭
-yrort	𧩸
 yrotb	𬣈
 yrotf	譕
 yroto	𧭎
