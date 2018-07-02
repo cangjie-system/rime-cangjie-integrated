@@ -5422,6 +5422,7 @@ buice	睃
 buid	𥄵
 buidd	𥊚
 buig	𥅾
+buigf	𪿅
 buigp	𥌾
 buih	𪾤
 buihf	𥉷
@@ -5451,7 +5452,6 @@ builr	瞊
 buimo	𪾪
 buine	眿
 buino	𭾣
-buiof	𪿅
 buiok	䀵
 buipf	𥌜
 buipm	𥅞
@@ -7146,6 +7146,7 @@ cihu	兊
 cihv	𨩆
 cii	錢
 cii	鉱
+ciib	𫓘
 ciih	鏒
 ciih	𠔭
 ciijb	𭁓
@@ -7189,7 +7190,6 @@ cine	𨥭
 cing	𨫆
 cinl	𮟭
 cino	𮡿
-ciob	𫓘
 ciod	𮣏
 ciof	𮣤
 ciog	𨫈
@@ -10039,6 +10039,7 @@ dihu	㭇
 dihv	楲
 dii	棧
 diib	樃
+diib	𭬙
 diid	𬃩
 diie	𪲮
 diif	𣚎
@@ -10086,7 +10087,6 @@ ding	榳
 dinl	𨙯
 dinq	𩛥
 dinwf	𩸝
-diob	𭬙
 diob	𭬶
 diod	檪
 diog	𣖵
@@ -31553,7 +31553,9 @@ ifyxf	𮂧
 ig	庄
 ig	𡈽
 igb	膺
+igbbb	𩪠
 igbt	䀅
+igbu	𥊹
 igbuc	𧸛
 igc	𨧽
 igc	𨭻
@@ -31610,6 +31612,7 @@ igvo	𨇭
 igymr	譍
 igyo	𢈩
 igyr	𢊫
+igyyb	𭚑
 ih	戊
 ih	丷
 ihaf	𩾦
@@ -31856,8 +31859,11 @@ iim	疒
 iim	氵
 iim	㦯
 iimhn	𠙃
+iimk	𢉶
 iimmi	𬽂
 iimnk	𪞧
+iimnp	𣩇
+iimrt	𫎃
 iimt	𦫍
 iimvn	𤭒
 iind	𪦽
@@ -31905,6 +31911,7 @@ iiwp	𢊩
 iixp	廘
 iiye	𣀨
 iiye	𭤅
+iiyhv	𪪠
 iiypn	虦
 iiypu	虦
 iiyrj	𪭛
@@ -32618,9 +32625,7 @@ iog	垐
 iog	㢈
 iog	𨾓
 iog	𫻼
-iogb	𩪠
 iogb	𭙶
-iogb	𭚑
 ioge	𢊄
 iogf	𪈲
 iogf	𫠕
@@ -32631,7 +32636,6 @@ iogk	𫷿
 iogr	𠸆
 iogr	𭙲
 iogs	𢋄
-iogu	𥊹
 iohaf	鶊
 iohaf	䳐
 iohd	秶
@@ -32639,12 +32643,8 @@ iohqu	𣮒
 ioic	𢋞
 ioii	㡵
 ioik	𢉡
-ioik	𢉶
 ioin	庈
-ioip	𣩇
 ioir	𭙞
-ioit	𫎃
-ioiv	𪪠
 ioiv	𫷸
 ioju	𢈊
 ioju	𢉓
@@ -45609,6 +45609,7 @@ mgice	㻐
 mgid	㺷
 mgifr	𭹮
 mgigi	𤥦
+mgigp	𭺓
 mgih	𭸿
 mgihf	𤨟
 mgihm	珬
@@ -45642,7 +45643,6 @@ mgilp	𤥟
 mgilr	瑭
 mgine	𤤯
 mging	𤧻
-mgiop	𭺓
 mgipm	𪻙
 mgiq	𬍙
 mgir	珆
@@ -50933,11 +50933,11 @@ nbhyo	𧤫
 nbhyu	䚦
 nbi	㦷
 nbi	𢨌
+nbigf	𬷺
 nbihi	𥎕
 nbii	𧣴
 nbije	觩
 nbino	𮗧
-nbiof	𬷺
 nbipf	𧥍
 nbiq	𬢕
 nbirm	𧣼
@@ -58165,12 +58165,12 @@ ooi	𢦜
 ooi	𢨔
 ooi	𭟲
 ooic	僋
+ooigb	𦢻
 ooii	伶
 ooik	𬾴
 ooin	仱
 ooin	𠍃
 ooin	𫢣
-ooiob	𦢻
 ooip	㑫
 ooir	傖
 ooiu	𠑬
@@ -63194,6 +63194,7 @@ qifu	𢬦
 qig	垫
 qig	𢬂
 qigi	𪭽
+qigp	𪯂
 qih	㧔
 qihf	摵
 qihf	搣
@@ -63256,7 +63257,6 @@ qioi	捬
 qiok	挨
 qiok	𫾳
 qion	𢴜
-qiop	𪯂
 qiov	𢱅
 qip	𢩮
 qip	𪫷
@@ -66185,6 +66185,7 @@ rifu	𠲥
 rifu	𠺷
 rifu	𫩵
 rig	𠲕
+rigp	𡄖
 rihf	嘁
 rihf	𠷼
 rihi	𠲌
@@ -66248,7 +66249,6 @@ rinoi	𮕊
 rinq	𭊺
 riog	雖
 riok	唉
-riop	𡄖
 riop	𭌃
 rior	𭉊
 riou	𠷄
