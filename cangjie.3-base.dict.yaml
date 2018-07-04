@@ -7008,6 +7008,7 @@ chnl	𨥩
 chno	𣢏
 chnq	𬬁
 chnr	鉛
+chnue	𭄃
 chnyj	𣁺
 chob	𨪗
 chob	𮣜
@@ -7079,7 +7080,6 @@ chud	鎳
 chug	𨪹
 chug	𨪽
 chui	𮡺	[!]
-chune	𭄃
 chup	鎴
 chup	𨥌
 chvf	𫒠
@@ -7796,6 +7796,7 @@ cnst	𨩙
 cntcg	𭶽
 cnue	䤴
 cnue	𨧍
+cnue	𫒶
 cnus	𨩯
 cnuw	𨪿
 cnvm	𨰾
@@ -8497,7 +8498,6 @@ cumj	𭀧
 cumj	𭕍
 cumso	䝇
 cumt	鎧
-cune	𫒶
 cuno	𬫘
 cuno	𭭌
 cuob	鑴
@@ -26463,6 +26463,7 @@ hnu	𠘳
 hnu	𡵹
 hnu	𩖞
 hnue	䈄
+hnue	𮅮
 hnumt	𩘥
 hnuu	𠘼
 hnuu	𩖷
@@ -29110,7 +29111,6 @@ hunbe	𭯟
 hund	𡥲
 hund	𣬥
 hund	𩲇
-hune	𮅮
 hung	𦤊
 hunhb	𣰇
 hunhe	𣬬
@@ -31276,6 +31276,7 @@ ifnsr	𥙯
 ifnsr	𥚁
 ifnsr	𥚣
 ifnsr	𮂁
+ifnue	𫀛
 ifnvm	祃
 ifnwg	𥛿
 ifo	𢇭
@@ -31458,7 +31459,6 @@ ifujf	𥛢
 ifujk	𥚄
 ifujt	𥜨
 ifumj	𬓀
-ifune	𫀛
 ifunf	𥙧
 ifunn	𬒼
 ifuo	𥘍
@@ -45972,6 +45972,7 @@ mgnqd	㻧
 mgnrp	𬍹
 mgnsd	琤
 mgnsh	玚
+mgnue	𪻱
 mgnus	𤧔
 mgnvm	玛
 mgnwc	𬎘
@@ -46325,7 +46326,6 @@ mgulu	𡐜
 mgumb	瑞
 mgumr	𬍰
 mgumt	𤧸
-mgune	𪻱
 mguob	瓗
 mguog	璀
 mguoh	𬍮
@@ -64106,6 +64106,7 @@ qnst	㨕
 qnsv	𢳫
 qntl	𢸞
 qntn	𢷚
+qnue	𭡝
 qnui	𢯂
 qnus	𢱍
 qnuy	搀
@@ -64862,7 +64863,6 @@ qumrb	鬹
 qumrb	鬶
 qumt	㨟
 qund	𡦑
-qune	𭡝
 qunl	𨙲
 quno	𢫂
 quob	攜
@@ -70362,6 +70362,7 @@ sfnoo	騛
 sfnot	䮴
 sfnou	𩤗
 sfnqd	䮪
+sfnue	𮪔
 sfnui	𩣮
 sfnwf	𩥭
 sfo	𩡬
@@ -70555,7 +70556,6 @@ sfumf	𩤧
 sfumj	䮗
 sfumt	𩥉
 sfune	𩣞
-sfune	𮪔
 sfuob	驨
 sfuok	𩥘
 sfuos	𩧎
@@ -83965,6 +83965,7 @@ vnsm	㛀
 vnst	𡟚
 vntmc	𬌋
 vnue	𡞿
+vnue	𫱂
 vnui	婏
 vnum	嬎
 vnum	嬔
@@ -84498,7 +84499,6 @@ vumj	婩
 vumn	𪥭
 vumr	㛧
 vumt	㜐
-vune	𫱂
 vunk	媺
 vuob	孈
 vuob	𡠱
@@ -90072,6 +90072,7 @@ yrnqd	謋
 yrnri	讒
 yrnsd	諍
 yrnsd	𧧇
+yrnue	𬢲
 yrnup	𧩷
 yrnuu	䜛
 yrnwa	𧭷
@@ -90476,7 +90477,6 @@ yruku	𧧗
 yrum	𧥳
 yrumb	諯
 yrumt	𧪚
-yrune	𬢲
 yruob	讗
 yruob	𧫶
 yruob	𧮋
