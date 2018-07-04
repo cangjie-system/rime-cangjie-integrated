@@ -4323,6 +4323,7 @@ bmu	𠕶
 bmu	𡸭
 bmua	䐶
 bmue	冦
+bmue	𦜆
 bmui	冠
 bmuj	𪞒
 bmuk	𭁵
@@ -7122,6 +7123,7 @@ chml	釿
 chml	𨨎
 chmm	𨯏
 chmr	銗
+chmue	𭄃
 chmvn	𤭌
 chn	釠
 chn	𡯂
@@ -7821,6 +7823,7 @@ cmtn	鉶
 cmto	鐝
 cmu	𠃽
 cmua	鐕
+cmue	䤴
 cmue	𮢩
 cmui	𬫿
 cmvb	䥎
@@ -11050,6 +11053,7 @@ dmu	杌
 dmua	橬
 dmub	𣠟
 dmue	榎
+dmue	㮀
 dmug	𣒸
 dmvb	𣘣
 dmvg	𣖭
@@ -14615,6 +14619,7 @@ emu	𣲍
 emua	潛
 emub	灊
 emuc	𤂯
+emue	涵
 emue	𭱣
 emuf	𣾤
 emui	𣸀
@@ -27639,6 +27644,7 @@ homtq	𢮣
 homu	𥳸
 homu	𥴔
 homu	𮅛
+homue	𢔈
 homun	衏
 homun	𧗨
 homun	𧗭
@@ -29348,6 +29354,7 @@ htmnn	𮕠
 htmo	篏
 htms	𥵚
 htmso	𧖹
+htmue	𧖾
 htmv	𥯓
 htmvi	𧗈
 htmvs	𧖨
@@ -33144,6 +33151,7 @@ immr	㓈
 immr	𢈪
 imms	𢇡
 immth	𫥍
+immue	𠗙
 immv	𢈫
 immvh	冴
 immvi	𠖱	[o]
@@ -41365,6 +41373,7 @@ lbmrw	幅
 lbmso	䝉
 lbmtc	𫷒
 lbmto	𢅅
+lbmue	𢃗
 lbmvn	㼙
 lbmwf	幖
 lbmwj	𢅀
@@ -42545,6 +42554,7 @@ limtn	𧊞
 limto	蟩
 limu	𧈭
 limu	𧉋
+limue	蜬
 limue	𧏡
 limue	𮕈
 limvh	蚜
@@ -43674,6 +43684,7 @@ lmtb	𧞝
 lmtb	𧞵
 lmto	䙠
 lmua	𧝆
+lmue	䘶
 lmuo	兆
 lmuoa	𠒮
 lmuoc	頫
@@ -45343,6 +45354,7 @@ mbmtc	𩂳
 mbmth	𩃋
 mbmu	𩂁
 mbmua	𩅨
+mbmue	䨡
 mbmui	𩃾
 mbmui	𩄁
 mbmvi	𡭃
@@ -47376,6 +47388,7 @@ mgmtb	𤪲
 mgmua	㻸
 mgmue	𤧶
 mgmue	𦥍
+mgmue	𪻱
 mgmvh	玡
 mgmvi	𤤈
 mgmvn	珁
@@ -50512,6 +50525,7 @@ mrmtq	𥓨
 mrmtq	𮀶
 mrmu	矹
 mrmua	䃡
+mrmue	𥓞
 mrmue	𥔹
 mrmvb	磭
 mrmvh	砑
@@ -55074,6 +55088,7 @@ nlmt	𨸦
 nlmu	阢
 nlmua	𨼐
 nlmub	𨽨
+nlmue	𨺂
 nlmui	𨽳
 nlmvg	𨻋
 nlmvi	𨸞
@@ -69564,6 +69579,7 @@ rmua	噆
 rmub	𠚙
 rmubb	蹦
 rmue	嗄
+rmue	㖤
 rmue	𠷛
 rmuhn	𨅏
 rmui	嘎
@@ -78715,6 +78731,7 @@ tmtxc	㽐
 tmu	𡵽
 tmu	𦬂
 tmua	𦻳
+tmue	菡
 tmue	𦷜
 tmui	𦯿
 tmui	𦸘
@@ -82199,6 +82216,7 @@ umu	𡵉
 umu	𡵤
 umua	嶜
 umudm	𡽒
+umue	崡
 umue	𡺷
 umv	妛
 umvh	岈
@@ -86016,6 +86034,7 @@ vmu	𡚲
 vmu	𫄙
 vmua	𡡖
 vmue	𡟺
+vmue	𫱂
 vmuob	𫄹
 vmuog	𮉮
 vmuu	绌
@@ -86704,7 +86723,6 @@ vuks	𫦳
 vum	𡛢
 vumb	媏
 vumbc	𩔪
-vume	𫱂
 vumf	㛶
 vumi	媸
 vumj	婩
