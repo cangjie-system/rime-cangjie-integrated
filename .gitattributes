@@ -3,3 +3,4 @@ LICENSE text
 *.md text
 *.yaml text
 *.txt text
+*.dict.yaml diff=yamldict
