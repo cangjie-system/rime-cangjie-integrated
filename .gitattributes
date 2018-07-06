@@ -4,4 +4,5 @@ LICENSE text
 *.yaml text
 *.txt text
 *.py text
+*.dict.yaml diff=yamldict
 /resources/** -text
