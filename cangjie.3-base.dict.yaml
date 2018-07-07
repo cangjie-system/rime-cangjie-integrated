@@ -16726,6 +16726,7 @@ fdogl	𫃃
 fdohh	𮇏
 fdoim	䊱
 fdoio	𥽁
+fdoip	𥺴
 fdoiv	𮇯
 fdok	敉
 fdok	敩
@@ -16738,7 +16739,6 @@ fdomc	𮇡
 fdomd	𥺌
 fdomi	𥹕
 fdomo	𥽋
-fdomp	𥺴
 fdomr	粭
 fdomr	𥻲
 fdon	籺
@@ -21870,6 +21870,7 @@ haoho	𭽖	[uv]
 haoic	𬳦
 haoii	皊
 haoin	𩠻
+haoip	𤽿
 haoir	馠
 haoju	𤽦
 haok	敀
@@ -21878,7 +21879,6 @@ haok	𬐇
 haomg	𫗽
 haomi	𩡁
 haoml	皊
-haomp	𤽿
 haomr	𤾙
 haon	𤽍
 haov	𥭷
@@ -26891,6 +26891,7 @@ hoio	𬕬
 hoiok	𢓪
 hoip	笩
 hoip	𢓀
+hoip	𥮘
 hoipf	𢖐
 hoir	篬
 hoir	筨
@@ -27070,7 +27071,6 @@ homo	簽
 homo	𥱣
 homo	𬕈
 homon	𧗡
-homp	𥮘
 homp	𬕷
 homr	答
 homr	𥮆
@@ -27953,6 +27953,7 @@ hqohh	𤙁
 hqohu	𤙚
 hqoii	㸳
 hqoin	𤘡
+hqoip	𤚋
 hqok	牧
 hqok	𢾹
 hqok	𮅳
@@ -27965,7 +27966,6 @@ hqomg	牷
 hqoml	㸳
 hqomm	𤛣
 hqomn	𤚎
-hqomp	𤚋
 hqomr	𤙱
 hqomr	𤚬
 hqomr	𤚻
@@ -32672,6 +32672,7 @@ ioic	𢋞
 ioii	㡵
 ioik	𢉡
 ioin	庈
+ioip	𢈸
 ioir	𭙞
 ioiv	𫷸
 ioju	𢈊
@@ -32694,7 +32695,6 @@ ioml	㡵
 iomn	㢏
 iomn	𢦟
 iomo	㢛
-iomp	𢈸
 iomr	𢈁
 iomr	𢈈
 iomr	𢉃
@@ -42886,6 +42886,7 @@ loii	袊
 loik	袱
 loim	襳
 loin	衿
+loip	𧛋
 loir	𧚼
 loir	𬡧
 loiv	𧛄
@@ -42904,7 +42905,6 @@ loml	袊
 lomm	裣
 lomn	褕
 lomo	襝
-lomp	𧛋
 lomr	袷
 lomv	褕
 lomy	𧝅
@@ -46343,6 +46343,7 @@ mgoii	𬍦
 mgoin	琴
 mgoin	玪
 mgoip	玳
+mgoip	𤦬
 mgoir	瑲
 mgoir	琀
 mgoj	玝
@@ -46371,7 +46372,6 @@ mgoml	𬍱
 mgomm	𪼜
 mgomm	𭸹
 mgomn	瑜
-mgomp	𤦬
 mgomp	𤪂
 mgomr	珨
 mgomr	𤦜
@@ -50804,6 +50804,7 @@ mwoim	𩉔
 mwoin	䩂
 mwoin	𨟹
 mwoip	𨠍
+mwoip	𨡎
 mwoir	䣻
 mwoir	䤌
 mwoir	𩈣
@@ -50819,7 +50820,6 @@ mwomm	𫑷
 mwomn	䤅
 mwomo	醶
 mwomo	䩎
-mwomp	𨡎
 mwomt	𨢴
 mwomv	䤅
 mwomv	𨢁
@@ -52990,12 +52990,12 @@ nhobo	𦚇
 nhog	𨾣
 nhoii	矝
 nhoin	矜
+nhoip	𥍵
 nhok	敄
 nhokj	𥎟
 nhoks	務
 nholb	𥍦
 nhoml	矝
-nhomp	𥍵
 nhomr	𥎄
 nhond	𥎃
 nhonk	䂉
@@ -71447,6 +71447,7 @@ shohh	𩬖
 shohp	𫬯
 shoi	𭃝
 shoim	𩰁
+shoip	𩭮
 shoip	𭃮
 shoir	𩮩
 shoiu	𩰈
@@ -71463,7 +71464,6 @@ shoma	鬠
 shomc	鬂
 shomi	𩬔
 shomi	𫘽
-shomp	𩭮
 shomr	𩭆
 shomv	𩮍
 shon	𠚮
@@ -75995,6 +75995,7 @@ tjohn	𩉳
 tjohw	𩌎
 tjoik	𩊙
 tjoin	靲
+tjoip	𩋏
 tjojj	𩋱
 tjok	𢾳
 tjok	𩉩
@@ -76014,7 +76015,6 @@ tjomf	𮧭
 tjomi	𩊂
 tjomk	鞭
 tjomn	䩱
-tjomp	𩋏
 tjomr	鞈
 tjomt	鞥
 tjomv	䩱
@@ -82438,6 +82438,7 @@ vfoii	紷
 vfoik	絥
 vfoim	纖
 vfoin	紟
+vfoip	𦁤
 vfoir	𦃹
 vfoiu	𦈂
 vfoiv	𫄑
@@ -82472,7 +82473,6 @@ vfomm	𦅖
 vfomn	緰
 vfomo	䌞
 vfomp	𦁇
-vfomp	𦁤
 vfomr	給
 vfoms	𥿐
 vfomv	緰
@@ -85524,6 +85524,7 @@ wfoge	𪒊
 wfohh	𪐲
 wfohv	𪑄
 wfoin	黔
+wfoip	𪑡
 wfok	𪐫
 wfokr	𪑜
 wfoll	𪐱
@@ -85532,7 +85533,6 @@ wfomd	𪑏
 wfomi	𪐸
 wfomi	𪑅
 wfomo	𪒫
-wfomp	𪑡
 wfomr	𪑇
 wfomt	黭
 wfon	𪐜
