@@ -555,6 +555,7 @@ ailn	𠠡
 ailr	𪰼
 aimbc	䫀
 aimi	𣇝
+aiml	𣇝
 aimln	𤮦
 aimlu	既
 aimu	𣇈
@@ -1788,6 +1789,7 @@ atof	𬁞
 atog	㬮
 atog	𣌖
 atoi	𣉏
+atol	𣉏
 atoo	𣋸
 atos	𣋭
 atpd	𣋑
@@ -2347,6 +2349,7 @@ bbmbc	䫚
 bbmbc	𩔋
 bbmbe	𩩹
 bbmbi	𩪥
+bbmbl	𩪥
 bbmd	骬
 bbmdm	𩪸
 bbme	䐘
@@ -5326,6 +5329,7 @@ buhhh	䀐
 buhhh	𢒎
 buhhi	𠖝
 buhhj	睥
+buhhl	𠖝	[uv]
 buhhl	𥄸
 buhhp	𥌐
 buhhu	𥉨
@@ -12554,6 +12558,7 @@ ebkf	𤄩
 ebkf	𪷖
 ebkg	𤄬
 ebki	𪷶
+ebkl	𪷶
 ebkm	㶉
 ebkn	𣳞
 ebkn	𤄨
@@ -32125,6 +32130,7 @@ ilb	𢁔
 ilbk	𭙘
 ilbu	𢇧
 ilcp	𢞢
+ild	𪲜
 ile	康
 ilep	𢠓
 ilf	𠫩
@@ -32441,6 +32447,8 @@ imoj	𠖴
 imolj	𫥜
 imolm	𫥕
 imolm	𭂤
+imoln	𪞠
+imoln	𪞧
 imolr	𫥘
 imoly	𫥖
 imoma	𠘎
@@ -44292,12 +44300,14 @@ mbohg	𫕤
 mbohm	𩃐
 mbohn	𩃥
 mboii	零
+mboii	𩄈
 mboim	𩆷
 mboin	𩂇
 mboip	𩂠
 mbojk	𮦙
 mbolf	䨹
 mboli	𩃪
+mboli	𩄈
 mboma	𩃫
 mboma	𩆁
 mbome	𩄸
@@ -44308,7 +44318,6 @@ mbomr	䨐
 mbomv	𬰅
 mbon	厕
 mboni	𩂙
-mboni	𩄈
 mbonk	𩃺
 mbonq	𩅋
 mbooi	𩃔
@@ -55989,6 +55998,7 @@ odoj	𠓼
 odok	敘
 odok	𢼏
 odok	𪝅
+odol	𪝎
 odomd	𠎳
 odoo	倈
 odp	怹
@@ -56737,6 +56747,7 @@ oihuk	𩝠
 oihup	䭒
 oihv	𠋘
 oihvi	䬫
+oihvo	𤫲
 oihxe	餿
 oii	俴
 oii	𩚧
@@ -57740,8 +57751,10 @@ olhm	翛
 olhne	𪵍
 olhni	𮨨
 olhp	𠐃
+olhqu	𣬹
 olhu	𠌪
 olhu	𬾱
+olhvo	𤫲
 olhw	偹
 olhy	𠗆
 olid	𠋞
@@ -58183,10 +58196,14 @@ omsl	卸
 omsl	令
 omsl	𨗜
 omsm	𦏾
+omso	𠍐
+omso	𡦈
 omso	𪞚
 omsp	屔
+omsp	𪚙
 omsr	𫝉
 omsu	伌
+omsu	𥅍
 omsv	𬡌
 omt	𠆻
 omt	𠇋
@@ -66611,6 +66628,7 @@ rimf	𠷧
 rimi	唥
 rimi	𭉕
 rimk	𭉶
+riml	唥	[uv]
 rims	𡁧
 rine	咏
 rinn	𭇘
