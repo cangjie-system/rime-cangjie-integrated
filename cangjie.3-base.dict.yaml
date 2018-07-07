@@ -1527,6 +1527,7 @@ aoii	昤
 aoin	昑
 aoir	晗
 aoir	𪰻
+aoiv	𣈮
 aoj	旿
 aoje	𢻖
 aojk	𣈡
@@ -1559,7 +1560,6 @@ aomn	𣈯
 aomr	𣆗
 aoms	𣋌
 aomt	𣉂
-aomv	𣈮
 aomvn	㼵
 aomwr	𮧏
 aon	㫓
@@ -2402,6 +2402,7 @@ bbog	𮥾
 bbohm	𩨺
 bbohs	𩨧
 bboii	䯍
+bboiv	𩩶
 bbok	𢿳
 bboll	骱
 bbom	𩨼
@@ -2412,7 +2413,6 @@ bbomj	䯎
 bboml	䯍
 bbomr	𩩂
 bbomr	𩩗
-bbomv	𩩶
 bbon	𩨘
 bbonk	𩩵
 bbonr	𩩊
@@ -4525,6 +4525,7 @@ bonsd	𬥷
 boo	𠕎
 boog	脞
 boog	𨿸
+booiv	𩞺
 booju	罂
 book	败
 boomf	赊
@@ -4532,7 +4533,6 @@ boomk	𬥽
 boomo	𫎨
 boomr	𦊭
 boomr	𬥹
-boomv	𩞺
 boopd	𬥵
 boosu	𬥳
 bop	𠕿
@@ -4760,11 +4760,11 @@ brno	𣤍
 brob	脶
 brog	雕
 brog	𩀓
+broiv	𩟨
 brok	𫞆
 brok	𭣶
 bromd	𠕨
 bromr	𭊐
-bromv	𩟨
 bron	𦛽
 brp	𢛇
 brp	𢝯
@@ -10394,8 +10394,8 @@ dknwf	𩻜
 dknwf	𩻯
 dkoe	𣙉
 dkog	𨾕
+dkoiv	𩞕
 dkok	槉
-dkomv	𩞕
 dkoo	梜
 dkp	憗
 dkp	憖
@@ -10912,9 +10912,9 @@ dnob	楈
 dnod	𤴜
 dnoe	橃
 dnoi	𭫷
+dnoiv	𩛳
 dnok	楑
 dnom	𣐕
-dnomv	𩛳
 dnon	櫈
 dnoo	榌
 dnot	橙
@@ -11100,12 +11100,12 @@ doo	來
 doo	枞
 doog	桽
 doog	㭫
+dooiv	𩞌
 dook	𢽟
 dook	𣟺
 doom	𣞚
 doomb	𣛌
 doomr	𠎙
-doomv	𩞌
 dooo	𪲧
 dop	杹
 dop	𣑰
@@ -12923,10 +12923,10 @@ eeno	𣶛
 eenwf	𩸓
 eeof	㶃
 eeog	滩
+eeoiv	𩜥
 eeok	𢼅
 eeok	𣷜
 eeol	㴢
-eeomv	𩜥
 eeonn	𪷔
 eep	𭝙
 eep	𭰽
@@ -14021,9 +14021,9 @@ elnc	㵒
 elni	𣽖
 elno	𬈕
 elnu	𤄎
+eloiv	𩟗
 eloiv	𫗚
 elok	𭱳
-elomv	𩟗
 elp	𣷡
 elp	𭟌
 elq	津
@@ -19220,6 +19220,7 @@ genot	𣫤
 geog	𩀠
 geog	𩁡
 geoii	㲆
+geoiv	𩟚
 geoiv	𮩑
 geoju	罄
 geoju	𪔕
@@ -19229,7 +19230,6 @@ geoml	㲆
 geomr	䶀
 geomt	𣫨
 geomt	𥃟
-geomv	𩟚
 geont	𪔶
 geoym	𬆍
 gep	慤
@@ -23698,8 +23698,8 @@ heod	𥴽
 heog	𥲱
 heog	𩁄
 heog	𩁟
+heoiv	𩜔
 heok	𭤂
-heomv	𩜔
 heonn	𪵌
 heot	𥷟
 heoy	𬕧
@@ -24554,6 +24554,7 @@ hhohn	𨈨
 hhohq	𪺳
 hhoii	䠲
 hhoir	𮜹
+hhoiv	𩝶
 hhok	䉠
 hhok	䠶
 hhok	𢿬
@@ -24572,7 +24573,6 @@ hhoml	𨉟
 hhomn	䠼
 hhomo	𮜼
 hhomv	䠼
-hhomv	𩝶
 hhon	筕
 hhon	𥲋
 hhon	𥶽
@@ -25636,12 +25636,12 @@ hlo	爪
 hlo	𥫪
 hlo	𫢍
 hloe	𥵩
+hloiv	𩛁
 hlok	𪖖
 hlok	𪯱
 hlom	𪖛
 hloma	䶐
 hlomr	䶎
-hlomv	𩛁
 hlond	𪖴
 hlooj	𨻾
 hlowy	𪖫
@@ -26377,6 +26377,7 @@ hnoe	𪏭
 hnog	𨿖
 hnohh	𬓪
 hnoin	𩖦
+hnoiv	𩜾
 hnoiv	𮩄
 hnoju	𠙈
 hnok	𢼚
@@ -26389,7 +26390,6 @@ hnomi	𩖵
 hnomn	䬔
 hnomp	𩙍
 hnomv	䬔
-hnomv	𩜾
 hnond	𩘞
 hnonk	𩘋
 hnono	颴
@@ -27166,6 +27166,7 @@ hoogi	㣥
 hooii	彾
 hooim	𢖝
 hooin	衑
+hooiv	𩞐
 hooj	𠦬
 hoojl	𢓷
 hoojo	𨕽
@@ -27188,7 +27189,6 @@ hoomn	𧗞
 hoomn	𧗟
 hoomr	㣛
 hoomr	𭜇
-hoomv	𩞐
 hooo	籨
 hooo	𢓅
 hooo	𨑢
@@ -29189,6 +29189,7 @@ huoim	𣰷
 huoim	𪖎
 huoin	㲐
 huoir	𪕛
+huoiv	𩞚
 huok	㪇
 huok	𣬲
 huok	𥏋
@@ -29203,7 +29204,6 @@ huomr	𣭝
 huomr	𣮞
 huomr	𣯙
 huomv	毺
-huomv	𩞚
 huomv	𬲂
 huomy	𣯾
 huond	𣯘
@@ -30785,12 +30785,12 @@ idnin	𪎠
 idniu	𪎛
 idog	𩀪
 idogf	𣟼
+idoiv	𩞁
 idok	䵇
 idom	𩐕
 idomn	䵉
 idomn	𫜗
 idomv	䵉
-idomv	𩞁
 idoo	庲
 idop	𭞢
 idow	𢋢
@@ -30890,9 +30890,9 @@ ienl	𫑭
 ieno	㱂
 ienui	㕙
 ieog	𨿓
+ieoiv	𩛰
 ieok	救
 ieok	𢾅
-ieomv	𩛰
 iep	𢚡
 iep	𭜯
 iepym	𫛻
@@ -32070,8 +32070,8 @@ ikno	𤜹
 ikobo	𦛇
 ikog	𢊃
 ikog	𨾩
+ikoiv	𩜸
 ikomr	𮀈
-ikomv	𩜸
 ikoo	𢈙
 ikop	㥷
 ikp	龙
@@ -32924,9 +32924,9 @@ ipog	隿
 ipog	𨾍
 ipog	𪋇
 ipoiv	䬥
+ipoiv	𩞇
 ipok	𪊢
 ipomd	𪊸
-ipomv	𩞇
 ipoo	𢎂
 ipoog	𭏿
 ipop	㓒
@@ -35123,8 +35123,8 @@ jiob	𡭇
 jiobo	胾
 jiog	截
 jioiv	𬲏
+jioiv	𬲏
 jiok	𭤈
-jiomv	𬲏
 jip	惠
 jipf	𪧝
 jips	㢤
@@ -36146,7 +36146,7 @@ jmnt	㿾
 jmog	𡑫
 jmog	𩀈
 jmoi	𭭣
-jmomv	𩝩
+jmoiv	𩝩
 jmoog	𭅨
 jmp	惪
 jmpk	𡧴
@@ -36695,8 +36695,8 @@ jrno	𣤄
 jrnq	𫳶
 jrobo	𦢽
 jrog	䧸
+jroiv	𩟸
 jrok	故
-jromv	𩟸
 jroy	𪞟
 jrp	怘
 jrpym	鸪
@@ -36935,8 +36935,8 @@ juncr	𠓏
 junmu	𫶺
 junq	𫳏
 junwf	𠓈
+juoiv	𩝓
 juok	𢽉
-juomv	𩝓
 jupym	鹓
 jurps	𠒠
 juryo	𨇜
@@ -39205,6 +39205,7 @@ koim	𤼋
 koin	𤴽
 koir	瘡
 koir	𭼒
+koiv	𤸤
 koj	𡗧
 koj	𤵍
 kok	疾
@@ -39238,7 +39239,6 @@ komr	㾑
 komu	𤷝
 komu	𤺠
 komv	瘉
-komv	𤸤
 komvn	㼪
 komwl	𩈧
 kon	疙
@@ -42978,8 +42978,8 @@ lpmu	𡷒
 lpnbc	𧶙
 lpnd	𪜜
 lpnl	𫑜
+lpoiv	𩚾
 lpom	𠤢
-lpomv	𩚾
 lpoq	𪪈
 lpou	裪
 lpp	𢘠
@@ -44692,9 +44692,9 @@ mdno	𬅞
 mdnyo	𠪴
 mdobo	𦠩
 mdog	𨾌
+mdoiv	𩞨
 mdok	㪀
 mdomb	𪿽
-mdomv	𩞨
 mdoo	𠩬
 mdp	𠪾
 mdp	𢟍
@@ -48381,6 +48381,7 @@ moio	𫨜
 moirm	𬥂
 moisn	豟
 moiuh	𧱓
+moiv	𠩸
 moj	𠨺
 mojcm	𧱡
 mojd	𧱍
@@ -48445,7 +48446,6 @@ momr	𥕳
 momso	豩
 momt	豜
 momu	𠪦
-momv	𠩸
 momvb	𧱽
 momvn	瓷
 mon	乲
@@ -50808,6 +50808,7 @@ mwoip	𨡎
 mwoir	䣻
 mwoir	䤌
 mwoir	𩈣
+mwoiv	𨢁
 mwoll	𩈋
 mwom	𧟬
 mwoma	𧟸
@@ -50822,7 +50823,6 @@ mwomo	醶
 mwomo	䩎
 mwomt	𨢴
 mwomv	䤅
-mwomv	𨢁
 mwomw	𫤊
 mwond	𮠼
 mwoo	𠩛
@@ -53145,8 +53145,8 @@ niob	𢏟
 niobo	𮌉
 niog	𨿮
 nioiv	飧
+nioiv	𩚏
 niok	𢏦
-niomv	𩚏
 niowy	𫯎
 nip	𡖅
 nip	𢙰
@@ -53302,7 +53302,7 @@ nkog	䨁
 nkog	𩀁
 nkohh	𢌝
 nkoiv	饏
-nkomv	𩝕
+nkoiv	𩝕
 nkp	愗
 nkp	憨
 nkp	㤵
@@ -55127,8 +55127,8 @@ nsnl	邹
 nsnn	𫡐
 nsno	𢏉
 nsog	雏
+nsoiv	𩜕
 nsok	𭣦
-nsomv	𩜕
 nsovf	𫕗
 nsp	急
 nsp	𢗂
@@ -55281,9 +55281,9 @@ nuno	𣣖
 nunsd	𡥸
 nuog	𨾼
 nuoin	𪚬
+nuoiv	𩚴
 nuok	𢼮
 nuom	𪚺
-nuomv	𩚴
 nup	怨
 nupi	𪚭
 nupr	𪚶
@@ -56955,6 +56955,7 @@ oint	𬐪
 oinu	𥅍
 oinuy	𩝎
 oinv	衾
+oinv	𩚜
 oinv	𬡌
 oinw	酓
 oinw	𮊀
@@ -57583,11 +57584,11 @@ okog	雉
 okog	𠌱
 okog	𮥶
 okogl	𫡍
+okoiv	𩛢
 okoju	𫄿
 okok	㑵
 okok	𥎪
 okomr	𥏲
-okomv	𩛢
 okon	𠋙
 okoo	俠
 okoo	𠓵
@@ -58403,7 +58404,6 @@ onok	𫿋
 onom	𠇹
 onom	𠏪
 onom	𬾤
-onomv	𩚜
 onon	𬼠
 ononn	𥫮
 onoo	𠋉
@@ -58524,6 +58524,7 @@ ooip	㑫
 ooir	傖
 ooir	𠉐
 ooiu	𠑬
+ooiv	𠋡
 ooiw	𪽚
 ooj	仵
 ooj	𠦍
@@ -58580,7 +58581,6 @@ oomq	𠌧
 oomr	佮
 oomr	倽
 oomv	偸
-oomv	𠋡
 oomvn	𬎧
 oomw	𠊆
 oon	仡
@@ -59813,11 +59813,11 @@ ouob	𠍓
 ouog	催
 ouog	𫄻
 ouoii	䍅
+ouoiv	𩛕
 ouok	𫿋
 ouokg	𮉸
 ouolu	𭀱
 ouoml	䍅
-ouomv	𩛕
 ouon	侺
 ouoog	𦉖
 ouoog	𮉴
@@ -59916,7 +59916,7 @@ ovno	欫
 ovno	歈
 ovno	㑰
 ovoi	㒩
-ovomv	𩛒
+ovoiv	𩛒
 ovp	㥋
 ovp	𢘂
 ovr	侞
@@ -65761,7 +65761,7 @@ rbo	呗
 rbof	㗫
 rbog	𨿔
 rboi	𫫱
-rbomv	𩞣
+rboiv	𩞣
 rbou	嗂
 rbov	嘤
 rbpu	𠷤
@@ -66871,8 +66871,8 @@ rkni	𠮬
 rknin	𡗏
 rknj	𠯥
 rkoi	𡁯
+rkoiv	𩞹
 rkok	𠹋
-rkomv	𩞹
 rkoo	唊
 rkp	愍
 rkp	𢚓
@@ -68606,10 +68606,10 @@ rrog	𩀏
 rrog	𩁐
 rrogr	𩁁
 rroin	𭇾
+rroiv	𩝵
 rroju	𦈯
 rrok	𣀬
 rrok	𪯟
-rromv	𩝵
 rroog	𡀓
 rrp	𠼿
 rrp	𢣉
@@ -69150,10 +69150,10 @@ ruob	𡄴
 ruog	嗺
 ruoi	𠵙
 ruoiv	饕
+ruoiv	𩞂
 ruok	攺
 ruok	𢼙
 ruom	𠳥
-ruomv	𩞂
 ruon	㖗
 rup	𢙸
 rupa	𮮣
@@ -70240,9 +70240,9 @@ seobo	𦜜
 seog	匯
 seoho	聚
 seoi	𭅛
+seoiv	𩜬
 seok	𢽷
 seol	𭅛
-seomv	𩜬
 seon	𠥴
 seoog	𫮣
 seooo	聚
@@ -71451,6 +71451,7 @@ shoip	𩭮
 shoip	𭃮
 shoir	𩮩
 shoiu	𩰈
+shoiv	𩮍
 shok	𡱱
 shok	𡲁
 shok	𥎫
@@ -71465,7 +71466,6 @@ shomc	鬂
 shomi	𩬔
 shomi	𫘽
 shomr	𩭆
-shomv	𩮍
 shon	𠚮
 shon	𡱣
 shoo	屣
@@ -76905,8 +76905,8 @@ tmobo	𦟎
 tmoc	薋
 tmog	𩀤
 tmoip	𢎌
+tmoiv	𩞎
 tmom	蕤
-tmomv	𩞎
 tmon	𦴱
 tmoo	莁
 tmop	𦵃
@@ -83048,9 +83048,9 @@ vglmi	䗽
 vgmgi	𤫔
 vgmln	𤮲
 vgni	嬦
+vgoiv	𩞠
+vgoiv	𩟷
 vgoju	𦉥
-vgomv	𩞠
-vgomv	𩟷
 vgow	嬙
 vgp	娡
 vgp	㥨
@@ -83377,11 +83377,11 @@ vio	𠫙
 viog	𡑶
 viohi	𩴪
 vioht	𧗒
+vioiv	𩝫
+vioiv	𩞟
 viok	娭
 viom	𬿠
 viomn	㡮
-viomv	𩝫
-viomv	𩞟
 viop	𫱝
 viov	𡟘
 vioy	𫠪
@@ -84318,9 +84318,9 @@ vnnwf	𩹒
 vno	奺
 vno	𫰑
 vnob	婿
+vnoiv	𩝖
 vnok	𡞳
 vnom	𫰛
-vnomv	𩝖
 vnot	嬁
 vnri	㜶
 vnrs	𫱦
@@ -84872,7 +84872,7 @@ vuob	𡠱
 vuog	雝
 vuog	㜠
 vuog	𬯮
-vuomv	𩛗
+vuoiv	𩛗
 vuos	𡣸
 vup	𢛭
 vup	𪫴
@@ -84959,8 +84959,8 @@ vvni	𡗇
 vvni	𡿪
 vvno	𡟇
 vvno	𡟼
+vvoiv	𩚓
 vvok	𫿢
-vvomv	𩚓
 vvoq	𢆭
 vvp	𫹱
 vvp	𭗺
@@ -88434,14 +88434,14 @@ ykog	𮟁
 ykog	𮥷
 ykoge	𪯩
 ykoir	𭐿
+ykoiv	𩜢
+ykoiv	𩞤
 ykoju	𦉧
 ykok	效
 ykok	𨕾
 ykok	𫾨
 ykomd	𮀉
 ykomr	𪯤
-ykomv	𩜢
-ykomv	𩞤
 ykoyg	𣁑
 ykp	忞
 ykp	憝
@@ -89108,14 +89108,14 @@ yno	𭭄
 ynobo	𦚛
 ynog	𨾒
 ynohs	𬆖
+ynoiv	𩚻
+ynoiv	𩛈
 ynok	𢼁
 ynok	𢾛
 ynok	𫾹
 ynolf	虪
 ynom	迳
 ynomr	𣨄
-ynomv	𩚻
-ynomv	𩛈
 ynoo	𨕗
 ynor	𠆋
 ynot	邆
@@ -89282,11 +89282,11 @@ yoog	𨤫
 yoog	𩁋
 yoog	𪜤
 yoog	𫐩
+yooiv	𩝦
 yooj	卒
 yook	𢼵
 yook	𫿂
 yooll	𧱘
-yoomv	𩝦
 yoou	𬽋
 yoov	𮖚
 yop	戆
@@ -91645,11 +91645,11 @@ ytoi	𥩱
 ytoic	𬔪
 ytoii	竛
 ytoip	𥩦
+ytoiv	𩚷
 ytoma	𥫁
 ytoml	竛
 ytomn	𮄶
 ytomr	𥩻
-ytomv	𩚷
 ytomv	𮄶
 yton	䇄
 ytooa	𥪶
@@ -92397,10 +92397,10 @@ yvobo	膐
 yvobo	𦘻
 yvoc	賌
 yvoh	𠅆
+yvoiv	𩛚
 yvok	𢻬
 yvok	𣀩
 yvok	𭤑
-yvomv	𩛚
 yvoo	𨒢
 yvp	忘
 yvp	𪫳
