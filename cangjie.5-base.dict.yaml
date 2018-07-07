@@ -4542,6 +4542,7 @@ boip	𫆛
 boir	贻
 boir	𦛜
 boir	𦞛
+boir	𦞛
 boir	𫤺
 boiu	𦣗
 boiv	𪞓
@@ -4589,7 +4590,6 @@ bomo	臉
 bompm	赋
 bomr	䏩
 bomr	𦝵
-bomr	𦞛
 bomr	𭨸
 bomr	𭨻
 bomrt	豋
@@ -17064,6 +17064,7 @@ fdoii	𥹕
 fdoim	䊱
 fdoio	𥽁
 fdoip	𥺴
+fdoir	𥻲
 fdoiv	𮇯
 fdok	敉
 fdok	敩
@@ -17078,7 +17079,6 @@ fdoml	𥹕
 fdomn	𥸽
 fdomo	𥽋
 fdomr	粭
-fdomr	𥻲
 fdon	籺
 fdonk	糇
 fdooa	𥼪
@@ -21058,6 +21058,7 @@ goohh	趁
 gooii	𧻋
 gooin	赺
 gooip	趝
+gooir	𧽜
 gooj	𧺴
 gooje	𧻝
 gookg	𧽳
@@ -21070,7 +21071,6 @@ goomn	𧺞
 goomn	𧼯
 goomo	𧾏
 goomr	䞩
-goomr	𧽜
 goomv	𧼯
 goon	䞘
 gooo	𡔡
@@ -28508,6 +28508,7 @@ hqoii	㸳
 hqoin	𤘡
 hqoip	𤚋
 hqoir	𤚬
+hqoir	𤚬
 hqok	牧
 hqok	𢾹
 hqok	𮅳
@@ -28520,7 +28521,6 @@ hqomg	牷
 hqoml	㸳
 hqomn	𤚎
 hqomr	𤙱
-hqomr	𤚬
 hqomr	𤚻
 hqomu	𤙿
 hqomv	𤚎
@@ -29779,6 +29779,7 @@ huoik	𣭩
 huoim	𣰷
 huoin	㲐
 huoin	𪚬
+huoir	𣯙
 huoiv	𩞚
 huok	㪇
 huok	𢼈
@@ -29795,7 +29796,6 @@ huomp	𫗃
 huomp	𫗄
 huomr	𣭝
 huomr	𣮞
-huomr	𣯙
 huomv	毺
 huomv	𬲂
 huond	𣯘
@@ -54297,12 +54297,12 @@ nhoii	矝
 nhoin	矜
 nhoip	𥍵
 nhoir	𥎄
+nhoir	𥎄
 nhok	敄
 nhokj	𥎟
 nhoks	務
 nholb	𥍦
 nhoml	矝
-nhomr	𥎄
 nhond	𥎃
 nhonk	䂉
 nhoo	𢐔
@@ -58392,6 +58392,7 @@ oioim	𩟶
 oioin	𩚕
 oioip	䭃
 oioir	𩝞
+oioir	𩝞
 oioje	𩛑
 oioju	𩛊
 oiok	俟
@@ -58415,7 +58416,6 @@ oiomp	𩟳
 oiomp	𬲠
 oiomr	餄
 oiomr	𩜉
-oiomr	𩝞
 oiomv	𩜶
 oion	䬣
 oiond	餼
@@ -59018,11 +59018,11 @@ okog	𠌱
 okog	𮥶
 okogl	𫡍
 okoir	𥏲
+okoir	𥏲
 okoiv	𩛢
 okoju	𫄿
 okok	㑵
 okok	𥎪
-okomr	𥏲
 okomv	𩛢
 okon	𠋙
 okoo	俠
@@ -73127,6 +73127,7 @@ shoii	𩬔
 shoim	𩰁
 shoip	𩭮
 shoip	𭃮
+shoir	𩮩
 shoiu	𩰈
 shok	𡱱
 shok	𡲁
@@ -73143,7 +73144,6 @@ shomi	𫘽
 shoml	𩬔
 shomm	𩯸
 shomr	𩭆
-shomr	𩮩
 shomv	𩮍
 shon	𠚮
 shon	𡱣
@@ -84300,6 +84300,7 @@ vfoik	絥
 vfoim	纖
 vfoin	紟
 vfoip	𦁤
+vfoir	𦃹
 vfoiu	𦈂
 vfoiv	𫄑
 vfoj	𥾿
@@ -84333,7 +84334,6 @@ vfomn	𥾨
 vfomo	䌞
 vfomp	𦁇
 vfomr	給
-vfomr	𦃹
 vfoms	𥿐
 vfomv	緰
 vfon	紇
@@ -94109,6 +94109,7 @@ yuoii	齢
 yuoin	䶖
 yuoir	𪘒
 yuoir	𪙎
+yuoir	𪙎
 yuoj	𪞸
 yuok	𫾹
 yuokm	𪘡
@@ -94126,7 +94127,6 @@ yuomo	𫠗
 yuomo	𮯈
 yuomr	𧇎
 yuomr	𪘁
-yuomr	𪙎
 yuon	齕
 yuon	龁
 yuon	𧆫

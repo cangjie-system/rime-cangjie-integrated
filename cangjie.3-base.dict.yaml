@@ -2850,6 +2850,7 @@ bcogk	𮚭
 bcohh	䝩
 bcohs	𮚈
 bcoir	賶
+bcoir	𧶗
 bcoju	罌
 bcok	敗
 bcok	贁
@@ -2859,7 +2860,6 @@ bcomb	𧹊
 bcomd	賖
 bcomf	賒
 bcomo	𧸘
-bcomr	𧶗
 bcomr	𧶟
 bcomr	𫎖
 bcon	𫎐
@@ -4458,6 +4458,7 @@ boin	肣
 boip	腍
 boip	𫆛
 boir	贻
+boir	𦛜
 boir	𫤺
 boiu	𦣗
 boiv	𪞓
@@ -4504,7 +4505,6 @@ bomn	䏗
 bomo	臉
 bompm	赋
 bomr	䏩
-bomr	𦛜
 bomr	𦝵
 bomr	𦞛
 bomr	𭨸
@@ -5795,6 +5795,7 @@ buoii	𪾧
 buoim	𥍀
 buoin	𥄯
 buoip	𬑛
+buoir	𥆡
 buoiu	𥍘
 buoj	𥄭
 buoju	𦉍
@@ -5824,7 +5825,6 @@ buomn	睮
 buomo	瞼
 buomo	𥇥
 buomr	䀫
-buomr	𥆡
 buomr	𭾼
 buoms	𬑌
 buomu	𥇸
@@ -18982,10 +18982,10 @@ gcno	赥
 gcno	𣤯
 gcnom	𫎭
 gco	赱
+gcoir	𧹣
 gcok	赦
 gcoma	𧹿
 gcomb	𧹪
-gcomr	𧹣
 gcond	𧹵
 gcp	𢦁
 gcp	𭜙
@@ -31745,9 +31745,9 @@ ihoe	𭙷
 ihof	𢊻
 ihof	𭕋
 ihog	𨿙
+ihoir	𢧒
 ihoj	𢦩
 ihok	𢋋
-ihomr	𢧒
 ihoo	㢔
 ihoo	𢊚
 ihov	𢉟
@@ -50806,6 +50806,7 @@ mwoin	𨟹
 mwoip	𨠍
 mwoir	䣻
 mwoir	䤌
+mwoir	𩈣
 mwoll	𩈋
 mwom	𧟬
 mwoma	𧟸
@@ -50819,7 +50820,6 @@ mwomn	䤅
 mwomo	醶
 mwomo	䩎
 mwomp	𨡎
-mwomr	𩈣
 mwomt	𨢴
 mwomv	䤅
 mwomv	𨢁
@@ -58522,6 +58522,7 @@ ooin	𠍃
 ooin	𫢣
 ooip	㑫
 ooir	傖
+ooir	𠉐
 ooiu	𠑬
 ooiw	𪽚
 ooj	仵
@@ -58578,7 +58579,6 @@ oomp	𠏚
 oomq	𠌧
 oomr	佮
 oomr	倽
-oomr	𠉐
 oomv	偸
 oomv	𠋡
 oomvn	𬎧
@@ -59338,13 +59338,13 @@ ornwf	𩸔
 orog	䧻
 orog	䧾
 orog	𩀞
+oroir	𠑐
 oroj	𠉖
 orok	㑨
 orok	㪉
 orok	𫾵
 orok	𫿄
 oromi	𠏧
-oromr	𠑐
 ororr	𠑰
 orp	𢚨
 orp	𢜔
@@ -71448,6 +71448,7 @@ shohp	𫬯
 shoi	𭃝
 shoim	𩰁
 shoip	𭃮
+shoir	𩮩
 shoiu	𩰈
 shok	𡱱
 shok	𡲁
@@ -71464,7 +71465,6 @@ shomi	𩬔
 shomi	𫘽
 shomp	𩭮
 shomr	𩭆
-shomr	𩮩
 shomv	𩮍
 shon	𠚮
 shon	𡱣
@@ -72783,6 +72783,8 @@ soin	㔲
 soin	㔳
 soin	𠤮
 soio	𠥗
+soir	𠤿
+soir	𠥐
 soiv	䬤
 sojal	𡳢
 sojal	𡳤
@@ -72804,8 +72806,6 @@ somg	𠤹
 somn	匬
 somo	匳
 somr	匼
-somr	𠤿
-somr	𠥐
 somrt	𬤶
 somt	𡲱
 somu	𡳡
@@ -77910,13 +77910,13 @@ tqog	𦾣
 tqog	𩀵
 tqohh	𦍪
 tqoii	羚
+tqoir	𦎌
 tqok	䍩
 tqomb	𮊬
 tqomd	䍱
 tqoml	羚
 tqomn	羭
 tqomo	羷
-tqomr	𦎌
 tqomv	羭
 tqon	𦰀
 tqon	𦰄
@@ -82438,6 +82438,7 @@ vfoii	紷
 vfoik	絥
 vfoim	纖
 vfoin	紟
+vfoir	𦃹
 vfoiu	𦈂
 vfoiv	𫄑
 vfoj	𥾿
@@ -82473,7 +82474,6 @@ vfomo	䌞
 vfomp	𦁇
 vfomp	𦁤
 vfomr	給
-vfomr	𦃹
 vfoms	𥿐
 vfomv	緰
 vfon	紇
@@ -86788,13 +86788,13 @@ yaog	暹
 yaog	𮟌
 yaoge	𮧽
 yaoin	䪩
+yaoir	𩐧
 yaok	㪟
 yaok	𢾚
 yaom	𨕲
 yaomb	𬰾
 yaomn	𪵦
 yaomr	𩐥
-yaomr	𩐧
 yaonp	𩐭
 yaoyo	𩐰
 yap	恴
@@ -92077,6 +92077,8 @@ yuoii	齡
 yuoii	龄
 yuoii	齢
 yuoin	䶖
+yuoir	𪘒
+yuoir	𪙎
 yuoj	𪞸
 yuok	𫾹
 yuokm	𪘡
@@ -92091,8 +92093,6 @@ yuomo	𫠗
 yuomo	𮯈
 yuomr	𧇎
 yuomr	𪘁
-yuomr	𪘒
-yuomr	𪙎
 yuon	齕
 yuon	龁
 yuon	𧆫
