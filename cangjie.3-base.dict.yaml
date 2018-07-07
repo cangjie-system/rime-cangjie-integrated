@@ -22126,7 +22126,6 @@ hbhgr	嚳
 hbhj	簲
 hbhjr	𦧠
 hbhlb	𥝊
-hbhlm	𦦛
 hbhlo	𭶳
 hbhn	𠙙
 hbhn	𠙪
@@ -22244,6 +22243,7 @@ hboju	𮉺
 hbojv	𦦯
 hbok	敿
 hbok	𭣮
+hbom	𦦛
 hbop	箆
 hbop	𥰒
 hbp	𮅗
@@ -24393,7 +24393,6 @@ hhhje	𨉨
 hhhjg	𨉢
 hhhjr	𨈸
 hhhl	笷
-hhhlm	𨈬
 hhhm	𢒉
 hhhnd	躲
 hhhni	𨈔
@@ -24564,6 +24563,7 @@ hhokt	𫏰
 hhol	篽
 hhol	𥷉
 hhom	𥯁
+hhom	𨈬
 hhoma	𫏱
 hhomb	𨉓
 hhoml	䠲
@@ -31056,7 +31056,6 @@ ifhk	祅
 ifhkb	𬓚
 ifhke	𬒲
 ifhlb	䄔
-ifhlm	𥙂
 ifhml	祈
 ifhml	㫂
 ifhmr	𥙐
@@ -31331,6 +31330,7 @@ ifoju	𬒴
 ifok	𫿒
 ifok	𫿡
 ifoll	祄
+ifom	𥙂
 ifoma	禬
 ifomb	禴
 ifomb	𥚗
@@ -31708,7 +31708,6 @@ ihlb	𢉠
 ihlbu	㓄
 ihlbu	𪠟
 ihll	𢋯
-ihlm	𢇹
 ihln	剼
 ihlo	𢦞
 ihlu	𠫝
@@ -32686,6 +32685,7 @@ ioll	𭆣
 iolmi	𧉌
 ioln	𠝡
 ioln	𭄉
+iom	𢇹
 ioma	廥
 iombc	𩖆
 iombc	𩖑
@@ -38010,8 +38010,6 @@ khllb	狮
 khllk	𤟸
 khlln	狒
 khllp	𤡟
-khlm	𡘄
-khlm	𤵢
 khlmc	𤡱
 khlmi	独
 khlmo	狣
@@ -39216,6 +39214,8 @@ kol	𭼌
 koll	疥
 koll	𡗦
 koln	㓨
+kom	𡘄
+kom	𤵢
 koma	癐
 koma	𤻣
 komb	𤷔
@@ -42950,7 +42950,6 @@ lph	袐
 lph	𭃨
 lphaf	𪀕
 lphj	𠦞
-lphlm	𠤢
 lphml	𭤥
 lphn	兠
 lphni	𠙩
@@ -42979,6 +42978,7 @@ lpmu	𡷒
 lpnbc	𧶙
 lpnd	𪜜
 lpnl	𫑜
+lpom	𠤢
 lpomv	𩚾
 lpoq	𪪈
 lpou	裪
@@ -44949,7 +44949,6 @@ mfhk	祅
 mfhkb	𬓚
 mfhke	𬒲
 mfhlb	䄔
-mfhlm	𥙂
 mfhlo	𭶶
 mfhml	祈
 mfhml	𣂘
@@ -45269,6 +45268,7 @@ mfok	𥘦
 mfok	𫿒
 mfok	𫿡
 mfoll	祄
+mfom	𥙂
 mfoma	禬
 mfoma	𠁞
 mfomb	禴
@@ -47863,7 +47863,6 @@ mnhjg	𬎮
 mnhjr	𠁈
 mnhk	殀
 mnhkb	𭮡
-mnhlm	𣧭
 mnhm	𠄣
 mnhml	歽
 mnhml	𭤡
@@ -48084,6 +48083,7 @@ mnoju	𦈩
 mnok	𭣤
 mnoll	𭺝
 mnolm	𭮘
+mnom	𣧭
 mnoma	𣩮
 mnomb	𪵅
 mnomi	𤬻
@@ -51246,7 +51246,6 @@ nbhhv	𮗯
 nbhi	𩴢
 nbhkb	䚩
 nbhkl	𫌯
-nbhlm	𧣜
 nbhlw	𧤝
 nbhml	𧣊
 nbhne	𧣇
@@ -51383,6 +51382,7 @@ nbogs	𧤤
 nboiv	𮩚
 nbok	𫿔
 nboll	𧣋
+nbom	𧣜
 nbomb	𧣵
 nbomu	𧤄
 nbond	𧤟
@@ -56676,7 +56676,6 @@ oihjr	餂
 oihjr	𩛶
 oihk	飫
 oihke	𩚿
-oihlm	𩚨
 oihm	𪝊
 oihn	飢
 oihne	䬦
@@ -56978,6 +56977,7 @@ oiolb	飾
 oiolh	𩝧
 oiolk	𬲓
 oiolo	𩛮
+oiom	𩚨
 oioma	䭝
 oiomd	餘
 oiomg	餁
@@ -71210,7 +71210,6 @@ shhjr	髺
 shhk	𮪽
 shhl	𠥰
 shhl	𬂪
-shhlm	𩬡
 shhlo	𩬐
 shhn	髠
 shhnd	𩬻
@@ -71459,6 +71458,7 @@ shol	𪨗
 sholb	𩬓
 sholl	䯰
 shom	𡳸
+shom	𩬡
 shoma	鬠
 shomc	鬂
 shomi	𩬔
@@ -72527,7 +72527,6 @@ smhby	𦐩
 smhe	𡕣
 smhhl	𭛍
 smhjd	𦐣
-smhlm	𡲌
 smhqo	翐
 smhqu	毣
 smhqu	𣯰
@@ -72643,6 +72642,7 @@ smohl	𬚣
 smoii	䎆
 smoii	𫅤
 smok	𮊻
+smom	𡲌
 smoml	䎆
 smomr	𮋁
 smomt	𥂨
@@ -89963,7 +89963,6 @@ yrhk	訞
 yrhkb	譑
 yrhlc	䜠
 yrhll	詶
-yrhlm	𧦺
 yrhlo	𧦐
 yrhme	譭
 yrhml	訢
@@ -90484,6 +90483,7 @@ yrok	𢿶
 yrok	𪯙
 yrok	𫌴
 yroll	䚸
+yrom	𧦺
 yroma	譮
 yromb	論
 yromb	讑
