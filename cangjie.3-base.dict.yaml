@@ -8,12 +8,15 @@
 # - 符號表 (zx*, yyy*, za*~zg*, etc.) 由此表移除，移至其他編碼表。
 # - 倉頡系統有收而 Unicode 未收的字形，加入容錯編碼處理。
 #
-# 標記：
-# [o] 官方編碼
-# [u] Unicode文檔未列出字形
-# [U] UCS2003字形
-# [!] 部分字集或字體的字形可能有誤
-# （並非所有字都已標示）
+# 標記說明：（僅重點標示，未必全）
+# [o] 此字形官方編碼未收（漢文庫典、倉頡輸入法手冊、其他官方資訊）
+# [O] 此字形官方編碼有收
+# [u] 此字形 Unicode Code Charts 未收
+# [U] 此字形 Unicode Code Charts 有收（主要用於 UCS2003，該字集非依據來源且往往有誤）
+# [v] 此字形 IVD (Ideographic Variation Database) 未收
+# [V] 此字形 IVD (Ideographic Variation Database) 有收
+# [!] 部分字集或字體的字形可能有誤。詳見 doc/rules.md#取碼字形差異
+# [?] 此編碼可能不符合倉頡取碼原則
 #
 
 ---
