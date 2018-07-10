@@ -2366,8 +2366,8 @@ bbme	𬋪
 bbmgt	𩩖
 bbmj	骭
 bbmjj	𩩄
-bbmks	𤔧
-bbmks	𩨗
+bbmjs	𤔧
+bbmjs	𩨗
 bbmlk	骾
 bbmlm	𩩤
 bbmm	𦙇
@@ -2809,8 +2809,8 @@ bcmi	𬛘
 bcmj	罕
 bcmjk	𧸂
 bcmjr	𧵳
+bcmjs	𦉿
 bcmjx	𧶵
-bcmks	𦉿
 bcmlh	𧴷
 bcmmf	𧵋
 bcmmu	貦
@@ -5679,10 +5679,10 @@ bumj	盰
 bumjj	䀘
 bumjj	𥅳
 bumjk	瞰
+bumjs	𥃳
 bumjx	𥈊
 bumk	䀖
 bumkj	䀘
-bumks	𥃳
 buml	𧠋
 bumlb	𥇑
 bumlg	𥉢
@@ -17839,6 +17839,7 @@ fmig	𤈜
 fmj	㶥
 fmj	𠦖
 fmjr	𤈏	[uv]
+fmjs	𤆏
 fmjx	𤊿
 fmkr	㶺
 fmks	𠡱
@@ -17869,7 +17870,6 @@ fmnw	𤏾
 fmob	炳
 fmog	𤏚
 fmpm	𪸵
-fmps	𤆏
 fmr	炻
 fmrb	𤌦
 fmre	𭵤
@@ -35585,8 +35585,8 @@ jjmia	𨍬
 jjmig	輊
 jjmj	軒
 jjmj	𪪂
+jjmjs	𫏲
 jjmks	𨋝
-jjmks	𫏲
 jjmlb	輛
 jjmlk	𮝓
 jjmls	𨌡
@@ -36211,9 +36211,9 @@ jmjmm	矗
 jmjmm	𡬐
 jmjmm	𥩌
 jmjnm	𡪀
+jmjs	𡧈
 jmk	𪥔
 jmks	𠢾
-jmks	𡧈
 jmks	𭄲
 jmlbk	𡩶
 jmlc	寅
@@ -41618,11 +41618,11 @@ limig	蛭
 limih	𧎞
 limj	虷
 limjj	蚈
+limjs	𧈯
 limk	𧉂
 limkj	蚈
 limkm	𧋹
 limkr	𧌀
-limks	𧈯
 limlb	蜽
 limlb	𫋃
 limlk	𧋑
@@ -54441,6 +54441,7 @@ nmjp	𬶍
 nmjpa	鳍
 nmjpu	骁
 nmjrb	𬶞
+nmjs	𢎰
 nmjsh	𫚬
 nmjto	鲼
 nmjto	𬴏
@@ -54461,7 +54462,6 @@ nmkmr	骑
 nmkms	𬳹
 nmks	劲
 nmks	𠣃
-nmks	𢎰
 nmlb	𭛅
 nmlbk	𩧫
 nmlbk	𫚐
@@ -67552,6 +67552,7 @@ rmjr	咶	[uv]
 rmjr	跍
 rmjrb	䠒
 rmjrr	䠉
+rmjs	𠮲
 rmjse	𨄒
 rmjto	𨇥
 rmjtu	𮛡
@@ -67590,7 +67591,6 @@ rmkrb	𨃧
 rmkrc	𮜗
 rmkri	𮛮
 rmks	呖
-rmks	𠮲
 rmksr	跏
 rmkt	𬦯
 rmktq	𨂨
@@ -67644,9 +67644,9 @@ rmmig	跮
 rmmj	𠰑
 rmmjj	趼
 rmmjk	𭌔
+rmmjs	𧿉
 rmmkj	趼
 rmmkr	𨁇
-rmmks	𧿉
 rmmks	𬦣
 rmml	𧿄
 rmmlb	䠃
