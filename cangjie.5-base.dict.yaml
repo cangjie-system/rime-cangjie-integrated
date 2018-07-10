@@ -4241,6 +4241,7 @@ bmig	胵
 bmij	𤔒
 bmik	𭑑
 bmj	肝
+bmjr	䏦	[uv]
 bmjx	𦝥
 bmk	𠕹
 bmk	𤓻
@@ -7763,6 +7764,7 @@ cmii	𨫎
 cmj	釬
 cmjj	銒
 cmjk	𨬒
+cmjr	銛	[uv]
 cmjx	鍤
 cmke	𨦐
 cmkr	𨧐
@@ -9695,6 +9697,7 @@ demgi	𪌞
 demgt	𤿬
 demj	皯
 demj	𪌃
+demjr	𪌩	[uv]
 demls	麪
 demmf	𬓊
 demn	𣐘
@@ -10975,6 +10978,7 @@ dmia	榗
 dmig	桎
 dmj	杆
 dmjk	橄
+dmjr	栝	[uv]
 dmjx	㮑
 dmk	𣏿
 dmkd	㮪
@@ -14613,6 +14617,7 @@ emrr	滒
 emrr	𤂬
 emrs	𭰛
 emrt	浢
+emrt	㵇	[uv]
 emrt	𣷮
 emrt	𤃶
 emrt	𭱍
@@ -15076,6 +15081,7 @@ epmc	𣻳
 epmcw	𨢯
 epmm	汮
 epmm	𪶥
+epmr	湉
 epnp	𭱖
 epnwf	𩸧
 epog	𣻰
@@ -18165,6 +18171,7 @@ fmhm	爏
 fmig	𤈜
 fmj	㶥
 fmj	𠦖
+fmjr	𤈏	[uv]
 fmjs	𤆏
 fmjx	𤊿
 fmkr	㶺
@@ -22676,7 +22683,6 @@ hbmgi	璺
 hbmgi	㼂
 hbmgi	𤪭
 hbmig	𮍤
-hbmjr	𦧠
 hbmlc	𦦴
 hbmmu	𠿻
 hbmn	䈀
@@ -26531,6 +26537,7 @@ hmrg	𥲔
 hmrj	𥵔
 hmrj	𮆕
 hmrl	𥯩
+hmro	𮆃	[uv]
 hmrr	𥰯
 hmrr	𥶲
 hmrt	䇺
@@ -27641,7 +27648,6 @@ homin	𭹊
 homjk	𢕭
 homjn	衎
 homjp	𢕆
-homjr	𦧍
 homjx	𢔣
 homk	箯
 homk	𢓍
@@ -28757,6 +28763,7 @@ hrbo	筼
 hrbt	𥂟
 hrbuu	𧠼
 hrc	𨨑
+hrcmc	𫇗	[uv]
 hrd	𣚩
 hrd	𬂫
 hrddf	𬜏
@@ -28792,12 +28799,12 @@ hrheq	𮥃
 hrhfd	𠃆
 hrhg	䇸
 hrhgr	𠼑
+hrhhc	𫇗	[uv]
 hrhio	𬜆
 hrhjd	𦧙
 hrhjr	𦧚
 hrhkb	𪢡
 hrhkp	舔
-hrhlo	𦧔
 hrhml	㪾
 hrhn	𠙋
 hrhn	𫇔
@@ -28818,18 +28825,20 @@ hrhss	𢩝
 hrht	𦧌
 hrhup	𦧯
 hrhvi	䑛
+hrhvo	𦧔
 hrhvp	舐
 hrhwu	𢁏
 hrhxp	𪕘
 hri	𠶶
 hri	𫻵
-hricc	𦧷
+hricc	𦧷	[uv]
 hricr	𭍁
 hridr	𭍁
-hrihc	𦧷
+hrihc	𦧷	[uv]
 hrihi	𨹇
 hrihr	𦧩
 hrihu	䦾
+hrihu	𦧊
 hrik	𤡿
 hrik	𬍊
 hrisn	𨸷
@@ -28840,9 +28849,12 @@ hrjji	𮎀
 hrjkr	𨽄
 hrjl	𥷋
 hrjlk	𦧜
+hrjoe	𦧳
+hrjp	𦧑	[uv]
 hrjqr	𦧮
 hrjr	𦧒
 hrkmf	𩼐
+hrkoe	𦧳
 hrkog	𨻏
 hrkp	𥴲
 hrks	勂
@@ -28867,6 +28879,7 @@ hrlq	𬚫
 hrlr	𠂤
 hrlr	𨸏
 hrlxh	𫡜
+hrm	𦧆	[uv]
 hrm	𫠨
 hrmb	𬖀
 hrmbc	頧
@@ -28924,6 +28937,7 @@ hrobo	𬚸
 hrog	雒
 hrog	䧼
 hrog	𥮭
+hrog	𫕛	[uv]
 hrog	𫪣
 hroii	𮍶
 hroin	𦧈
@@ -28933,7 +28947,8 @@ hrok	敌
 hrok	敋
 hrok	𢽍
 hrok	𪯌
-hroml	𮍶
+hromb	𦧣	[uv]
+hroml	𮍶	[uv]
 hromr	𦧛
 hron	𮍵
 hroog	𡏩
@@ -28990,6 +29005,7 @@ hrtov	𮊶	[uv]
 hrtpo	𨺵
 hrtt	𦧏
 hrtt	𨸥
+hrtxc	𫇗	[uv]
 hrtyv	𬕼
 hru	乱
 hru	峊
@@ -29017,6 +29033,7 @@ hryf	烏
 hryfr	𨽵
 hryh	𠂶
 hryhh	𫫹
+hryj	𣁳
 hryj	𪯬
 hrykh	𫫹
 hrykr	𫇖
@@ -32764,7 +32781,7 @@ ijkd	庨
 ijks	𭄪
 ijln	刬
 ijlo	𢈻
-ijmr	𦧐
+ijmjr	𦧐
 ijmw	𪪣
 ijnd	𢉹
 ijobo	𦠬
@@ -35749,6 +35766,7 @@ jemgi	𤩯
 jemgi	𪌞
 jemhu	𣯷
 jemj	𪌃
+jemjr	𪌩	[uv]
 jemls	麪
 jemr	礊
 jemr	𥖳
@@ -39068,6 +39086,7 @@ khmig	𤞂
 khmj	犴
 khmjk	㺖
 khmjk	𤞿
+khmjr	狧	[uv]
 khmkh	𭸔
 khmkj	𤢋
 khmkl	𤢋
@@ -48434,6 +48453,7 @@ mjon	𫷔
 mjoqb	𫷝
 mjp	𫹯
 mjpym	𫜃
+mjr	舌
 mjr	㕆
 mjre	𫨒
 mjs	亐
@@ -49949,6 +49969,7 @@ mrano	𥗮
 mrant	𥖆
 mranw	䃹
 mranw	𦧼
+mraph	舓
 mraph	𥓘
 mrapp	䃂
 mrapv	碣
@@ -49960,6 +49981,7 @@ mrau	𥑁
 mrav	硍
 mravf	礘
 mrayf	𥖉
+mrb	䑚
 mrb	𦛯
 mrbb	硼
 mrbbb	磆
@@ -49969,6 +49991,8 @@ mrbbe	𦧦
 mrbbm	𥑬
 mrbbr	碢
 mrbcj	𪿡
+mrbcn	𬜊	[uv]
+mrbco	𬜎	[uv]
 mrbe	𥐼
 mrbf	䂹
 mrbgr	碉
@@ -49991,6 +50015,7 @@ mrbm	𠁐
 mrbme	𥔛
 mrbmi	𥔒
 mrbmk	𪿿
+mrbmm	䑙
 mrbmp	𥖵
 mrbmr	硐
 mrbnd	𥒫
@@ -50024,7 +50049,7 @@ mrc	𨥴
 mrchg	𥗦
 mrcim	𥕀
 mrcmc	磏
-mrcmc	𫇗
+mrcmc	𫇗	[uv]
 mrcmi	𥖁
 mrcmk	磸
 mrcno	䃢
@@ -50040,6 +50065,7 @@ mrdam	碴
 mrdci	硹
 mrdd	碄
 mrddf	𥖜
+mrddf	𬜏	[uv]
 mrddh	𥘄
 mrddo	礎
 mrddo	𥗈
@@ -50077,9 +50103,10 @@ mreki	𥒣
 mremd	𥒀
 mremr	𥔨
 mrepd	𪢏
-mrer	𦧞
+mrer	𦧞	[uv]
 mresd	磲
 mrev	𪡑
+mrew	𮍾	[uv]
 mreyo	𥒧
 mrf	𤇈
 mrf	𤐿
@@ -50093,6 +50120,7 @@ mrfcb	𥕂
 mrfd	𥒄
 mrfdq	磷
 mrfdr	𥕝
+mrff	舕
 mrfff	礯
 mrffg	𥗏
 mrffj	𥕚
@@ -50104,6 +50132,7 @@ mrfmu	硄
 mrfog	𮀿
 mrfq	𥑍
 mrg	𡊵
+mrgb	舑
 mrgce	碐
 mrgcg	𥓪
 mrgdi	𪿚
@@ -50129,7 +50158,6 @@ mrgwg	𥕄
 mrha	砶
 mrhab	䃇
 mrhad	𥔟
-mrhaf	鴰
 mrhaf	䲽
 mrhaf	𪀉
 mrhaf	𪁙
@@ -50169,7 +50197,7 @@ mrhey	䂢
 mrhgr	硞
 mrhgu	𥑻
 mrhhc	磏
-mrhhc	𫇗
+mrhhc	𫇗	[uv]
 mrhhe	𥗍
 mrhhl	𮀐
 mrhhn	𥐥
@@ -50177,10 +50205,11 @@ mrhhn	𥐲
 mrhhw	磂
 mrhi	𬑼
 mrhio	砭
+mrhio	𬜆	[uv]
 mrhj	𬑻
 mrhja	𥗁
 mrhjd	硃
-mrhjd	𦧙
+mrhjd	𦧙	[uv]
 mrhje	碫
 mrhjg	𠽚
 mrhjg	𥔧
@@ -50191,17 +50220,18 @@ mrhjx	𥓾
 mrhk	𬒁
 mrhkb	礄
 mrhkl	硚
+mrhkp	舔
 mrhkr	𮀙	[uv]
 mrhl	厛
 mrhlc	礩
 mrhlo	𥑔
-mrhlo	𦧔
 mrhml	斫
 mrhml	㪼
 mrhmr	𥒖
 mrhmv	𥗸
 mrhmy	䂨
 mrhn	矶
+mrhn	𫇔	[uv]
 mrhnd	𬒋
 mrhne	砓
 mrhni	矾
@@ -50217,8 +50247,9 @@ mrhor	𮁇
 mrhp	矺
 mrhpa	碈
 mrhpm	砥
+mrhpm	䑛
 mrhq	㸴
-mrhq	𦧋
+mrhq	𦧋	[uv]
 mrhqi	硪
 mrhqj	𪿪
 mrhqm	𥑥
@@ -50241,11 +50272,14 @@ mrhuc	礸
 mrhui	磈
 mrhui	𩵀
 mrhuk	𮀹
-mrhup	𦧯
+mrhup	𦧯	[uv]
 mrhuu	𥕹
 mrhvd	砾
 mrhvf	𥒶
 mrhvi	砥
+mrhvi	䑛
+mrhvo	𦧔
+mrhvp	舐
 mrhvp	𬒀
 mrhvr	𥔠
 mrhwe	𥓁
@@ -50278,6 +50312,7 @@ mri	𢦪
 mriav	硠
 mribi	磗
 mricc	𥖝
+mricc	𦧷	[uv]
 mrid	𥑡
 mridq	𥗂
 mridr	礳
@@ -50287,10 +50322,11 @@ mrifn	𥖬
 mrig	䂯
 mrigi	𥒹
 mrihc	𥖝
+mrihc	𦧷	[uv]
 mrihf	磩
 mrihp	䃭
 mrihr	碱
-mrihr	𦧩
+mrihr	𦧩	[uv]
 mrihs	𥓉
 mrihu	𥐸
 mrihu	𦧊
@@ -50337,6 +50373,7 @@ mrita	𥕒
 mritb	𥔷
 mritc	礦
 mritc	𥖝
+mritc	𦧷	[uv]
 mriuh	硥
 mrixe	𥖂
 mrixp	䃙
@@ -50371,6 +50408,7 @@ mrjhr	碦
 mrjii	磚
 mrjim	䃱
 mrjji	𮁗
+mrjji	𮎀	[uv]
 mrjjl	𥕌
 mrjjt	𥗅
 mrjju	𬒒
@@ -50378,6 +50416,7 @@ mrjkd	硣
 mrjki	硡
 mrjkp	硓
 mrjlk	𥒅
+mrjlk	𦧜	[uv]
 mrjlo	𥓐
 mrjlv	䃀
 mrjmc	礗
@@ -50397,7 +50436,7 @@ mrjpu	硗
 mrjqr	磍
 mrjqr	𦧮
 mrjr	𥑮
-mrjr	𦧒
+mrjr	𦧒	[uv]
 mrjrb	𥔓
 mrjrc	𥗳
 mrjrr	䃔
@@ -50439,6 +50478,7 @@ mrknk	𥐠
 mrknn	䃎
 mrknr	𥔇
 mrkob	𮀾
+mrkoe	𦧳
 mrkoo	硤
 mrkpb	𥕧
 mrkpu	𪿤
@@ -50535,6 +50575,7 @@ mrmjq	𮀶
 mrmjr	𦧚
 mrmjx	𥓾
 mrmk	𬑾
+mrmkp	舔
 mrmkr	𮀙
 mrmks	𬒩
 mrmlk	硬
@@ -50563,6 +50604,7 @@ mrmrf	𥔕
 mrmrg	𥗃
 mrmrg	𪤬
 mrmrj	𫬮
+mrmrr	舙
 mrmrr	磊
 mrmrr	𠾳
 mrmrr	𥗉
@@ -50571,6 +50613,7 @@ mrmrr	𦧵
 mrmrr	𧭳
 mrmrt	𬒖
 mrmrw	𥔁
+mrms	𮍴	[uv]
 mrmsd	𮁊
 mrmso	硺
 mrmsu	砈
@@ -50594,6 +50637,7 @@ mrmvi	𥐺
 mrmvm	硜
 mrmvm	𥑗
 mrmvn	砙
+mrmvn	𤭇
 mrmvn	𤭻
 mrmwf	磦
 mrmwg	䃌
@@ -50608,6 +50652,7 @@ mrn	𭆁
 mrnau	𥒍
 mrnbg	确
 mrnbq	确
+mrncr	舚
 mrncr	䃫
 mrnd	矷
 mrnde	𪜘	[!]
@@ -50651,6 +50696,7 @@ mrnmu	硊
 mrno	歌
 mrno	砍
 mrno	㰤
+mrno	𣢯
 mrno	𣣂
 mrno	𣣄
 mrno	𣤲
@@ -50668,7 +50714,9 @@ mrnvm	码
 mrnwa	𥗆
 mrnyo	𭼁
 mro	𭀽
+mroae	𮍼	[uv]
 mrobg	確
+mrobo	𬚸	[uv]
 mrodi	䂤
 mrof	𥑒
 mrog	碓
@@ -50679,10 +50727,12 @@ mrogf	礁
 mrohh	䂦
 mroii	砱
 mroii	𠾥
+mroii	𮍶	[uv]
 mroim	䃸
 mroin	砛
 mroin	𦧈
 mroip	䂼
+mroip	𫫞	[uv]
 mroir	𥓂
 mroiw	𥕼
 mroj	𠵦
@@ -50708,14 +50758,16 @@ mromg	硂
 mromi	𬒊
 mroml	砱
 mroml	𠾥
+mroml	𮍶	[uv]
 mromm	硷
 mromn	䃋
 mromn	𥐬
 mromo	礆
 mromr	硆
-mromr	𦧛
+mromr	𦧛	[uv]
 mromv	䃋
 mron	矻
+mron	𮍵	[uv]
 mroog	䂳
 mroog	𥖌
 mroos	𮀟
@@ -50726,6 +50778,7 @@ mropd	砤
 mropd	𦧓
 mrord	𮀮
 mrorm	𮁈
+mroro	𬜐	[uv]
 mros	砟
 mrotf	𥕻
 mrotq	𪢦
@@ -50761,6 +50814,7 @@ mrpru	砲
 mrpsh	砌
 mrptb	𬒛
 mrptd	碟
+mrptd	䑜
 mrpu	砘
 mrpuk	𥒚
 mrpvk	𥑪
@@ -50853,6 +50907,7 @@ mrsmi	𥖇
 mrsmj	𥖮
 mrsmm	𥒉
 mrsmm	𦐸
+mrsmr	𮍷	[uv]
 mrsmt	𪿻
 mrsmv	䂻
 mrsmv	𥗷
@@ -50926,6 +50981,7 @@ mrtkt	𮁌
 mrtlc	磺
 mrtlf	𥗕
 mrtlk	碤
+mrtm	甜
 mrtm	𥑠
 mrtmb	𥕾
 mrtmb	𮁆
@@ -50935,6 +50991,7 @@ mrtmj	𬒢
 mrtmm	𥗪
 mrtmm	𬒇
 mrtmv	碪
+mrtmv	𮍺	[uv]
 mrtn	㐙
 mrtnd	𥗹
 mrtno	𥕩
@@ -51014,6 +51071,7 @@ mruyb	𥖱
 mrv	𫝕
 mrve	𥑌
 mrvec	𮁃
+mrvei	𦧽	[uv]
 mrven	䃗
 mrvfk	𥘂
 mrvi	𭔱
@@ -51060,6 +51118,7 @@ mrwm	𡈧
 mrwmv	碨
 mrwol	𥔅
 mrwoo	𥔆
+mrwp	𬜉	[uv]
 mrwr	硘
 mrwvf	磥
 mrwvf	𦧲
@@ -51110,6 +51169,7 @@ mryk	鿎
 mrykh	𫫹
 mrykj	𥕁
 mrykm	𪿴
+mrykr	𫇖	[uv]
 mrykv	䃷
 mrylc	硛
 mrylh	𥒼
@@ -51121,6 +51181,7 @@ mrymm	𥖋
 mrymo	𪿯
 mrymp	䂣
 mrymr	䂴
+mrymr	𬜇	[uv]
 mrymu	𥗊
 mrynb	𪿹
 mrynn	𪿒
@@ -51128,6 +51189,7 @@ mrynu	𬒜
 mrynv	䃷
 mryo	𧾸
 mryoj	碎
+mryoj	𬜈	[uv]
 mryon	𥗌
 mrypd	𥓽
 mrypd	𥕕
@@ -51139,17 +51201,20 @@ mrypp	𥖼
 mryps	𥓯
 mrypu	𥓚
 mryr	砧
+mryr	𬜅	[uv]
 mryra	䃴
 mryrb	碻
 mryrf	䃄
 mryrn	碠
 mryru	𮁀
 mryrv	𥗝
+mrysd	𬜌	[uv]
 mrysk	䃚
 mrysk	𥓴
 mryso	䃠
 mrysv	䃵
 mryt	砬
+mryta	𮧺	[uv]
 mrytg	䃥
 mrytj	𥕞
 mrytj	𪿢
@@ -51159,6 +51224,7 @@ mrytr	𥔎
 mrytu	磀
 mrytv	𮀨
 mryub	𥕮
+mryub	𫬎	[uv]
 mryv	𥐞
 mryvi	𪿖
 mryvn	𥗯
@@ -52037,7 +52103,7 @@ mwmgi	𫟮
 mwmhm	𨣷
 mwmj	酐
 mwmj	𩈅
-mwmjr	𩈙
+mwmjr	䣶	[uv]
 mwml	𧟦
 mwmls	𨟺
 mwmm	畺
@@ -57169,7 +57235,6 @@ obmc	俱
 obme	𠋠
 obmg	𠌠
 obmgi	𤣼
-obmjr	𦧘
 obmmo	𬚺
 obmp	㒚
 obmr	侗
@@ -58334,6 +58399,7 @@ oimi	𠐲
 oimig	䬹
 oimj	飦
 oimjk	䭛
+oimjr	餂
 oimjx	𩝟
 oimkt	𩝼
 oimlb	𬲌
@@ -59627,7 +59693,6 @@ omrr	𠑰
 omrs	𠋒
 omrss	𥐃
 omrt	侸
-omru	𠉗	[uv]
 omrw	偪
 omsb	偏
 omsb	𢂂
@@ -62886,6 +62951,7 @@ pmjc	𫛣
 pmjk	㦑
 pmjk	𠣽
 pmjp	鸵
+pmjr	恬
 pmk	𪟩
 pmka	𢡄
 pmkd	𪬔
@@ -69054,6 +69120,7 @@ rmjoa	蹜
 rmjoe	𨄣
 rmjp	跎
 rmjpu	跷
+rmjr	咶	[uv]
 rmjr	跍
 rmjrb	䠒
 rmjrr	䠉
@@ -78685,6 +78752,7 @@ tmmi	𦮈
 tmmim	𣦀
 tmmj	𤮽
 tmmj	𤯀
+tmmjr	甛
 tmmm	𦱯
 tmmm	𭭡
 tmmm	𮏓
@@ -78778,7 +78846,7 @@ tmrl	𦳵
 tmrl	𦷽
 tmrm	䕢
 tmro	𦷩
-tmro	𦸈
+tmro	𦸈	[uv]
 tmro	𫉸
 tmrp	𮏁
 tmrr	藞
@@ -84200,6 +84268,7 @@ vfmht	𮉗
 vfmia	縉
 vfmig	絰
 vfmj	𥾍
+vfmjr	絬	[uv]
 vfmjx	𦂉
 vfmkp	䋬
 vfmkp	𦁔
@@ -86371,7 +86440,7 @@ vomd	𡝐
 vomf	𡝙
 vomg	姾
 vomi	𫰢
-vomjr	𦧬
+vomjr	𦧬	[uv]
 vomk	㛹
 voml	姈
 vomm	𫰰
@@ -88227,6 +88296,7 @@ wmiv	𡇗
 wmj	𤰟
 wmj	𤰠
 wmjmn	𤴍
+wmjr	𡇜	[uv]
 wmkp	𤲖
 wml	畀
 wmll	曱
@@ -91351,6 +91421,7 @@ yogv	𬡡
 yohaf	𪆺
 yohhh	𢒜
 yohhh	𢒪
+yohjr	𧱳
 yohne	毅
 yohne	㱾
 yohne	𣫖
@@ -92070,6 +92141,7 @@ yrhjd	誅
 yrhjg	諥
 yrhjm	諈
 yrhjr	話
+yrhjr	𦧨	[uv]
 yrhju	䛻
 yrhju	𧪗
 yrhju	𧬿
@@ -94130,6 +94202,7 @@ yumi	𨖀
 yumig	𪗻
 yumig	𬺁
 yumj	𪗙
+yumjr	𪗽	[uv]
 yumjx	𪘾
 yumml	𪗞
 yummr	齬
