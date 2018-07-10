@@ -2658,8 +2658,6 @@ bcgcc	𧹎
 bcgdi	䝰
 bcgfe	𧷌
 bcgg	𭁹
-bcgiu	𧷲
-bcgiv	𧸄
 bcgte	𪔡
 bcgwc	贖
 bchaf	鵙
@@ -2751,6 +2749,8 @@ bcjd	𧵖
 bcjdi	𧵤
 bcjhf	𧸿
 bcjir	賳
+bcjiu	𧷲
+bcjiv	𧸄
 bcjjm	𧸰
 bcjka	賭
 bcjka	𫎟
@@ -3294,7 +3294,6 @@ bgi	戵
 bgi	𫆖
 bgib	𬛟
 bgil	脚
-bgim	𦢙
 bgip	𢎖
 bgis	𦛕
 bgit	䐦
@@ -3815,6 +3814,7 @@ bjhr	𦝣
 bjhu	𣍥
 bji	𫆘
 bjii	膞
+bjim	𦢙
 bjip	𫆵
 bjir	𦞁
 bjjb	𣎢
@@ -6864,10 +6864,7 @@ cggi	𨩥
 cggu	鐃
 cgi	鉣
 cgii	𨧶
-cgim	𨯒
-cgir	𨭓
 cgis	𨦲
-cgis	𨪠
 cgit	鎑
 cglc	䤲
 cgll	𫒨
@@ -7322,10 +7319,13 @@ cjig	𨭱
 cjig	𮢨
 cjii	鏄
 cjii	𫓆
+cjim	𨯒
 cjim	𨰕
 cjim	𮢾
 cjip	鏸
+cjir	𨭓
 cjir	𮢜
+cjis	𨪠
 cjit	鐡
 cjjc	𮣉
 cjjj	𨪚
@@ -19649,7 +19649,6 @@ gibsd	𠬉
 gibt	盍
 gibt	𥂊
 gibt	𥂕
-gibu	𥅰
 gibuc	贄
 gibuc	䞇
 gic	䥍
@@ -19741,7 +19740,6 @@ gili	𡌺
 gili	𧐨
 gilib	𠬕
 gilib	𠬖
-gilir	𢨣
 gill	𪣏
 gilmi	蟄
 giln	刦
@@ -19789,7 +19787,6 @@ giq	摰
 giq	㨍
 giq	𢎇
 giq	𢫀
-giqka	𢧨
 giqm	𫮓
 giqmb	𩇘
 giqw	𡒅
@@ -19833,7 +19830,6 @@ givb	㙟
 give	𫭨
 givif	縶
 givif	𦂌
-giw	𤱱
 giwg	㙻
 giwg	𡏂
 giwl	𭻈
@@ -19841,7 +19837,6 @@ gixf	𡐝
 gixp	塶
 giyd	𡓔
 giye	𣀓
-giyhs	𢦷
 giyhv	褺
 giyhv	𧛜
 giyhv	𧜼
@@ -24238,7 +24233,6 @@ hgii	𥴾
 hgik	𤡵
 hgiku	𭽚
 hgin	𥮻
-hgir	𥯒
 hgit	篕
 hgiw	𫂨
 hgjd	𥶶
@@ -25249,6 +25243,7 @@ hjii	簙
 hjim	籖
 hjin	𥶸
 hjip	𫂠
+hjir	𥯒
 hjjb	𥶡
 hjjd	𥶭
 hjji	䉖
@@ -35172,6 +35167,7 @@ jiad	𡩕
 jiav	㝗
 jibd	𪭒
 jibi	博
+jibu	𥅰
 jibu	𥊍
 jibuc	𮚂
 jibuu	𧡃
@@ -35212,6 +35208,7 @@ jiks	𫴟
 jil	𡨌
 jild	𡪼
 jile	㝩
+jilir	𢨣
 jilmi	蛓
 jilmm	韯
 jilmy	𮧇	[uv]
@@ -35240,6 +35237,7 @@ jip	惠
 jipf	𪧝
 jips	㢤
 jipua	𢧭
+jiqka	𢧨
 jir	哉
 jirau	𨚵
 jire	𭮻
@@ -35253,10 +35251,12 @@ jitf	𡨜
 jiu	𡸸
 jivif	𦀂
 jivle	𫩄
+jiw	𤱱
 jiwc	𫴩
 jiwgf	䵧
 jiws	𥅤
 jiwtc	戴
+jiyhs	𢦷
 jiyhv	裁
 jiyhv	𧛦
 jiylb	𫻭	[uv]
@@ -37683,7 +37683,6 @@ kggp	㥣
 kghaf	鵟
 kghe	𤹥
 kgi	㾀
-kgig	𤻛
 kgil	㾡
 kgit	𤸱
 kgje	𤺴
@@ -37875,7 +37874,6 @@ khggu	獟
 khgi	㹤
 khgi	𬼑
 khgik	𤠱
-khgim	𤢷
 khgit	𤠡
 khgou	𤠳
 khgov	𭸩
@@ -38055,6 +38053,7 @@ khjff	𤡗
 khjg	瘇
 khjhp	𤞌
 khji	𤼜
+khjim	𤢷
 khjjk	𤡄
 khjjl	獑
 khjjo	𤡋
@@ -38796,6 +38795,7 @@ kjfe	𤸃
 kjhaf	𬷂
 kjhhh	㣏
 kjhp	𤵾
+kjig	𤻛
 kjii	𤹵
 kjjh	𤺋
 kjjj	𤹖
@@ -40816,8 +40816,6 @@ lggu	襓
 lggy	褂
 lghne	𭮳
 lgi	袪
-lgih	𧚶
-lgim	𧞬
 lgit	𧛾
 lgjl	𫡈
 lgjl	𫡊
@@ -42342,7 +42340,9 @@ ljhf	𧞳
 ljhu	𧙇
 ljic	襶
 ljig	𧞛
+ljih	𧚶
 ljihq	𤛙
+ljim	𧞬
 ljip	𧘵
 ljir	𧛷
 ljk	𧘓
@@ -50622,7 +50622,6 @@ mwgbt	𮧑
 mwgf	𠪩
 mwgg	㕓
 mwgg	䙵
-mwgim	𨣲
 mwgit	醘
 mwgni	醻
 mwgr	𮠥
@@ -50780,6 +50779,7 @@ mwjdi	酧
 mwje	䣫
 mwjfe	䤇
 mwjfe	𨡻
+mwjim	𨣲
 mwjka	醏
 mwjkd	酵
 mwjkp	𨠬
@@ -70627,7 +70627,6 @@ sfgcg	𩣱
 sfggu	驍
 sfgi	䮃
 sfgi	𩢧
-sfgig	𩦷
 sfgni	䮻
 sfgr	𩢴
 sfgrg	𩦽
@@ -70761,6 +70760,7 @@ sfje	馶
 sfjfe	䮟
 sfjhp	𩢵
 sfjig	驖
+sfjig	𩦷
 sfjit	𩦕
 sfjjc	𩧗
 sfjji	𩧜
@@ -75045,7 +75045,6 @@ tgif	爇
 tgif	𤑔
 tgif	𬋖
 tgif	𭶢
-tgig	𦼺
 tgig	𦿳
 tgig	𫉷
 tgii	藝
@@ -75954,6 +75953,7 @@ tjibi	𩌏
 tjice	𩊻
 tjid	𮐅
 tjig	䕙
+tjig	𦼺
 tjii	蓴
 tjii	𩋋
 tjii	𮑀
