@@ -2715,7 +2715,6 @@ bchgr	𬥘
 bchhc	賺
 bchhv	𧵬
 bchio	貶
-bchio	𧵟
 bchjd	𧵺
 bchje	𧷃
 bchjr	𧵳
@@ -2738,6 +2737,7 @@ bchuc	𧹏
 bchui	𧷛
 bchvf	𮚇
 bchvi	貾
+bchvo	𧵟
 bchvp	𧵄
 bchxb	𧹇
 bci	戝
@@ -3981,10 +3981,10 @@ bkhdw	𡚘
 bkhe	𦢝
 bkhf	𦛡
 bkhh	𦛦
-bkhio	𦊡
 bkhl	𦝐
 bkhoe	𦋕
 bkhu	𦟩
+bkhvo	𦊡
 bkhxd	𦌆
 bki	肱
 bki	肽
@@ -22157,7 +22157,6 @@ hahhc	馦
 hahhj	𤽹
 hahhj	𤾁
 hahho	𭽖
-hahio	𤽡
 hahio	𬐆
 hahlu	𤽇
 hahlv	𤽇
@@ -22179,6 +22178,7 @@ hahui	𩲸
 hahuj	皥
 hahuk	𩡗
 hahuu	𣰗
+hahvo	𤽡
 hahxu	𤾆
 hahxu	𤾇
 hai	㿝
@@ -27393,7 +27393,6 @@ hohhk	𢓽
 hohhk	𫹠
 hohhv	𡘿
 hohhw	𢕍
-hohio	𤬑
 hohio	𬎣
 hohio	𭛦
 hohj	𭛜
@@ -27446,6 +27445,7 @@ hohvf	𭛭
 hohvi	彽
 hohvl	𢓋
 hohvo	㼌
+hohvo	𤬑
 hohwj	𢔌
 hohwj	𭶲
 hohx	𦥝
@@ -32487,7 +32487,6 @@ ihi	𢧩
 ihid	𢋝
 ihihs	𢧓
 ihio	𢇫
-ihio	𢈅
 ihjd	𫷨
 ihji	螷
 ihji	蠯
@@ -32572,6 +32571,7 @@ ihuf	𢉐
 ihui	廆
 ihul	𢋛
 ihvi	底
+ihvo	𢈅
 ihvp	㡳
 ihw	𪭎
 ihwe	𢈣
@@ -40633,7 +40633,6 @@ ksh	犭
 ksh	𤴬
 ksh	𪥂
 kshaf	鴮
-kshio	𤬄
 kshio	𫦧
 kshml	𣂒
 kshne	𪵈
@@ -40642,6 +40641,7 @@ kshr	𤵪
 kshs	𤺼
 kshvf	綔
 kshvo	瓠
+kshvo	𤬄
 ksi	𫻧
 ksiav	𦫐
 ksiav	𫦭
@@ -57421,8 +57421,8 @@ odhaf	𪆐
 odhdn	𫣯
 odhe	佊
 odhf	鵂
-odhio	𤫿
 odhj	𠉟
+odhvo	𤫿
 odi	付
 odi	𢧅
 odif	𩿧
@@ -58190,7 +58190,6 @@ oihhh	𩚎
 oihhl	飹
 oihhw	餾
 oihio	𩚮
-oihio	𩛃
 oihjm	𩜀
 oihjr	餂
 oihjr	𩛶
@@ -58234,6 +58233,7 @@ oihuk	𩝠
 oihup	䭒
 oihv	𠋘
 oihvo	𤫲
+oihvo	𩛃
 oihxe	餿
 oii	俴
 oii	𩚧
@@ -85131,7 +85131,6 @@ vhif	𡤝
 vhiil	鄉
 vhim	𡤪
 vhio	姂
-vhio	𡜁
 vhiu	𭀗
 vhj	奷
 vhjd	姝
@@ -85222,6 +85221,7 @@ vhuo	𫲗
 vhup	媳
 vhut	嬶	[OuV]
 vhvi	𡛜
+vhvo	𡜁
 vhvp	𡚼
 vhwj	婢
 vhwk	𡜧
