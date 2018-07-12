@@ -10697,6 +10697,7 @@ dmjj	枅
 dmjk	橄
 dmjn	㭢
 dmjr	栝	[uv]
+dmjs	𣏓
 dmjx	㮑
 dmk	𣏿
 dmkd	㮪
@@ -10753,7 +10754,6 @@ dmoo	𬂳
 dmor	㮞
 dmow	𣐸
 dmpm	𣓸
-dmps	𣏓
 dmr	柘
 dmr	𭇁
 dmrb	槅
@@ -36847,6 +36847,7 @@ jrytj	𨐒
 jrytj	𨐝
 jryv	𡪭
 js	肀
+js	𠀁
 jsa	𬀦
 jsbn	𭔄
 jsf	𭵉
@@ -37050,7 +37051,7 @@ junwf	𠓈
 juoiv	𩝓
 juok	𢽉
 jupym	鹓
-jurps	𠒠
+jurjs	𠒠
 juryo	𨇜
 jush	𭄌
 jushi	𭃔
@@ -40471,6 +40472,7 @@ lbmgi	𢅥
 lbmgt	𢃈
 lbmi	禸
 lbmj	𢁗
+lbmjs	𢁢
 lbmku	𭘓
 lbml	𮌄
 lbmm	衻
@@ -40482,7 +40484,6 @@ lbmn	帄
 lbmnn	𢂥
 lbmoo	𢃀
 lbmp	𧞎
-lbmps	𢁢
 lbmr	𧙥
 lbmrw	幅
 lbmso	䝉
@@ -50099,10 +50100,10 @@ msln	𭄆
 msm	𢀞
 msm	𭠀
 msmbc	𩑕
+msmjs	𠄥
 msmm	𦏺
 msmm	𦏼
 msmn	𠀩
-msmps	𠄥
 msmr	𥑙
 msmv	𪠍
 msnau	𦫣
@@ -58163,6 +58164,7 @@ omjg	𡌫
 omjk	㒈
 omjn	𬽰
 omjr	舍
+omjs	𠆬
 omjt	𠉔
 omjwj	𨎯
 omjx	偛
@@ -58274,7 +58276,6 @@ ompd	𬾍
 ompk	𠇢
 ompl	𢘈
 ompm	倵
-omps	𠆬
 ompu	𢘔
 omr	合
 omr	佦
@@ -59956,8 +59957,8 @@ ouhi	𠎺
 ouhio	䍇
 ouhjg	𦉂
 ouhjm	䍋
+ouhjs	𦈤
 ouhmr	缿
-ouhps	𦈤
 ouhws	𦉀
 oui	戗
 oui	𭀥
@@ -59991,12 +59992,12 @@ oumfr	𦈶
 oumg	𬿕
 oumi	𠋷
 oumj	𠊀
+oumjs	𦈣
 oumlk	𮉳
 oumlm	𦈮
 oummn	𦈥
 oumnr	𪝏
 oumny	𦈪
-oumps	𦈣
 oumt	𦈨
 oumt	𫣅
 oumvm	𦈵
@@ -62102,7 +62103,6 @@ prye	𢝄
 prye	𢼒
 pryg	𠴦
 ps	乜
-ps	𠀁
 psav	愝
 psbj	𢡤
 pse	𢘎
@@ -69062,10 +69062,10 @@ rsr	𠰐
 rsrau	𨜝
 rsrg	𪢎
 rsrj	噼
+rsrjs	𠳯
 rsrkk	𤕦
 rsrl	𠹴
 rsro	𡂿
-rsrps	𠳯
 rsrq	𡀳
 rsrr	嘔
 rsrta	𡂶
@@ -71079,6 +71079,7 @@ sftgr	𩦐
 sfthm	𩥙
 sftjd	驧
 sftjr	𩧛
+sftjs	𩢣
 sftlc	䮲
 sftlf	驠
 sftlg	𩥕
@@ -71100,7 +71101,6 @@ sftog	𩦘
 sftop	𩤉
 sftor	𩥠
 sftpd	𩦭
-sftps	𩢣
 sftq	𩣆
 sftqq	𩥍
 sftrg	驩
@@ -87432,10 +87432,10 @@ ycln	𠠟
 ycmbc	𫖣
 ycmhe	𭐦
 ycmi	遵
+ycmjs	𧇊
 ycmmf	𬒵
 ycmo	遂
 ycmo	亪
-ycmps	𧇊
 ycmt	𨗕
 ycmv	𧘙
 ycmw	遒
@@ -87673,8 +87673,8 @@ yelyp	𢤕
 yemb	𨓔
 yembc	𣾢
 yemcw	𮠯
+yemjs	𧆶
 yemmf	𮁹
-yemps	𧆶
 yemr	𥓍
 yemr	𮀜
 yend	𨓎
@@ -89638,12 +89638,12 @@ ypmc	𮟂
 ypmcu	𧇩
 ypmd	䖉
 ypmjj	𪚜
+ypmjs	𧆜
 ypmk	龑
 ypmm	些
 ypmmf	祡
 ypmmf	龒
 ypmoo	𪚠
-ypmps	𧆜
 ypmr	砦
 ypmr	礱
 ypmrb	鬳
@@ -90530,6 +90530,7 @@ yrmjf	𧨗
 yrmjj	詽
 yrmjk	譀
 yrmjr	𦧨
+yrmjs	𧥦
 yrmjx	䛽
 yrmk	䚶
 yrmkj	詽
@@ -90561,7 +90562,6 @@ yrmop	𧫎
 yrmor	諮
 yrmou	𧨵
 yrmov	𬢴
-yrmps	𧥦
 yrmr	𧦳
 yrmrb	䛿
 yrmrb	𧬭
