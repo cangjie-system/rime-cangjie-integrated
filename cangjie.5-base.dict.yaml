@@ -6362,6 +6362,7 @@ buyvi	眩
 buyvo	䀭
 buyvu	䀮
 buyvu	𥇋
+buyvv	䀮
 buyvv	𭾰
 buywd	𥋶
 buywl	𥍗
@@ -38155,6 +38156,7 @@ jytu	𫳭
 jyv	𡦽
 jyvd	𡫵
 jyvu	𡧽
+jyvv	𡧽	[uv]
 jywr	𫳖
 k	大
 k	乂
@@ -41645,6 +41647,7 @@ lbyuk	𬛏
 lbyv	𢁣
 lbyvi	𢂄
 lbyvu	㡆
+lbyvv	㡆
 lbyvv	𢂩
 lbywm	𢅒
 lbyx	䶓
@@ -54296,6 +54299,7 @@ nfytu	𩺿
 nfytv	鯜
 nfyv	䰶
 nfyvi	鮌
+nfyvu	𩶶	[uv]
 nfyvv	𩶶
 nfyvv	𫙜
 nfyvw	𩹱
@@ -63945,6 +63949,7 @@ pyvj	𢡐
 pyvo	㤥
 pyvp	𢚚
 pyvu	㤺
+pyvv	㤺
 pyvv	𢙗
 pyvw	慉
 pywb	𢡎
@@ -72829,6 +72834,7 @@ sfyvi	䮄
 sfyvj	𩣰
 sfyvn	𮪛
 sfyvo	駭
+sfyvu	𩣇	[uv]
 sfyvv	𩣇
 sfywl	𩧤
 sfywm	驙
@@ -81350,7 +81356,9 @@ tyvt	𦱣
 tyvu	荒
 tyvu	𦱋
 tyvu	𮏞
+tyvv	荒
 tyvv	𦮋
+tyvv	𮏞	[uv]
 tyvw	蓄
 tywd	𦼹
 tywe	𦾽
@@ -85037,6 +85045,7 @@ vfyvb	𦇽
 vfyvi	絃
 vfyvo	絯
 vfyvq	縴
+vfyvu	𥿼
 vfyvv	𥿺
 vfyvv	𥿼
 vfywf	𫄊
@@ -87234,6 +87243,7 @@ vyvi	妶
 vyvo	姟
 vyvu	𡜋
 vyvu	𡞙
+vyvv	𡜋
 vyvw	㜅
 vyw	𡜿
 vywe	𠧱
@@ -93269,8 +93279,9 @@ yryv	𧦣
 yryvg	𧨉
 yryvi	詃
 yryvo	該
+yryvu	𧧢
 yryvv	𧧄
-yryvv	𧧢
+yryvv	𧧢	[uv]
 yryvv	𧧮
 yrywe	䜚
 yrywe	𧨼
