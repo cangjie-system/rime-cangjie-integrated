@@ -2031,6 +2031,7 @@ ayhs	昘
 ayhv	𭥾
 ayid	𣉐
 ayiu	𭦓
+ayiv	𭦓	[uv]
 ayj	𪰍
 ayje	𣌘
 ayjj	𭧒
@@ -4283,6 +4284,7 @@ bmwl	腼
 bmwu	𦟊
 bmwv	腰
 bmyiu	𭶷
+bmyiv	𭶷	[uv]
 bmym	𦙫
 bn	肊
 bn	㐍
@@ -5889,7 +5891,6 @@ buphu	𥆲
 bupi	𪾠
 bupid	𥇱
 bupim	盷
-bupiv	𥆨
 bupmi	𥅬
 bupmm	盷
 bupo	𦢾
@@ -6205,6 +6206,8 @@ buyhv	𫌎
 buyia	𥋏
 buyio	𥈚
 buyiu	𥅻
+buyiu	𥆨
+buyiv	𥆨	[uv]
 buyj	䀞
 buyj	𧠕
 buyjj	𥊩
@@ -16807,7 +16810,6 @@ fdpfd	粷
 fdph	𥹅
 fdphh	粅
 fdpit	𥹻
-fdpiv	𥹷
 fdpk	𥸼
 fdpkk	𬖕
 fdpp	粃
@@ -17008,6 +17010,8 @@ fdyhn	粇
 fdyhr	糙
 fdyhr	䊚
 fdyhs	𮇉
+fdyiu	𥹷
+fdyiv	𥹷
 fdyj	料
 fdyk	𥸹
 fdykb	𥺪
@@ -30770,7 +30774,9 @@ icvif	縻
 icyaj	𫸍
 icye	𣀃
 icye	𣀊
+icyiu	𪎣	[uv]
 icyiu	𫸊
+icyiv	𪎣
 icykr	𬹏
 icymo	𫸐
 icymr	䜆
@@ -30893,7 +30899,6 @@ idp	怸
 idp	㥻
 idp	㦄
 idphe	𢋤
-idpiv	𪎣
 idppc	𪎬
 idpru	𠣺
 idpuu	𪎪
@@ -30919,6 +30924,8 @@ idvi	麼
 idvif	縻
 idw	𪎟
 idye	𪎘
+idyiu	𪎣
+idyiv	𪎣	[uv]
 idykr	𬹏
 idymr	䜆
 idymu	𪙱
@@ -35737,7 +35744,6 @@ jjpa	𨌁
 jjpbc	䡩
 jjphh	𨋊
 jjpi	𨊵
-jjpiv	𨌙
 jjpkp	𨍉
 jjpmm	𨊷
 jjpo	𡨳
@@ -35922,6 +35928,8 @@ jjye	軙
 jjyg	軴
 jjyhj	䡫
 jjyhn	䡉
+jjyiu	𨌙	[uv]
+jjyiv	𨌙
 jjyiv	𨏛
 jjyjj	轋
 jjyjj	輧
@@ -45428,7 +45436,6 @@ mfphg	𥚐
 mfphh	𥘨
 mfpi	礿
 mfpim	𥘩
-mfpiv	𥜆
 mfpjc	𥛺
 mfpm	礿
 mfpom	𥚬
@@ -45618,6 +45625,8 @@ mfyhj	𥛝
 mfyhs	祊
 mfyhv	𫀊
 mfyib	𮂝
+mfyiu	𥜆
+mfyiv	𥜆	[uv]
 mfykh	𮂉
 mfykl	𬓖
 mfylb	𥙅
@@ -51675,6 +51684,7 @@ nbyg	𧣓
 nbyid	𧤇
 nbyit	𮗱
 nbyiu	𮗲
+nbyiv	𮗲	[uv]
 nbyj	斛
 nbymr	䜐
 nbyoj	䚝
@@ -55136,7 +55146,6 @@ nphaf	𪄢
 nphaf	𪇤
 nphaf	𫠔
 npi	㢩
-npiv	𢏭
 npks	𠢒
 npm	㢩
 npmbc	𮨞
@@ -55736,6 +55745,8 @@ nyhne	𣫟
 nyhs	𢎷
 nyid	𢏲
 nyik	𫾰
+nyiu	𢏭
+nyiv	𢏭	[uv]
 nyjj	𨐾
 nyk	买
 nylm	𤴔
@@ -60026,7 +60037,6 @@ ouoou	𡴬
 ouos	㒞
 ouotb	𮉹
 oup	𫺛
-oupiv	𦈷
 oupp	𬙌
 oupp	𬾌
 ouptd	𦉃
@@ -60063,6 +60073,8 @@ ouwmv	𬙒
 ouyck	䍊
 ouyfr	𮉵
 ouyhq	𦈾
+ouyiu	𦈷
+ouyiv	𦈷	[uv]
 ouyjj	缾
 ouymr	諐
 ouymu	𦉟
@@ -70043,8 +70055,9 @@ ryif	𡂪
 ryij	𠻜
 ryio	𡂭
 ryio	𭊹
-ryiu	𪠻
+ryiu	𪠻	[uv]
 ryiu	𪡁
+ryiv	𪠻
 ryj	呌
 ryja	𪢆
 ryje	𢻀
@@ -78138,7 +78151,6 @@ tqopd	𦍥
 tqp	恙
 tqpd	𦍔
 tqpid	𣟦
-tqpiv	𦎓
 tqpmi	𦍿
 tqpmm	𮊧
 tqppa	𦎥
@@ -78207,6 +78219,8 @@ tqwyi	䍭
 tqyb	𦼸
 tqye	𢼝
 tqye	𢽁
+tqyiu	𦎓
+tqyiv	𦎓	[uv]
 tqyj	𣁵
 tqylb	䍨
 tqymq	𦏭
@@ -82731,7 +82745,6 @@ vfphh	𥾸
 vfphh	𬗣
 vfphp	𦁕
 vfpi	約
-vfpiv	𦀠
 vfpk	𮈅
 vfpkk	𦁯
 vfpko	𦆦
@@ -83146,6 +83159,8 @@ vfyib	䋭
 vfyie	𮈹
 vfyij	繂
 vfyiu	統
+vfyiu	𦀠
+vfyiv	𦀠
 vfyj	紏
 vfyj	㪻
 vfyjj	縺
@@ -89610,7 +89625,6 @@ yphxu	𪕊
 ypihr	䖗
 ypilb	𬹁
 ypir	𨕕
-ypiv	𨓞
 ypjj	𨔪
 ypjoe	𪎁
 ypjwj	𮝏
@@ -91190,6 +91204,7 @@ yryid	𧨯
 yryid	𮘣
 yryid	𮙂
 yryif	𧭧
+yryiu	𧨆
 yryiv	𧨆
 yryj	䚵
 yryjj	謰
@@ -92921,6 +92936,8 @@ yyib	逳
 yyie	𨖏
 yyij	䢦
 yyirm	𫧳
+yyiu	𨓞
+yyiv	𨓞	[uv]
 yyj	䢏
 yyjj	逬
 yyjki	𫧲

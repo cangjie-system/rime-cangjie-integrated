@@ -2059,6 +2059,7 @@ ayhs	昘
 ayhv	𭥾
 ayid	𣉐
 ayiu	𭦓
+ayiv	𭦓	[uv]
 ayj	𪰍
 ayje	𣌘
 ayjj	𭧒
@@ -4362,6 +4363,7 @@ bmwu	𦟊
 bmwv	腰
 bmye	𠭧
 bmyiu	𭶷
+bmyiv	𭶷	[uv]
 bmym	𦙫
 bn	肊
 bn	㐍
@@ -5985,7 +5987,6 @@ bupht	𥉓
 buphu	𥆲
 bupi	𪾠
 bupim	盷
-bupiv	𥆨
 bupm	𪾠
 bupmi	𥅬
 bupmm	盷
@@ -6308,6 +6309,8 @@ buyia	𥋏
 buyid	𥇱
 buyio	𥈚
 buyiu	𥅻
+buyiu	𥆨
+buyiv	𥆨	[uv]
 buyj	䀞
 buyj	𧠕
 buyjj	𥊩
@@ -8884,6 +8887,7 @@ cyiq	𨬨
 cyiq	𫒻
 cyiu	鋶
 cyiu	銃
+cyiv	鋶
 cyj	鈄
 cyje	𨰮
 cyji	𮣃
@@ -12481,6 +12485,7 @@ dyij	𣘚
 dyit	橀
 dyiu	梳
 dyiu	𣑁
+dyiv	梳
 dyj	枓
 dyji	𣚢
 dyji	𣛔
@@ -16102,6 +16107,7 @@ eyin	𬉫
 eyit	㳰
 eyiu	流
 eyiu	㳘
+eyiv	流
 eyj	㳆
 eyjc	灨
 eyjh	𤁀
@@ -29986,6 +29992,7 @@ huyg	𭿊
 huyhm	𫤢
 huyhm	𭯯
 huyiu	㲙
+huyiv	㲙
 huyj	𣁽
 huyj	𣬯
 huykm	𫤢	[uv]
@@ -31181,6 +31188,7 @@ hyyhn	航
 hyyhr	䒃
 hyyhs	舫
 hyyiu	艈
+hyyiv	艈
 hyyk	𬜔
 hyylh	䑰
 hyymm	𬜙
@@ -31436,8 +31444,9 @@ icvi	麼
 icvif	縻
 icyaj	𫸍
 icye	𪎘
-icyiu	𪎣
+icyiu	𪎣	[uv]
 icyiu	𫸊
+icyiv	𪎣
 icykr	𬹏
 icym	𢉲
 icymo	𫸐
@@ -31588,6 +31597,7 @@ idvif	縻
 idw	𪎟
 idye	𪎘
 idyiu	𪎣
+idyiv	𪎣	[uv]
 idykr	𬹏
 idymr	䜆
 idytc	𮮌
@@ -36701,7 +36711,6 @@ jjpbc	䡩
 jjphh	𨋊
 jjpi	𨊵
 jjpim	𨊷
-jjpiv	𨌙
 jjpkp	𨍉
 jjpmm	𨊷
 jjpo	𡨳
@@ -36884,6 +36893,8 @@ jjyg	軴
 jjyhj	䡫
 jjyhn	䡉
 jjyib	𨌯
+jjyiu	𨌙	[uv]
+jjyiv	𨌙
 jjyiv	𨏛
 jjyjj	轋
 jjyjj	輧
@@ -43182,6 +43193,7 @@ liyia	蟙
 liyib	蜟
 liyij	蟀
 liyiu	䖻
+liyiv	䖻
 liyj	蚪
 liyjj	𧐖
 liyk	蚊
@@ -44769,6 +44781,7 @@ lyij	𧜠
 lyik	猆
 lyiu	裗
 lyiu	䘪
+lyiv	裗
 lyj	𧘞
 lyjj	褳
 lyjr	𩇵
@@ -46726,6 +46739,7 @@ mfyhs	祊
 mfyhv	𫀊
 mfyib	𮂝
 mfyiu	𥜆
+mfyiv	𥜆	[uv]
 mfykh	𮂉
 mfykl	𬓖
 mfylb	𥙅
@@ -48010,6 +48024,7 @@ mgyij	㻭
 mgyiq	𤩻
 mgyiu	琉
 mgyiu	珫
+mgyiv	琉
 mgyj	㺶
 mgyjj	璉
 mgyjm	𤫝
@@ -48994,6 +49009,7 @@ mmybc	𣦓
 mmydl	𬩓
 mmye	𣀥
 mmyiu	巰
+mmyiv	巰
 mmyk	𫿮
 mmyk	𭤖
 mmym	㱏
@@ -51159,6 +51175,7 @@ mryhv	𧙑
 mryid	𦧢
 mryiu	硫
 mryiu	𥒝
+mryiv	硫
 mryj	𣁳
 mryj	𥐿
 mryjj	硑
@@ -52436,6 +52453,7 @@ mwyhr	𮡀
 mwyij	𨠪
 mwyit	醯
 mwyiu	酼
+mwyiv	酼
 mwyj	酙
 mwyka	𭧆
 mwykl	𨠨
@@ -52909,6 +52927,7 @@ nbyg	𧣓
 nbyid	𧤇
 nbyit	𮗱
 nbyiu	𮗲
+nbyiv	𮗲	[uv]
 nbyj	斛
 nbymr	䜐
 nbyoj	䚝
@@ -54219,6 +54238,7 @@ nfyhs	魴
 nfyhs	𩽲
 nfyib	𩺼
 nfyiu	鯍
+nfyiv	鯍
 nfyiv	𩷮
 nfyj	𩵬
 nfyje	𬵯
@@ -56030,6 +56050,7 @@ nmyg	驻
 nmyhs	鲂
 nmyiu	疏
 nmyiu	巯
+nmyiv	疏
 nmyk	𫘜
 nmyk	𬶑
 nmykl	鲚
@@ -57032,6 +57053,7 @@ nyhs	𢎷
 nyid	𢏲
 nyik	𫾰
 nyiu	𢏭
+nyiv	𢏭	[uv]
 nyjj	𨐾
 nyk	买
 nylm	𤴔
@@ -61554,6 +61576,7 @@ ouyck	䍊
 ouyfr	𮉵
 ouyhq	𦈾
 ouyiu	𦈷
+ouyiv	𦈷	[uv]
 ouyjj	缾
 ouymr	諐
 ouymu	𦉟
@@ -61924,6 +61947,7 @@ oyyb	𠐝
 oyyci	𬠱
 oyyib	𣫺
 oyyiu	毓
+oyyiv	毓
 oyypt	𣬁
 oyyrf	𪵔
 oyywi	𫜈
@@ -66995,6 +67019,7 @@ qyij	摔
 qyit	𢬵
 qyiu	㧤
 qyiu	㧧
+qyiv	㧧
 qyj	抖
 qyji	𪮮
 qyjj	拼
@@ -69859,6 +69884,7 @@ rmyij	𨄮
 rmyit	𨁐
 rmyiu	䟲
 rmyiu	䟽
+rmyiv	䟽
 rmyj	𧿫
 rmyjj	蹥
 rmyjl	𨆹
@@ -71621,8 +71647,9 @@ ryid	𠾍
 ryif	𡂪
 ryio	𡂭
 ryio	𭊹
-ryiu	𪠻
+ryiu	𪠻	[uv]
 ryiu	𪡁
+ryiv	𪠻
 ryj	呌
 ryja	𪢆
 ryjj	嗹
@@ -79914,6 +79941,7 @@ tqyb	𦼸
 tqye	𢼝
 tqye	𢽁
 tqyiu	𦎓
+tqyiv	𦎓	[uv]
 tqyj	𣁵
 tqymq	𦏭
 tqymu	𦏫
@@ -84931,6 +84959,7 @@ vfyie	𮈹
 vfyij	繂
 vfyiu	統
 vfyiu	𦀠
+vfyiv	𦀠
 vfyj	紏
 vfyj	㪻
 vfyjj	縺
@@ -93144,6 +93173,7 @@ yryid	𧨯
 yryid	𮘣
 yryid	𮙂
 yryif	𧭧
+yryiu	𧨆
 yryiv	𧨆
 yryj	䚵
 yryjj	謰
@@ -93547,6 +93577,7 @@ ysyhn	𣃚
 ysyhv	𧘩
 ysyia	旘
 ysyiu	旈
+ysyiv	旈
 ysyj	遟
 ysyj	𣁼
 ysyj	𣂆
@@ -94915,6 +94946,7 @@ yyir	𨕕
 yyirm	𫧳
 yyit	𨓋
 yyiu	𨓞
+yyiv	𨓞	[uv]
 yyj	䢏
 yyjj	逬
 yyjki	𫧲
