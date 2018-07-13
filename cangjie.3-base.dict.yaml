@@ -1801,7 +1801,6 @@ atol	𣉏
 atoo	𣋸
 atos	𣋭
 atpd	𣋑
-atpv	𣊀
 atqm	暛
 atrg	𣌓
 atrk	曔
@@ -1817,7 +1816,10 @@ atyj	𭧩
 atyrb	𬴙
 atys	𣇷
 atysb	𬴙
+atyu	𣉪
+atyu	𣊀
 atyv	𣉪
+atyv	𣊀	[uv]
 atyv	𭦇
 au	巴
 au	旵
@@ -4015,6 +4017,7 @@ bktm	𦟉
 bktmc	𬙡
 bktq	𦝯
 bktyu	𪥣
+bktyv	𪥣	[uv]
 bkua	䐶	[uv]
 bkvfg	𦌴
 bkvfv	𦍃
@@ -6080,6 +6083,7 @@ butwp	𥍇
 butwu	矒
 butwv	䁸
 butxc	䁠
+butyu	𥉂
 butyv	𥇀
 butyv	𥉂
 buu	朏
@@ -11928,6 +11932,7 @@ dtyq	𣝘
 dtys	㭶
 dtyu	𣗄
 dtyv	𣒣
+dtyv	𣗄	[uv]
 du	札
 du	杣
 duap	𣙍
@@ -15436,6 +15441,7 @@ etyp	𣸆
 etyr	𬈸
 etys	淓
 etyu	㵁
+etyu	𣺬
 etyv	㵁
 etyv	𣺬
 etyw	𭳀
@@ -23436,6 +23442,7 @@ hdtwv	穠
 hdtxc	稴
 hdtyj	䅸
 hdtyr	𥠯
+hdtyu	𥡃
 hdtyv	䅒
 hdtyv	𥡃
 hdtyv	𥡍
@@ -38519,6 +38526,7 @@ khtwt	𤣁
 khtwv	㺜
 khtxc	㺌
 khtyb	𤢨
+khtyu	𤠤
 khtyv	𤞽
 khtyv	𤠤
 khu	𡾎
@@ -49859,8 +49867,9 @@ mrtwv	䃩
 mrtxc	磏
 mrtxc	𫇗
 mrtyb	𥖰
+mrtyu	𥔾
 mrtyv	硭
-mrtyv	𥔾
+mrtyv	𥔾	[uv]
 mru	𡶪
 mru	𥐕
 mru	𥐢
@@ -52885,6 +52894,7 @@ nftwv	𩼅
 nftxc	鰜
 nftyb	𩹩
 nftyj	𩺵
+nftyu	𩺊
 nftyv	𩷶
 nftyv	𩺊
 nfu	䰲
@@ -59928,6 +59938,7 @@ otypm	𥃋
 otys	𪝆
 otyu	𬿁
 otyv	𠉋
+otyv	𬿁	[uv]
 ou	仙
 ou	仚
 ou	屳
@@ -69306,8 +69317,9 @@ rtyg	𭌕
 rtyj	𡂫
 rtyj	𡂴
 rtyo	𠹽
+rtyu	𠻄
 rtyv	𠴏
-rtyv	𠻄
+rtyv	𠻄	[uv]
 ru	巳
 ru	𠮜
 ru	𠮿
@@ -83010,6 +83022,7 @@ vftxc	縑
 vftyj	纄
 vftyo	𦃮
 vftyo	𮈕
+vftyu	𦃑
 vftyv	𦀴
 vftyv	𦃑
 vfu	巒
@@ -89741,6 +89754,7 @@ yptm	虛
 yptmc	虡
 yptq	𦍧
 yptyu	𬹀
+yptyv	𬹀	[uv]
 ypu	迍
 ypu	𡾩
 ypug	𧆣
