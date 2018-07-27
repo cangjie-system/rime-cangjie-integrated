@@ -1,0 +1,130 @@
+# encoding: utf-8
+#
+# 官方六代倉頡符號表（ZZ* 區段）
+#
+# 原始碼表出處：
+# 《文傳字庫手冊》〈附錄六、文傳字庫 GB/BG5 符號碼對照表〉
+#
+
+---
+name: "cangjie.6-symbols-zz"
+version: "1.00"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+encoder:
+  exclude_patterns:
+    - '^zz.*$'
+...
+
+zza	「
+zzaj	『
+zzb	」
+zzbj	』
+zzcho	℅
+zzdd	∞
+zzdz	♀
+zze	〈
+zzee	《
+zzep	≦
+zzf	〉
+zzff	》
+zzfp	≧
+zzg	﹙
+zzh	﹚
+zzhg	×
+zzhgi	※
+zzhp	≠
+zziia	∴
+zziic	∵
+zziii	⋯
+zzik	【
+zzimi	÷
+zzipi	≒
+zzjk	】
+zzkj	△
+zzkk	▲
+zzkkh	“
+zzl	〡
+zzlc	¢
+zzll	〢
+zzlll	〣
+zzmj	☆
+zzmk	★
+zzn1	ⅱ
+zzn11	ⅷ
+zzn12	ⅸ
+zzn2	ⅲ
+zzn3	ⅳ
+zzn4	ⅵ
+zzn5	ⅶ
+zznc	↓
+zznd	←
+zznda	♂
+zzne	→
+zznf	↖
+zzng	↙
+zznh	↗
+zzni	↘
+zznj	◇
+zznk	◆
+zzo1	①
+zzo11	②
+zzo12	③
+zzo13	④
+zzo14	⑤
+zzo15	⑥
+zzo2	⑦
+zzo3	⑧
+zzo4	⑨
+zzo5	⑩
+zzod	◎
+zzoi	☉
+zzoj	○
+zzok	●
+zzoz	⊕
+zzp	⊿
+zzpm	≡
+zzq	。
+zzqcf	℃
+zzqf	°
+zzqff	℉
+zzr	∠
+zzrj	□
+zzrk	■
+zzs	∫
+zzsd	∮
+zzss	§
+zzv1	⑴
+zzv11	⑵
+zzv12	⑶
+zzv13	⑷
+zzv14	⑸
+zzv15	⑹
+zzv2	⑺
+zzv3	⑻
+zzv4	⑼
+zzv5	⑽
+zzw	∪
+zzx	∩
+zzy	〦
+zzyj	▽
+zzyk	▼
+zzym	〧
+zzymm	〨
+zzyp	¥
+zzz	£
+zzzfh	┘
+zzzfp	┐
+zzzfx	┤
+zzzhn	└
+zzzhv	┴
+zzzm	±
+zzznp	┌
+zzznx	├
+zzzpv	┬
+zzzv	─
+zzzvx	┼
+zzzx	│
