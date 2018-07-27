@@ -776,12 +776,124 @@ columns:
         f.write(text)
         f.close()
 
+def import_cangjie_yahoo():
+    """匯入雅虎倉頡
+    """
+    def sort_key_func(line):
+        return line[0]
+
+    # 已定義字列表
+    # 用於避免重複
+    map_chars = {}
+
+    data = {}
+
+    file = os.path.join(root, 'resources', 'cangjie-yahoo', 'cj-ext.cin')
+    with open(file, 'r', encoding='UTF-8') as f:
+        text = f.read()
+        text = re.search(r'\n%chardef begin\n(.*)\n%chardef end\n', text, flags=re.S)[1]
+
+        for line in text.splitlines():
+            if not line.strip(): continue
+
+            line = re.split(r' +', line)
+            line[1] = line[1][0]
+
+            # 移除相容區字元
+            if is_cjk_comp(line[1]): continue
+
+            # 移除造字區字元
+            if is_pua(line[1]): continue
+
+            # 移除重複
+            if (line[0], line[1]) in map_chars: continue
+
+            if line[0].startswith('x') and is_punc(line[1]) and not is_rad_sup(line[1]):
+                dest = '3-yahoo-symbols-x'
+            elif line[0].startswith('x'):
+                continue
+            elif line[0].startswith('yyy') and is_punc(line[1]):
+                continue
+            elif line[0].startswith('zx'):
+                continue
+            elif line[0].startswith('z'):
+                continue
+            elif is_punc(line[1]):
+                continue
+            else:
+                dest = '3-yahoo'
+
+            line = line[0:2]
+            map_chars[(line[0], line[1])] = True
+            data.setdefault(dest, []).append(line)
+
+        f.close()
+
+    data['3-yahoo'].sort(key=sort_key_func)
+    file = os.path.join(root, 'cangjie.3-yahoo.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# Yahoo 倉頡編碼表
+#
+# 原始碼表出處：
+# https://github.com/yahoo/KeyKey
+# /blob/master/YahooKeyKey-Source-1.1.2528/DataTables/cj-ext.cin
+#
+# - 轉換為 RIME 格式
+# - 移除符號表 (zx*)
+# - 調整排序 
+#
+
+---
+name: "cangjie.3-yahoo"
+version: "1.00"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+  - notes
+...
+
+{}
+""".format('\n'.join(['\t'.join(x) for x in data['3-yahoo']]))
+        f.write(text)
+        f.close()
+
+    data['3-yahoo-symbols-x'].sort(key=sort_key_func)
+    file = os.path.join(root, 'cangjie.3-yahoo-symbols-x.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# 雅虎三代倉頡編碼表的符號表（X* 區段）
+#
+
+---
+name: "cangjie.3-yahoo-symbols-x"
+version: "1.00"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+encoder:
+  exclude_patterns:
+    - '^x.*$'
+...
+
+{}
+""".format('\n'.join(['\t'.join(x) for x in data['3-yahoo-symbols-x']]))
+        f.write(text)
+        f.close()
+
 def import_resources():
     """匯入資料檔
     """
     import_cjsys()
     import_cangjie3_plus()
     import_cangjie5_plus()
+    import_cangjie_yahoo()
 
 def main():
     parser = argparse.ArgumentParser(

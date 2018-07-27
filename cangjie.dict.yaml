@@ -13,6 +13,8 @@ use_preset_vocabulary: false
 import_tables:
 - cangjie.3-base
 - cangjie.3-base-dups
+# - cangjie.3-yahoo
+# - cangjie.3-yahoo-symbols-x
 # - cangjie.3-rad-kanxi
 # - cangjie.3-rad-sup
 # - cangjie.3-cjkcomp

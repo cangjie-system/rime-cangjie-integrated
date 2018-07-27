@@ -1,0 +1,51 @@
+# encoding: utf-8
+#
+# 雅虎三代倉頡編碼表的符號表（X* 區段）
+#
+
+---
+name: "cangjie.3-yahoo-symbols-x"
+version: "1.00"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+encoder:
+  exclude_patterns:
+    - '^x.*$'
+...
+
+xaf	╞
+xah	╟
+xao	╰
+xar	╠
+xcf	╛
+xch	╜
+xcr	╝
+xdf	╡
+xdh	╢
+xdr	╣
+xef	╕
+xeh	╖
+xer	╗
+xl	║
+xm	═
+xqf	╒
+xqh	╓
+xqo	╭
+xqr	╔
+xsf	╪
+xsh	╫
+xso	╯
+xsr	╬
+xwf	╤
+xwh	╥
+xwo	╮
+xwr	╦
+xxf	╧
+xxh	╨
+xxr	╩
+xzf	╘
+xzh	╙
+xzr	╚
