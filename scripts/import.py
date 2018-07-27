@@ -887,6 +887,70 @@ encoder:
         f.write(text)
         f.close()
 
+def import_cangjie_ms():
+    """匯入微軟倉頡
+    """
+    def sort_key_func(line):
+        return line[0]
+
+    data = {}
+
+    file = os.path.join(root, 'resources', 'cangjie-ms', 'Vista-CJ.txt')
+    with open(file, 'r', encoding='UTF-8-SIG') as f:
+        text = f.read()
+
+        for line in text.splitlines():
+            if not line.strip(): continue
+
+            line = re.split(r' +', line, maxsplit=1)
+
+            for char in line[1].split(' '):
+                if line[0].startswith('x') and is_punc(char) and not is_rad_sup(char):
+                    dest = '3-ms-symbols-x'
+                elif line[0].startswith('x'):
+                    continue
+                elif line[0].startswith('zx'):
+                    continue
+                elif is_punc(char):
+                    continue
+                else:
+                    dest = '3-ms'
+
+                data.setdefault(dest, []).append([line[0], char])
+
+        f.close()
+
+    data['3-ms'].sort(key=sort_key_func)
+    file = os.path.join(root, 'cangjie.3-ms.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# Vista 微軟倉頡編碼表（Ext-A、Ext-B、HKSCS）
+#
+# 原始碼表出處：
+# https://sites.google.com/site/chineseinput/vista-cj
+#
+# - 轉換為 RIME 格式
+# - 移除符號表 (zx*)
+# - 調整排序 
+#
+
+---
+name: "cangjie.3-ms"
+version: "1.00"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+  - notes
+...
+
+{}
+""".format('\n'.join(['\t'.join(x) for x in data['3-ms']]))
+        f.write(text)
+        f.close()
+
 def import_resources():
     """匯入資料檔
     """
@@ -894,6 +958,7 @@ def import_resources():
     import_cangjie3_plus()
     import_cangjie5_plus()
     import_cangjie_yahoo()
+    import_cangjie_ms()
 
 def main():
     parser = argparse.ArgumentParser(
