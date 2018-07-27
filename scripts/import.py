@@ -776,6 +776,64 @@ columns:
         f.write(text)
         f.close()
 
+def import_rime_cangjie6():
+    """匯入六代倉頡
+    """
+    def sort_key_func(line):
+        return line[0]
+
+    data = {}
+    file = os.path.join(root, 'resources', 'rime-cangjie6', 'cangjie6.dict.yaml')
+    with open(file, 'r', encoding='UTF-8') as f:
+        text = f.read()
+        text = re.search(r'\n\.\.\.\n(.*)$', text, flags=re.S)[1]
+
+        for line in text.splitlines():
+            if not line.strip(): continue
+            if line.startswith('#'): continue
+
+            line = line.split('\t')
+
+            # 移除相容區字元
+            # if is_cjk_comp(line[0]): continue
+
+            # 移除造字區字元
+            # if is_pua(line[0]): continue
+
+            dest = '6-base'
+
+            line = [line[1], line[0]]
+            data.setdefault(dest, []).append(line)
+
+        f.close()
+
+    data['6-base'].sort(key=sort_key_func)
+    file = os.path.join(root, 'cangjie.6-base.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# 六代倉頡編碼表
+#
+# 原始碼表出處：
+# https://github.com/LEOYoon-Tsaw/Cangjie6
+#
+
+---
+name: "cangjie.6-base"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - code
+  - text
+  - notes
+...
+
+{}
+""".format('\n'.join(['\t'.join(x) for x in data['6-base']]))
+        f.write(text)
+        f.close()
+
 def import_cangjie_yahoo():
     """匯入雅虎倉頡
     """
@@ -957,6 +1015,7 @@ def import_resources():
     import_cjsys()
     import_cangjie3_plus()
     import_cangjie5_plus()
+    import_rime_cangjie6()
     import_cangjie_yahoo()
     import_cangjie_ms()
 

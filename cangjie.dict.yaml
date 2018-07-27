@@ -26,6 +26,7 @@ import_tables:
 # - cangjie.5-rad-sup
 # - cangjie.5-cjkcomp
 # - cangjie.5-symbols-yyy
+# - cangjie.6-base
 # - cangjie.symbols-x
 # - cangjie.symbols-z
 ...
