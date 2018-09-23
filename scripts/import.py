@@ -14,7 +14,7 @@ root = os.path.normpath(os.path.join(__file__, '..', '..'))
 
 def is_punc(text):
     code = ord(text[0])
-    return code < 0x3400 or 0xFF00 <= code <= 0xFFEF
+    return code < 0x3400 or 0xFE30 <= code <= 0xFFEF
 
 def is_rad_kanxi(text):
     code = ord(text[0])
