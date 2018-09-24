@@ -79,40 +79,41 @@ def import_cjsys():
             if not line.strip(): continue
 
             line = re.split(r' +', line)
+            code, char = line[0], line[1]
 
             # 移除相容區字元
-            if is_cjk_comp(line[1]): continue
+            if is_cjk_comp(char): continue
 
             # 修正或移除造字區字元
-            if is_pua(line[1]):
-                if line[1] in map_pua_fix:
-                    line[1] = map_pua_fix[line[1]]
+            if is_pua(char):
+                if char in map_pua_fix:
+                    char = map_pua_fix[char]
                 else:
                     continue
 
-            if line[0].startswith('x') and is_punc(line[1]):
+            if code.startswith('x') and is_punc(char):
                 dest = 'symbols-x'
-            elif line[0].startswith('x'):
+            elif code.startswith('x'):
                 dest = 'base-dups'
-            elif line[0].startswith('yyy') and is_punc(line[1]):
+            elif code.startswith('yyy') and is_punc(char):
                 dest = 'symbols-yyy'
-            elif line[0].startswith('zx'):
+            elif code.startswith('zx'):
                 dest = 'symbols-zx'
-            elif line[0].startswith('z'):
+            elif code.startswith('z'):
                 dest = 'symbols-z'
             else:
                 dest = 'base'
 
                 # 加入五代新增字表
-                map_cj5_extra_chars[line[1]] = line
+                map_cj5_extra_chars[char] = line
 
                 # 將結尾非「難」的字加入列表
                 # 因三代有些重複字沒有標準取碼（結尾不為「難」的碼）
                 # 故從五代取得
-                if not line[0].endswith('x'):
-                    map_non_x.setdefault(line[1], []).append(line[0])
+                if not code.endswith('x'):
+                    map_non_x.setdefault(char, []).append(code)
 
-            data.setdefault(dest, []).append(line)
+            data.setdefault(dest, []).append([code, char])
 
         f.close()
 
@@ -290,34 +291,35 @@ encoder:
             if not line.strip(): continue
 
             line = re.split(r' +', line)
+            code, char = line[0], line[1]
 
             # 移除相容區字元
-            if is_cjk_comp(line[1]): continue
+            if is_cjk_comp(char): continue
 
             # 修正或移除造字區字元
-            if is_pua(line[1]):
-                if line[1] in map_pua_fix:
-                    line[1] = map_pua_fix[line[1]]
+            if is_pua(char):
+                if char in map_pua_fix:
+                    char = map_pua_fix[char]
                 else:
                     continue
 
-            if line[0].startswith('x') and is_punc(line[1]):
+            if code.startswith('x') and is_punc(char):
                 dest = 'symbols-x'
-            elif line[0].endswith('x') and line[1] in map_non_x:
+            elif code.endswith('x') and char in map_non_x:
                 dest = 'base-dups'
-            elif line[0].startswith('yyy') and is_punc(line[1]):
+            elif code.startswith('yyy') and is_punc(char):
                 dest = 'symbols-yyy'
-            elif line[0].startswith('zx'):
+            elif code.startswith('zx'):
                 dest = 'symbols-zx'
-            elif line[0].startswith('z'):
+            elif code.startswith('z'):
                 dest = 'symbols-z'
             else:
                 dest = 'base'
 
                 # 從五代新增字表移除
-                map_cj5_extra_chars.pop(line[1], None)
+                map_cj5_extra_chars.pop(char, None)
 
-            data.setdefault(dest, []).append(line)
+            data.setdefault(dest, []).append([code, char])
 
         f.close()
 
@@ -399,30 +401,30 @@ def import_cangjie3_plus():
             if not line.strip(): continue
 
             line = re.split(r' +', line)
+            code, char = line[0], line[1]
 
             # 移除相容區字元
-            if is_cjk_comp(line[1]): continue
+            if is_cjk_comp(char): continue
 
             # 移除造字區字元
-            if is_pua(line[1]): continue
+            if is_pua(char): continue
 
-            if line[0].startswith('x') and is_punc(line[1]):
-                dest = '3-symbols-x'
-            elif line[0].startswith('x'):
+            if code.startswith('x') and is_punc(char):
+                continue
+            elif code.startswith('x'):
                 dest = '3-base-dups'
-            elif line[0].startswith('yyy') and is_punc(line[1]):
-                dest = '3-symbols-yyy'
-            elif line[0].startswith('zx'):
-                dest = '3-symbols-zx'
-            elif line[0].startswith('z'):
-                dest = '3-symbols-z'
-            elif is_punc(line[1]):
-                dest = '3-symbols'
+            elif code.startswith('yyy') and is_punc(char):
+                continue
+            elif code.startswith('zx'):
+                continue
+            elif code.startswith('z'):
+                continue
+            elif is_punc(char):
+                continue
             else:
                 dest = '3-base'
 
-            line = line[0:2]
-            data.setdefault(dest, []).append(line)
+            data.setdefault(dest, []).append([code, char])
 
         f.close()
 
@@ -497,30 +499,30 @@ def import_cangjie5_plus():
             if not line.strip(): continue
 
             line = line.split('\t')
+            code, char = line[1], line[0]
 
             # 移除相容區字元
-            if is_cjk_comp(line[0]): continue
+            if is_cjk_comp(char): continue
 
             # 移除造字區字元
-            if is_pua(line[0]): continue
+            if is_pua(char): continue
 
-            if line[1].startswith('x') and is_punc(line[0]):
-                dest = '5-symbols-x'
-            elif line[1].startswith('x'):
+            if code.startswith('x') and is_punc(char):
+                continue
+            elif code.startswith('x'):
                 dest = '5-base-dups'
-            elif line[1].startswith('yyy') and is_punc(line[0]):
-                dest = '5-symbols-yyy'
-            elif line[1].startswith('zx'):
-                dest = '5-symbols-zx'
-            elif line[1].startswith('z'):
-                dest = '5-symbols-z'
-            elif is_punc(line[0]):
-                dest = '5-symbols'
+            elif code.startswith('yyy') and is_punc(char):
+                continue
+            elif code.startswith('zx'):
+                continue
+            elif code.startswith('z'):
+                continue
+            elif is_punc(char):
+                continue
             else:
                 dest = '5-base'
 
-            line = [line[1], line[0]]
-            data.setdefault(dest, []).append(line)
+            data.setdefault(dest, []).append([code, char])
 
     data['5-base'].sort(key=sort_key_func)
     file = os.path.join(root, 'cangjie.5-base.dict.yaml')
@@ -584,18 +586,18 @@ columns:
             if not line.strip(): continue
 
             line = line.split('\t')
+            code, char = line[1], line[0]
 
-            if is_cjk_comp(line[0]):
+            if is_cjk_comp(char):
                 dest = '5-cjkcomp'
-            elif is_rad_kanxi(line[0]):
+            elif is_rad_kanxi(char):
                 dest = '5-rad-kanxi'
-            elif is_rad_sup(line[0]):
+            elif is_rad_sup(char):
                 dest = '5-rad-sup'
             else:
                 continue
 
-            line = line[0:2]
-            data.setdefault(dest, []).append(line)
+            data.setdefault(dest, []).append([char, code])
 
         f.close()
 
@@ -793,17 +795,11 @@ def import_rime_cangjie6():
             if line.startswith('#'): continue
 
             line = line.split('\t')
-
-            # 移除相容區字元
-            # if is_cjk_comp(line[0]): continue
-
-            # 移除造字區字元
-            # if is_pua(line[0]): continue
+            code, char = line[1], line[0]
 
             dest = '6-base'
 
-            line = [line[1], line[0]]
-            data.setdefault(dest, []).append(line)
+            data.setdefault(dest, []).append([code, char])
 
         f.close()
 
@@ -855,35 +851,34 @@ def import_cangjie_yahoo():
             if not line.strip(): continue
 
             line = re.split(r' +', line)
-            line[1] = line[1][0]
+            code, char = line[0], line[1][0]
 
             # 移除相容區字元
-            if is_cjk_comp(line[1]): continue
+            if is_cjk_comp(char): continue
 
             # 移除造字區字元
-            if is_pua(line[1]): continue
+            if is_pua(char): continue
 
             # 移除重複
-            if (line[0], line[1]) in map_chars: continue
+            if (code, char) in map_chars: continue
 
-            if line[0].startswith('x') and is_punc(line[1]) and not is_rad_sup(line[1]):
+            if code.startswith('x') and is_punc(char) and not is_rad_sup(char):
                 dest = '3-yahoo-symbols-x'
-            elif line[0].startswith('x'):
+            elif code.startswith('x'):
                 continue
-            elif line[0].startswith('yyy') and is_punc(line[1]):
+            elif code.startswith('yyy') and is_punc(char):
                 continue
-            elif line[0].startswith('zx'):
+            elif code.startswith('zx'):
                 continue
-            elif line[0].startswith('z'):
+            elif code.startswith('z'):
                 continue
-            elif is_punc(line[1]):
+            elif is_punc(char):
                 continue
             else:
                 dest = '3-yahoo'
 
-            line = line[0:2]
-            map_chars[(line[0], line[1])] = True
-            data.setdefault(dest, []).append(line)
+            map_chars[(code, char)] = True
+            data.setdefault(dest, []).append([code, char])
 
         f.close()
 
@@ -961,20 +956,21 @@ def import_cangjie_ms():
             if not line.strip(): continue
 
             line = re.split(r' +', line, maxsplit=1)
+            code, chars = line[0], line[1]
 
-            for char in line[1].split(' '):
-                if line[0].startswith('x') and is_punc(char) and not is_rad_sup(char):
+            for char in chars.split(' '):
+                if code.startswith('x') and is_punc(char) and not is_rad_sup(char):
                     dest = '3-ms-symbols-x'
-                elif line[0].startswith('x'):
+                elif code.startswith('x'):
                     continue
-                elif line[0].startswith('zx'):
+                elif code.startswith('zx'):
                     continue
                 elif is_punc(char):
                     continue
                 else:
                     dest = '3-ms'
 
-                data.setdefault(dest, []).append([line[0], char])
+                data.setdefault(dest, []).append([code, char])
 
         f.close()
 
