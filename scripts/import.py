@@ -396,7 +396,7 @@ def import_cangjie3_plus():
         return line[0]
 
     data = {}
-    file = os.path.join(root, 'resources', 'cangjie3-plus', 'cj3-70000~02.txt')
+    file = os.path.join(root, 'resources', 'cangjie3-plus', 'cj3-80000.txt')
     with open(file, 'r', encoding='UTF-8') as f:
         text = f.read()
         text = re.search(r'^\[DATA\]\s*(.*)$', text, flags=re.S + re.M)[1]
