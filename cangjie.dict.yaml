@@ -18,6 +18,7 @@ import_tables:
 # - cangjie.3-ms
 # - cangjie.3-rad-kanxi
 # - cangjie.3-rad-sup
+# - cangjie.3-cjk-stroke
 # - cangjie.3-cjkcomp
 - cangjie.3-symbols-zx
 # - cangjie.5-base
