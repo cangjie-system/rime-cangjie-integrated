@@ -24,6 +24,10 @@ def is_rad_sup(text):
     code = ord(text[0])
     return 0x2E80 <= code <= 0x2EFF
 
+def is_cjk_stroke(text):
+    code = ord(text[0])
+    return 0x31C0 <= code <= 0x31EF
+
 def is_cjk_comp(text):
     code = ord(text[0])
     return 0xF900 <= code <= 0xFAD9 or 0x2F800 <= code <= 0x2FA1D
@@ -515,6 +519,11 @@ def import_cangjie5_plus():
                 continue
             elif code.startswith('zx'):
                 continue
+            elif code.startswith('zs'):
+                dest = '5-cjk-stroke'
+                code = code[2:]
+                data.setdefault(dest, []).append([char, code])
+                continue
             elif code.startswith('z'):
                 continue
             elif is_punc(char):
@@ -575,6 +584,31 @@ columns:
 
 {}
 """.format('\n'.join(['\t'.join(x) for x in data['5-base-dups']]))
+        f.write(text)
+        f.close()
+
+    data['5-cjk-stroke'].sort()
+    file = os.path.join(root, 'cangjie.5-cjk-stroke.dict.yaml')
+    with open(file, 'w', encoding='UTF-8') as f:
+        text = """# encoding: utf-8
+#
+# Unicode 中日韓筆畫 (CJK Strokes)
+#
+# - 按 Unicode 排序
+#
+
+---
+name: "cangjie.5-cjk-stroke"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+...
+
+{}
+""".format('\n'.join(['\t'.join(x) for x in data['5-cjk-stroke']]))
         f.write(text)
         f.close()
 

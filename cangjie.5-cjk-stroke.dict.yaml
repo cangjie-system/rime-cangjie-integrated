@@ -1,0 +1,53 @@
+# encoding: utf-8
+#
+# Unicode 中日韓筆畫 (CJK Strokes)
+#
+# - 按 Unicode 排序
+#
+
+---
+name: "cangjie.5-cjk-stroke"
+version: "0.10"
+sort: original
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+...
+
+㇀	m
+㇁	ln
+㇂	lv
+㇃	ov
+㇄	lm
+㇅	nv
+㇆	nn
+㇇	mh
+㇈	nv
+㇉	vs
+㇊	nv
+㇋	nn
+㇌	ns
+㇍	nv
+㇎	nn
+㇏	o
+㇐	m
+㇑	l
+㇒	h
+㇓	l
+㇔	i
+㇕	ml
+㇖	mh
+㇗	lm
+㇘	lm
+㇙	v
+㇚	n
+㇛	hi
+㇜	vm
+㇝	mo
+㇞	vn
+㇟	vl
+㇠	nu
+㇡	ns
+㇢	hv
+㇣	xxx
