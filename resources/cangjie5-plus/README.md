@@ -1,5 +1,8 @@
 # Cangjie5
 
+**[2018-09-25] 有朋友正計劃去信官方提問規則和編碼問題，有興趣的朋友可在[此處](https://zh.wikibooks.org/wiki/Talk:%E5%80%89%E9%A0%A1%E8%BC%B8%E5%85%A5%E6%B3%95/%E4%BF%A1%E5%87%BD)參與討論。（[邀请函](https://github.com/Jackchows/Cangjie5/issues/128)）**
+
+##
 [简化字版说明](https://github.com/Jackchows/Cangjie5/blob/master/README-hans.md)
 
 相關項目：[Arthurmcarthur/Cangjie3-Plus](https://github.com/Arthurmcarthur/Cangjie3-Plus)
@@ -8,6 +11,10 @@
 
 **本項目參考官方資料對碼表進行修改，但無意完善倉頡輸入法理論，亦無意追求客觀。使用前務必閱讀[說明](https://github.com/Jackchows/Cangjie5/blob/master/change_summary.md#%E4%B8%BB%E8%A6%81%E6%94%B9%E7%A2%BC%E8%AA%AA%E6%98%8E%E5%8F%8A%E7%88%AD%E8%AD%B0%E5%8F%96%E7%A2%BC)。**<br />
 本項目以 1999 版倉頡五代為基礎，採納部份 2003 版倉頡五代的修改。<br />
+
+**※注意，本項目的目標不包括以下各項：**
+1. 修改官方碼表中被認為不符合倉頡輸入法規則的部份（明顯的筆誤除外）。
+2. 添加官方碼表未支持的字形兼容（但並非不能添加）。
 
 - **[Cangjie5.txt](https://github.com/Jackchows/Cangjie5/blob/master/Cangjie5.txt)**<br />
 碼表。**一般排序**，綜合考慮字頻及繁簡。<br />

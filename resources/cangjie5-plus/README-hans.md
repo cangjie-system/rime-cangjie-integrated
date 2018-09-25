@@ -1,5 +1,8 @@
 # Cangjie5
 
+**[2018-09-25] 有朋友正计划去信官方提问规则和编码问题，有兴趣的朋友可在[此处](https://zh.wikibooks.org/wiki/Talk:%E5%80%89%E9%A0%A1%E8%BC%B8%E5%85%A5%E6%B3%95/%E4%BF%A1%E5%87%BD)参与讨论。（[邀请函](https://github.com/Jackchows/Cangjie5/issues/128)）**
+
+##
 [傳統漢字版說明](https://github.com/Jackchows/Cangjie5/blob/master/README.md)
 
 相关项目：[Arthurmcarthur/Cangjie3-Plus](https://github.com/Arthurmcarthur/Cangjie3-Plus)
@@ -8,6 +11,10 @@
 
 **本项目参考官方资料对码表进行修改，但无意完善仓颉输入法理论，亦无意追求客观。使用前务必阅读[说明](https://github.com/Jackchows/Cangjie5/blob/master/change_summary.md#%E4%B8%BB%E8%A6%81%E6%94%B9%E7%A2%BC%E8%AA%AA%E6%98%8E%E5%8F%8A%E7%88%AD%E8%AD%B0%E5%8F%96%E7%A2%BC)。**<br />
 本项目以 1999 版仓颉五代为基础，采纳部份 2003 版仓颉五代的修改。<br />
+
+**※注意，本项目的目标不包括以下各项：**
+1. 修改官方码表中被认为不符合仓颉输入法规则的部份（明显的笔误除外）。
+2. 添加官方码表未支持的字形兼容（但并非不能添加）。
 
 - **[Cangjie5.txt](https://github.com/Jackchows/Cangjie5/blob/master/Cangjie5.txt)**<br />
 码表。**一般排序**，综合考虑字频及繁简。<br />
