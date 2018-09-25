@@ -30,7 +30,14 @@ def is_cjk_stroke(text):
 
 def is_cjk_comp(text):
     code = ord(text[0])
-    return 0xF900 <= code <= 0xFAD9 or 0x2F800 <= code <= 0x2FA1D
+
+    if 0xF900 <= code <= 0xFAD9 or 0x2F800 <= code <= 0x2FA1F:
+        if not code in [
+                0xFA0E, 0xFA0F, 0xFA11, 0xFA13, 0xFA14, 0xFA1F,
+                0xFA21, 0xFA23, 0xFA24, 0xFA27, 0xFA28, 0xFA29]:
+            return True
+
+    return False
 
 def is_pua(text):
     code = ord(text[0])
