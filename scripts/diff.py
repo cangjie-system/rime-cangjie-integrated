@@ -39,8 +39,8 @@ def diff(file1, file2, mode='json'):
     """計算差異資料並輸出
     """
     # load file# to dict#
-    dict1 = load(file1)
-    dict2 = load(file2)
+        dict1 = load(file1)
+        dict2 = load(file2)
 
     # diff dict1 and dict2 to delta
     delta = {}
@@ -57,9 +57,20 @@ def diff(file1, file2, mode='json'):
     # 將差異資料轉為文字輸出
     if mode == 'ins_del':
         for k, v in delta.items():
+            print('{}\t{}\t{}'.format(k, ','.join(v['ins']), ','.join(v['del'])))
+
+    elif mode == 'ins_del_m':
+        for k, v in delta.items():
             print('{}\t+{}\t-{}'.format(k, ','.join(v['ins']), ','.join(v['del'])))
 
     elif mode == 'old_new':
+        for char in delta:
+            print('{}\t{}\t{}'.format(char,
+                ','.join(dict1.get(char, [])),
+                ','.join(dict2.get(char, []))
+                ))
+
+    elif mode == 'old_new_m':
         for char in delta:
             print('{}\to:{}\tn:{}'.format(char,
                 ','.join(dict1.get(char, [])),
@@ -78,8 +89,8 @@ def main():
         help="""要比較的檔案1""")
     parser.add_argument('file2',
         help="""要比較的檔案2""")
-    parser.add_argument('-m', "--mode", default='ins_del',
-        choices=['json', 'ins_del', 'old_new'],
+    parser.add_argument('-m', "--mode", default='ins_del_m',
+        choices=['json', 'ins_del', 'ins_del_m', 'old_new', 'old_new_m'],
         help="""輸出模式，預設：%(default)s""")
     args = parser.parse_args()
 
