@@ -35,12 +35,16 @@ def load(file):
 
     return data
 
-def diff(file1, file2, mode='json'):
+def diff(file1, file2=None, mode='json'):
     """計算差異資料並輸出
     """
     # load file# to dict#
+    if file2 is not None:
         dict1 = load(file1)
         dict2 = load(file2)
+    else:
+        dict1 = {}
+        dict2 = load(file1)
 
     # diff dict1 and dict2 to delta
     delta = {}
@@ -86,9 +90,9 @@ def main():
         description=__doc__,
         formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('file1',
-        help="""要比較的檔案1""")
-    parser.add_argument('file2',
-        help="""要比較的檔案2""")
+        help="""檔案1，差異比對修訂前；若省略檔案2則輸出此檔案全部內容""")
+    parser.add_argument('file2', nargs='?',
+        help="""檔案2，差異比對修訂後""")
     parser.add_argument('-m', "--mode", default='ins_del_m',
         choices=['json', 'ins_del', 'ins_del_m', 'old_new', 'old_new_m'],
         help="""輸出模式，預設：%(default)s""")
