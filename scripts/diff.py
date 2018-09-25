@@ -35,7 +35,7 @@ def load(file):
 
     return data
 
-def diff(file1, file2=None, mode='json'):
+def diff(file1, file2=None, file3=None, mode='json'):
     """計算差異資料並輸出
     """
     # load file# to dict#
@@ -45,6 +45,11 @@ def diff(file1, file2=None, mode='json'):
     else:
         dict1 = {}
         dict2 = load(file1)
+
+    if file3 is not None:
+        dict3 = load(file3)
+    else:
+        dict3 = None
 
     # diff dict1 and dict2 to delta
     delta = {}
@@ -57,6 +62,16 @@ def diff(file1, file2=None, mode='json'):
         for _, code in enumerate(codes):
             if char not in dict2 or code not in dict2[char]:
                 delta.setdefault(char, {'ins': [], 'del': []})['del'].append(code)
+
+    # filter using file3
+    if dict3 is not None:
+        for char, item in list(delta.items()):
+            item['ins'] = [code for code in item['ins'] if not (char in dict3 and code in dict3[char])]
+
+            item['del'] = [code for code in item['del'] if char in dict3 and code in dict3[char]]
+
+            if not len(item['ins']) and not len(item['del']):
+                del delta[char]
 
     # 將差異資料轉為文字輸出
     if mode == 'ins_del':
@@ -93,13 +108,15 @@ def main():
         help="""檔案1，差異比對修訂前；若省略檔案2則輸出此檔案全部內容""")
     parser.add_argument('file2', nargs='?',
         help="""檔案2，差異比對修訂後""")
+    parser.add_argument('file3', nargs='?',
+        help="""檔案3，自輸出內容濾除此檔案已有的內容""")
     parser.add_argument('-m', "--mode", default='ins_del_m',
         choices=['json', 'ins_del', 'ins_del_m', 'old_new', 'old_new_m'],
         help="""輸出模式，預設：%(default)s""")
     args = parser.parse_args()
 
     # 開始比對
-    diff(args.file1, args.file2, mode=args.mode)
+    diff(args.file1, args.file2, args.file3, mode=args.mode)
 
 if __name__ == "__main__":
     main()
