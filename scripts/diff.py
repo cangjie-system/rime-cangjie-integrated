@@ -38,6 +38,11 @@ def load(file):
 def diff(file1, file2=None, file3=None, mode='json'):
     """計算差異資料並輸出
     """
+    def chars_to_codes(chars):
+        """將字串轉為 Unicode 碼序列
+        """
+        return ' '.join(f"U+{ord(char):04X}" for char in chars)
+
     # load file# to dict#
     if file2 is not None:
         dict1 = load(file1)
@@ -78,7 +83,7 @@ def diff(file1, file2=None, file3=None, mode='json'):
 
     elif mode == 'ins_del_m':
         for char, item in delta.items():
-            print(f"{char}\t+{','.join(item['ins'])}\t-{','.join(item['del'])}")
+            print(f"{char} ({chars_to_codes(char)})\t+{','.join(item['ins'])}\t-{','.join(item['del'])}")
 
     elif mode == 'old_new':
         for char in delta:
@@ -86,7 +91,7 @@ def diff(file1, file2=None, file3=None, mode='json'):
 
     elif mode == 'old_new_m':
         for char in delta:
-            print(f"{char}\to:{','.join(dict1.get(char, []))}\tn:{','.join(dict2.get(char, []))}")
+            print(f"{char} ({chars_to_codes(char)})\to:{','.join(dict1.get(char, []))}\tn:{','.join(dict2.get(char, []))}")
 
     else: # default: json
         print(json.dumps(delta, ensure_ascii=False))
