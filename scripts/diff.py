@@ -89,7 +89,7 @@ def diff(file1, file2=None, file3=None, mode='json'):
             print(f"{char}\to:{','.join(dict1.get(char, []))}\tn:{','.join(dict2.get(char, []))}")
 
     else: # default: json
-        print(json.dumps(delta))
+        print(json.dumps(delta, ensure_ascii=False))
 
 def main():
     # 解析指令參數

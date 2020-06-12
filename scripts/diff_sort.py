@@ -72,7 +72,7 @@ def diff(file1, file2, mode):
             print(f"{code}\to:{item['old']}\tn:{item['new']}")
 
     else: # default: json
-        print(json.dumps(delta))
+        print(json.dumps(delta, ensure_ascii=False))
 
 def main():
     # 解析指令參數
