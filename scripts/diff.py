@@ -54,47 +54,39 @@ def diff(file1, file2=None, file3=None, mode='json'):
     # diff dict1 and dict2 to delta
     delta = {}
     for char, codes in dict2.items():
-        for _, code in enumerate(codes):
+        for code in codes:
             if char not in dict1 or code not in dict1[char]:
                 delta.setdefault(char, {'ins': [], 'del': []})['ins'].append(code)
 
     for char, codes in dict1.items():
-        for _, code in enumerate(codes):
+        for code in codes:
             if char not in dict2 or code not in dict2[char]:
                 delta.setdefault(char, {'ins': [], 'del': []})['del'].append(code)
 
     # filter using file3
     if dict3 is not None:
         for char, item in list(delta.items()):
-            item['ins'] = [code for code in item['ins'] if not (char in dict3 and code in dict3[char])]
-
-            item['del'] = [code for code in item['del'] if char in dict3 and code in dict3[char]]
-
+            item['ins'] = [code for code in item['ins'] if not dict3.get(char, []).get(code)]
+            item['del'] = [code for code in item['del'] if dict3.get(char, []).get(code)]
             if not len(item['ins']) and not len(item['del']):
                 del delta[char]
 
     # 將差異資料轉為文字輸出
     if mode == 'ins_del':
-        for k, v in delta.items():
-            print('{}\t{}\t{}'.format(k, ','.join(v['ins']), ','.join(v['del'])))
+        for char, item in delta.items():
+            print(f"{char}\t{','.join(item['ins'])}\t{','.join(item['del'])}")
 
     elif mode == 'ins_del_m':
-        for k, v in delta.items():
-            print('{}\t+{}\t-{}'.format(k, ','.join(v['ins']), ','.join(v['del'])))
+        for char, item in delta.items():
+            print(f"{char}\t+{','.join(item['ins'])}\t-{','.join(item['del'])}")
 
     elif mode == 'old_new':
         for char in delta:
-            print('{}\t{}\t{}'.format(char,
-                ','.join(dict1.get(char, [])),
-                ','.join(dict2.get(char, []))
-                ))
+            print(f"{char}\t{','.join(dict1.get(char, []))}\t{','.join(dict2.get(char, []))}")
 
     elif mode == 'old_new_m':
         for char in delta:
-            print('{}\to:{}\tn:{}'.format(char,
-                ','.join(dict1.get(char, [])),
-                ','.join(dict2.get(char, []))
-                ))
+            print(f"{char}\to:{','.join(dict1.get(char, []))}\tn:{','.join(dict2.get(char, []))}")
 
     else: # default: json
         print(json.dumps(delta))

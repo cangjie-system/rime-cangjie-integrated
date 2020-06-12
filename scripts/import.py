@@ -158,7 +158,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['base']]))
+""".format('\n'.join('\t'.join(x) for x in data['base']))
         f.write(text)
         f.close()
 
@@ -182,7 +182,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['base-dups']]))
+""".format('\n'.join('\t'.join(x) for x in data['base-dups']))
         f.write(text)
         f.close()
 
@@ -209,7 +209,7 @@ encoder:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['symbols-zx']]))
+""".format('\n'.join('\t'.join(x) for x in data['symbols-zx']))
         f.write(text)
         f.close()
 
@@ -235,7 +235,7 @@ encoder:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['symbols-yyy']]))
+""".format('\n'.join('\t'.join(x) for x in data['symbols-yyy']))
         f.write(text)
         f.close()
 
@@ -261,7 +261,7 @@ encoder:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['symbols-x']]))
+""".format('\n'.join('\t'.join(x) for x in data['symbols-x']))
         f.write(text)
         f.close()
 
@@ -287,7 +287,7 @@ encoder:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['symbols-z']]))
+""".format('\n'.join('\t'.join(x) for x in data['symbols-z']))
         f.write(text)
         f.close()
 
@@ -392,7 +392,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['base-dups']]))
+""".format('\n'.join('\t'.join(x) for x in data['base-dups']))
         f.write(text)
         f.close()
 
@@ -465,7 +465,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['3-base']]))
+""".format('\n'.join('\t'.join(x) for x in data['3-base']))
         f.write(text)
         f.close()
 
@@ -489,7 +489,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['3-base-dups']]))
+""".format('\n'.join('\t'.join(x) for x in data['3-base-dups']))
         f.write(text)
         f.close()
 
@@ -539,7 +539,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['3-cjkcomp']]))
+""".format('\n'.join('\t'.join(x) for x in data['3-cjkcomp']))
         f.write(text)
         f.close()
 
@@ -564,7 +564,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['3-rad-kanxi']]))
+""".format('\n'.join('\t'.join(x) for x in data['3-rad-kanxi']))
         f.write(text)
         f.close()
 
@@ -589,7 +589,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['3-rad-sup']]))
+""".format('\n'.join('\t'.join(x) for x in data['3-rad-sup']))
         f.write(text)
         f.close()
 
@@ -614,7 +614,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['3-cjk-stroke']]))
+""".format('\n'.join('\t'.join(x) for x in data['3-cjk-stroke']))
         f.write(text)
         f.close()
 
@@ -691,7 +691,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['5-base']]))
+""".format('\n'.join('\t'.join(x) for x in data['5-base']))
         f.write(text)
         f.close()
 
@@ -715,7 +715,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['5-base-dups']]))
+""".format('\n'.join('\t'.join(x) for x in data['5-base-dups']))
         f.write(text)
         f.close()
 
@@ -740,7 +740,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['5-cjk-stroke']]))
+""".format('\n'.join('\t'.join(x) for x in data['5-cjk-stroke']))
         f.write(text)
         f.close()
 
@@ -788,7 +788,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['5-cjkcomp']]))
+""".format('\n'.join('\t'.join(x) for x in data['5-cjkcomp']))
         f.write(text)
         f.close()
 
@@ -813,7 +813,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['5-rad-kanxi']]))
+""".format('\n'.join('\t'.join(x) for x in data['5-rad-kanxi']))
         f.write(text)
         f.close()
 
@@ -838,7 +838,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['5-rad-sup']]))
+""".format('\n'.join('\t'.join(x) for x in data['5-rad-sup']))
         f.write(text)
         f.close()
 
@@ -890,7 +890,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['6-base']]))
+""".format('\n'.join('\t'.join(x) for x in data['6-base']))
         f.write(text)
         f.close()
 
@@ -974,7 +974,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['3-yahoo']]))
+""".format('\n'.join('\t'.join(x) for x in data['3-yahoo']))
         f.write(text)
         f.close()
 
@@ -1000,7 +1000,7 @@ encoder:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['3-yahoo-symbols-x']]))
+""".format('\n'.join('\t'.join(x) for x in data['3-yahoo-symbols-x']))
         f.write(text)
         f.close()
 
@@ -1065,7 +1065,7 @@ columns:
 ...
 
 {}
-""".format('\n'.join(['\t'.join(x) for x in data['3-ms']]))
+""".format('\n'.join('\t'.join(x) for x in data['3-ms']))
         f.write(text)
         f.close()
 

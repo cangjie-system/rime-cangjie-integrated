@@ -27,8 +27,7 @@ def textconv(file, mode='char2codes', format='text'):
     m = re.match(r'^(.*?\n\.\.\.)?(.*?)(\s*)$', text, flags=re.S)
     header, list, footer = m.group(1) or '', m.group(2), m.group(3)
 
-    list = list.split('\n')
-    list = [x.split('\t') for x in list]
+    list = [x.split('\t') for x in list.split('\n')]
 
     if mode == 'code2chars':
         # make dict
@@ -42,11 +41,7 @@ def textconv(file, mode='char2codes', format='text'):
         if format == 'json':
             output = json.dumps(dict, ensure_ascii=False)
         else: # default: text
-            list = []
-            for code in sorted(dict.keys()):
-                chars = dict[code]
-                list.append("{}\t{}".format(code, ' '.join(chars)))
-            list = '\n'.join(list)
+            list = '\n'.join(f"{code}\t{' '.join(dict[code])}" for code in sorted(dict.keys()))
             output = header + list + footer
 
     else: # default: char2codes
@@ -60,11 +55,7 @@ def textconv(file, mode='char2codes', format='text'):
         if format == 'json':
             output = json.dumps(dict, ensure_ascii=False)
         else: # default: text
-            list = []
-            for char in sorted(dict.keys()):
-                codes = dict[char]
-                list.append("{}\t{}".format(char, ' '.join(codes)))
-            list = '\n'.join(list)
+            list = '\n'.join(f"{char}\t{' '.join(dict[char])}" for char in sorted(dict.keys()))
             output = header + list + footer
 
     print(output)

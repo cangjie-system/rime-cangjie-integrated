@@ -27,8 +27,7 @@ def diff(file1, file2, mode):
     else:
         header1, list1 = "", text1
 
-    list1 = list1.split('\n')
-    list1 = [x.split('\t') for x in list1]
+    list1 = [x.split('\t') for x in list1.split('\n')]
 
     dict1 = {}
     for _, line in enumerate(list1):
@@ -47,8 +46,7 @@ def diff(file1, file2, mode):
     else:
         header2, list2 = "", text2
 
-    list2 = list2.split('\n')
-    list2 = [x.split('\t') for x in list2]
+    list2 = [x.split('\t') for x in list2.split('\n')]
 
     dict2 = {}
     for _, line in enumerate(list2):
@@ -70,8 +68,8 @@ def diff(file1, file2, mode):
 
     # output
     if mode == 'txt':
-        for k, v in delta.items():
-            print('{}\to:{}\tn:{}'.format(k, v['old'], v['new']))
+        for code, item in delta.items():
+            print(f"{code}\to:{item['old']}\tn:{item['new']}")
 
     else: # default: json
         print(json.dumps(delta))

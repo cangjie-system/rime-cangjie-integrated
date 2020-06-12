@@ -31,11 +31,9 @@ def sort(file):
     m = re.match(r'^(.*?\n\.\.\.)?(.*?)(\s*)$', text, flags=re.S)
     header, list, footer = m.group(1) or '', m.group(2), m.group(3)
 
-    list = list.split('\n')
-    list = [x.split('\t') for x in list]
+    list = [x.split('\t') for x in list.split('\n')]
     list = sorted(list, key=key_func)
-    list = ['\t'.join(x) for x in list]
-    list = '\n'.join(list)
+    list = '\n'.join('\t'.join(x) for x in list)
 
     text = header + list + footer
 
