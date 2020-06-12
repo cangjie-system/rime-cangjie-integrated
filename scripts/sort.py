@@ -17,7 +17,7 @@ def sort(file):
             order = -1
         elif 0x4E00 <= ord(x[1]) <= 0x9FFF: # 統一區，不改變順序
             order = 0
-        elif 0x3400 <= ord(x[1]) <= 0x4DBF or 0x20000 <= ord(x[1]) <= 0x2EBEF: # Ext-A~F 按 Unicode 排序
+        elif 0x3400 <= ord(x[1]) <= 0x4DBF or 0x20000 <= ord(x[1]) <= 0x3FFFF: # Ext-A~G+ 按 Unicode 排序
             order = ord(x[1])
         else: # 其他非漢字符號，排最後面，按 Unicode 排序
             order = 0x10FFFF + 1 + ord(x[1])
