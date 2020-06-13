@@ -83,7 +83,8 @@ def diff(file1, file2=None, file3=None, mode='json'):
 
     elif mode == 'ins_del_m':
         for char, item in delta.items():
-            print(f"{char} ({chars_to_codes(char)})\t+{','.join(item['ins'])}\t-{','.join(item['del'])}")
+            equivs = [code for code in dict1.get(char, []) if code not in item['del']]
+            print(f"{char} ({chars_to_codes(char)})\t+{','.join(item['ins'])}\t-{','.join(item['del'])}\t={','.join(equivs)}")
 
     elif mode == 'old_new':
         for char in delta:
