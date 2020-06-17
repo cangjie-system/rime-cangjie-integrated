@@ -8,6 +8,7 @@ import argparse
 import logging
 import re
 import json
+import yaml
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s')
 log = logging.getLogger()
@@ -19,19 +20,25 @@ def load(file):
         text = f.read()
         f.close()
 
-    m = re.match(r'^(.*?\n\.\.\.)?(.*?)(\n\s*)?$', text, flags=re.S)
-    header, body, footer = m.group(1), m.group(2), m.group(3)
+    m = re.match(r'^(.*?\n\.\.\.(?:\n|$))?(.*?)(\n\s*)?$', text, flags=re.S)
+    header, body, footer = m.group(1) or '', m.group(2) or '', m.group(3) or ''
+
+    if header:
+        config = yaml.load(header, Loader=yaml.FullLoader)
+        code_idx = config['columns'].index('code')
+        char_idx = config['columns'].index('text')
+    else:
+        code_idx = 0
+        char_idx = 1
 
     data = {}
-    for row in body.splitlines():
-        if row.startswith('#'): continue
+    for line in body.splitlines():
+        if line.startswith('#'): continue
 
-        row = row.split('\t')
-        if len(row) <= 1: continue
+        line = line.split('\t')
+        if len(line) <= 1: continue
 
-        code = row[0]
-        char = row[1]
-        data.setdefault(char, []).append(code)
+        data.setdefault(line[char_idx], []).append(line[code_idx])
 
     return data
 

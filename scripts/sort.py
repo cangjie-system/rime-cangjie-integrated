@@ -7,35 +7,46 @@ import os
 import argparse
 import logging
 import re
+import yaml
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s')
 log = logging.getLogger()
 
 def sort(file):
     def key_func(x):
-        if len(x) <= 1: # 無編碼者（可能是註解）排最前
-            order = -1
-        elif 0x4E00 <= ord(x[1]) <= 0x9FFF: # 統一區，不改變順序
+        if len(x) <= columns: # 欄數不足者（空行或註解）排最前
+            return ('', -1)
+        elif 0x4E00 <= ord(x[char_idx]) <= 0x9FFF: # 統一區，不改變順序
             order = 0
-        elif 0x3400 <= ord(x[1]) <= 0x4DBF or 0x20000 <= ord(x[1]) <= 0x3FFFF: # Ext-A~G+ 按 Unicode 排序
-            order = ord(x[1])
+        elif 0x3400 <= ord(x[char_idx]) <= 0x4DBF or 0x20000 <= ord(x[char_idx]) <= 0x3FFFF: # Ext-A~G+ 按 Unicode 排序
+            order = ord(x[char_idx])
         else: # 其他非漢字符號，排最後面，按 Unicode 排序
-            order = 0x10FFFF + 1 + ord(x[1])
+            order = 0x10FFFF + 1 + ord(x[char_idx])
 
-        return (x[0], order)
+        return (x[code_idx], order)
 
     with open(file, 'r', encoding='UTF-8', newline=None) as f:
         text0 = text = f.read()
         f.close()
 
-    m = re.match(r'^(.*?\n\.\.\.)?(.*?)(\s*)$', text, flags=re.S)
-    header, list, footer = m.group(1) or '', m.group(2), m.group(3)
+    m = re.match(r'^(.*?\n\.\.\.(?:\n|$))?(.*?)(\n\s*)?$', text, flags=re.S)
+    header, lines, footer = m.group(1) or '', m.group(2) or '', m.group(3) or ''
 
-    list = [x.split('\t') for x in list.split('\n')]
-    list = sorted(list, key=key_func)
-    list = '\n'.join('\t'.join(x) for x in list)
+    if header:
+        config = yaml.load(header, Loader=yaml.FullLoader)
+        code_idx = config['columns'].index('code')
+        char_idx = config['columns'].index('text')
+    else:
+        code_idx = 0
+        char_idx = 1
 
-    text = header + list + footer
+    columns = max(code_idx, char_idx)
+
+    lines = [x.split('\t') for x in lines.split('\n')]
+    lines = sorted(lines, key=key_func)
+    lines = '\n'.join('\t'.join(x) for x in lines)
+
+    text = header + lines + footer
 
     if text == text0:
         return

@@ -8,51 +8,46 @@ import argparse
 import logging
 import re
 import json
+import yaml
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s')
 log = logging.getLogger()
 
-def diff(file1, file2, mode):
-    """修改指定的檔案或目錄
+def load(file):
+    """將 yaml 資料檔載入為物件化編碼資料
     """
-
-    # load file1 to dict1
-    with open(file1, 'r', encoding='UTF-8', newline=None) as f:
-        text1 = f.read()
+    with open(file, 'r', encoding='UTF-8', newline=None) as f:
+        text = f.read()
         f.close()
 
-    m = re.match(r'^(.*?\n\.\.\.)(.*?)$', text1, flags=re.S)
-    if m:
-        header1, list1 = m.group(1), m.group(2)
+    m = re.match(r'^(.*?\n\.\.\.(?:\n|$))?(.*?)(\n\s*)?$', text, flags=re.S)
+    header, body, footer = m.group(1) or '', m.group(2) or '', m.group(3) or ''
+
+    if header:
+        config = yaml.load(header, Loader=yaml.FullLoader)
+        code_idx = config['columns'].index('code')
+        char_idx = config['columns'].index('text')
     else:
-        header1, list1 = "", text1
+        code_idx = 0
+        char_idx = 1
 
-    list1 = [x.split('\t') for x in list1.split('\n')]
+    data = {}
+    for line in body.splitlines():
+        if line.startswith('#'): continue
 
-    dict1 = {}
-    for _, line in enumerate(list1):
+        line = line.split('\t')
         if len(line) <= 1: continue
-        if line[0] not in dict1: dict1[line[0]] = []
-        dict1[line[0]].append(line[1])
 
-    # load file2 to dict2
-    with open(file2, 'r', encoding='UTF-8', newline=None) as f:
-        text2 = f.read()
-        f.close()
+        data.setdefault(line[code_idx], []).append(line[char_idx])
 
-    m = re.match(r'^(.*?\n\.\.\.)(.*?)$', text2, flags=re.S)
-    if m:
-        header2, list2 = m.group(1), m.group(2)
-    else:
-        header2, list2 = "", text2
+    return data
 
-    list2 = [x.split('\t') for x in list2.split('\n')]
-
-    dict2 = {}
-    for _, line in enumerate(list2):
-        if len(line) <= 1: continue
-        if line[0] not in dict2: dict2[line[0]] = []
-        dict2[line[0]].append(line[1])
+def diff(file1, file2, mode):
+    """計算差異資料並輸出
+    """
+    # load file# to dict#
+    dict1 = load(file1)
+    dict2 = load(file2)
 
     # diff dict1 and dict2, output to delta
     delta = {}

@@ -11,6 +11,7 @@ import argparse
 import logging
 import re
 import json
+import yaml
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s')
 log = logging.getLogger()
@@ -24,39 +25,47 @@ def textconv(file, mode='char2codes', format='text'):
             text = text0 = f.read()
             f.close()
 
-    m = re.match(r'^(.*?\n\.\.\.)?(.*?)(\s*)$', text, flags=re.S)
-    header, list, footer = m.group(1) or '', m.group(2), m.group(3)
+    m = re.match(r'^(.*?\n\.\.\.(?:\n|$))?(.*?)(\n\s*)?$', text, flags=re.S)
+    header, lines, footer = m.group(1) or '', m.group(2), m.group(3)
 
-    list = [x.split('\t') for x in list.split('\n')]
+    if header:
+        config = yaml.load(header, Loader=yaml.FullLoader)
+        code_idx = config['columns'].index('code')
+        char_idx = config['columns'].index('text')
+    else:
+        code_idx = 0
+        char_idx = 1
+
+    lines = [x.split('\t') for x in lines.split('\n')]
 
     if mode == 'code2chars':
         # make dict
         dict = {}
-        for _, line in enumerate(list):
+        for line in lines:
             if len(line) <= 1: continue
-            if line[0] not in dict: dict[line[0]] = []
-            dict[line[0]].append(line[1])
+            if line[code_idx] not in dict: dict[line[code_idx]] = []
+            dict[line[code_idx]].append(line[char_idx])
 
         # generate output
         if format == 'json':
             output = json.dumps(dict, ensure_ascii=False)
         else: # default: text
-            list = '\n'.join(f"{code}\t{' '.join(dict[code])}" for code in sorted(dict.keys()))
-            output = header + list + footer
+            lines = '\n'.join(f"{code}\t{' '.join(dict[code])}" for code in sorted(dict.keys()))
+            output = header + lines + footer
 
     else: # default: char2codes
         dict = {}
-        for _, line in enumerate(list):
+        for line in lines:
             if len(line) <= 1: continue
-            if line[1] not in dict: dict[line[1]] = []
-            dict[line[1]].append(line[0])
+            if line[char_idx] not in dict: dict[line[char_idx]] = []
+            dict[line[char_idx]].append(line[code_idx])
 
         # generate output
         if format == 'json':
             output = json.dumps(dict, ensure_ascii=False)
         else: # default: text
-            list = '\n'.join(f"{char}\t{' '.join(dict[char])}" for char in sorted(dict.keys()))
-            output = header + list + footer
+            lines = '\n'.join(f"{char}\t{' '.join(dict[char])}" for char in sorted(dict.keys()))
+            output = header + lines + footer
 
     print(output)
 
