@@ -66,6 +66,10 @@ def diff(file1, file2, mode):
         for code, item in delta.items():
             print(f"{code}\to:{''.join(item['old'])}\tn:{''.join(item['new'])}")
 
+    elif mode == 'txt_m':
+        for code, item in delta.items():
+            print(f"{code}\to:{','.join(item['old'])}\tn:{','.join(item['new'])}")
+
     else: # default: json
         print(json.dumps(delta, ensure_ascii=False))
 
@@ -76,8 +80,8 @@ def main():
         help="""檔案1，差異比對修訂前；若省略檔案2則輸出此檔案全部內容""")
     parser.add_argument('file2', nargs='?',
         help="""檔案2，差異比對修訂後""")
-    parser.add_argument('-m', "--mode", default='txt',
-        choices=['json', 'txt'],
+    parser.add_argument('-m', "--mode", default='txt_m',
+        choices=['json', 'txt', 'txt_m'],
         help="""輸出模式，預設：%(default)s""")
     args = parser.parse_args()
 
