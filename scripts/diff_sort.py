@@ -53,8 +53,8 @@ def diff(file1, file2, mode):
     delta = {}
     for code in dict2:
         if not code in dict1: continue
-        old = ''.join(dict1[code])
-        new = ''.join(dict2[code])
+        old = dict1[code]
+        new = dict2[code]
         if old != new:
             delta[code] = {
                 'old': old,
@@ -64,7 +64,7 @@ def diff(file1, file2, mode):
     # output
     if mode == 'txt':
         for code, item in delta.items():
-            print(f"{code}\to:{item['old']}\tn:{item['new']}")
+            print(f"{code}\to:{''.join(item['old'])}\tn:{''.join(item['new'])}")
 
     else: # default: json
         print(json.dumps(delta, ensure_ascii=False))
