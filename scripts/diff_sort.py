@@ -49,12 +49,12 @@ def diff(file1, file2, mode):
     dict1 = load(file1)
     dict2 = load(file2)
 
-    # diff dict1 and dict2, output to delta
+    # diff dict1 and dict2 to delta
     delta = {}
-    for code, chars in dict2.items():
+    for code in dict2:
         if not code in dict1: continue
-        old = ''.join(chars)
-        new = ''.join(dict1[code])
+        old = ''.join(dict1[code])
+        new = ''.join(dict2[code])
         if old != new:
             delta[code] = {
                 'old': old,
