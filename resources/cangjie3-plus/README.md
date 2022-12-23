@@ -8,9 +8,9 @@
 
 ## 下載
 
-點擊[此處](https://github.com/Arthurmcarthur/Cangjie3-Plus/releases/download/1.4.2/RimeData_20200422_Cangjie3_WithExtG.7z)下載適用於Rime的方案文件。
+點擊[此處](https://github.com/Arthurmcarthur/Cangjie3-Plus/releases/download/2.0/RimeData_20220904_Cangjie3_WithExtH.7z)下載適用於Rime的方案文件。
 
-點擊[此處](https://github.com/Arthurmcarthur/Cangjie3-Plus/releases/download/1.4.2/MSCJData_20200422_Cangjie3_WithExtG.7z)下載適用於替換微軟倉頡碼表的文件。（使用說明見[此處](http://www.chinesecj.com/forum/forum.php?mod=viewthread&tid=194346)）
+點擊[此處](https://github.com/Arthurmcarthur/Cangjie3-Plus/releases/download/2.0/MSCJData_20220904_Cangjie3_WithExtH.7z)下載適用於替換微軟倉頡碼表的文件。（使用說明見[此處](http://www.chinesecj.com/forum/forum.php?mod=viewthread&tid=194346)）
 
 ## 緣由
 
@@ -41,7 +41,7 @@
 ## 内容
 
 - **[cj3.txt](https://github.com/Arthurmcarthur/Cangjie3-Plus/blob/master/cj3.txt)**<br />
-收錄了中日韓統一表意文字基本區至擴展G區的碼表。另還包括了一些符號與漢字兼容區中不存在於基本區的十二個漢字。
+收錄了中日韓統一表意文字基本區至擴展H區的碼表。另還包括了一些符號與漢字兼容區中不存在於基本區的十二個漢字。
 
 - **[cj3-30000.txt](https://github.com/Arthurmcarthur/Cangjie3-Plus/blob/master/cj3-30000.txt)**<br />
 收錄了中日韓統一表意文字基本區至擴展A區的碼表。另還包括了一些符號與漢字兼容區中不存在於基本區的十二個漢字，是cj3.txt的子集。
@@ -76,3 +76,4 @@ A:我們認為，各代倉頡不是截然對立的，其思想是互通的。歷
 
 ## 友情連接
 - [「倉頡之友·馬來西亞」論壇](http://www.chinesecj.com/forum/forum.php)
+- [「維基教科書·倉頡輸入法」教程](https://zh.m.wikibooks.org/zh-hant/倉頡輸入法)
