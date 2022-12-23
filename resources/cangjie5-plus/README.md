@@ -7,8 +7,8 @@
 原碼表為[「倉頡平台 2012」](http://www.chinesecj.com/forum/viewthread.php?tid=2596)的「五倉世紀」碼表。
 
 ## 下載
-[按此](https://github.com/Jackchows/Cangjie5/releases/download/v1.5.1/RimeData_20200711_Cangjie5.7z)下載適用於RIME的輸入法方案文檔。<br />
-[按此](https://github.com/Jackchows/Cangjie5/releases/download/v1.5.1/MSCJData_20200711_Cangjie5.7z)下載適用於替換微軟倉頡碼表的文檔。（使用說明見[此處](http://www.chinesecj.com/forum/forum.php?mod=viewthread&tid=194346)）
+[按此](https://github.com/Jackchows/Cangjie5/releases/download/v2.0/RimeData_20220214_Cangjie5.7z)下載適用於RIME的輸入法方案文檔。<br />
+[按此](https://github.com/Jackchows/Cangjie5/releases/download/v2.0/MSCJData_20220214_Cangjie5.7z)下載適用於替換微軟倉頡碼表的文檔。（使用說明見[此處](http://www.chinesecj.com/forum/forum.php?mod=viewthread&tid=194346)）
 
 ## 目標
 
@@ -47,7 +47,7 @@
 - **[change_details.log](https://github.com/Jackchows/Cangjie5/blob/master/change_details.log)**<br />
 碼表的詳細編輯記錄。
 - **[Cangjie5_special.txt](https://github.com/Jackchows/Cangjie5/blob/master/Cangjie5_special.txt)**<br />
-碼表。**特別版本**，收錄以下字符：Unicode 中日韓統一表意文字基本區（除去 U+9FD1 至 U+9FFF）、擴展A區、中日韓兼容表意文字（其中十二個視作統一漢字的字符）、《通用規範漢字表》、《香港增補字符集—2016》（HKSCS）。<br />
+碼表。**特別版本**，收錄以下字符：Unicode 中日韓統一表意文字基本區（除去 U+9FD1 至 U+9FFF）、擴展A區（除去 U+4DB6 至 U+4DBF）、中日韓兼容表意文字（其中十二個視作統一漢字的字符）、《通用規範漢字表》、《香港增補字符集—2016》（HKSCS）。<br />
 另外，[Change_summary.md#字形問題](https://github.com/Jackchows/Cangjie5/blob/master/change_summary.md#%E5%AD%97%E5%BD%A2%E5%95%8F%E9%A1%8C) 中列出的多種字形，此表會盡數收錄。<br />
 此碼表與前面幾份碼表更新可能不同步。
 
